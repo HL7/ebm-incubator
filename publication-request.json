@@ -1,0 +1,14 @@
+{
+    "package-id" : "hl7.fhir.uv.ebm-incubator",
+    "version" : "1.0.0-ballot",
+    "path" : "http://hl7.org/fhir/uv/ebm-incubator/2026May",
+    "mode" : "working",
+    "status" : "ballot",
+    "sequence" : "STU1",
+    "desc" : "This is the second ballot of the EBMonFHIR Implementation Guide for May 2025.",
+    "first" : true,
+    "title" : "EBM Incubator Implementation Guide",
+    "ci-build" : "https://build.fhir.org/ig/HL7/ebm-incubator",
+    "category" : "Evidence Base Medicine",
+    "introduction" : "This implementation guide is the incubator for evidence-based medicine resources, including the Citation resource."
+}
