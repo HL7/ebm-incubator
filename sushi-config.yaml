@@ -98,8 +98,6 @@ parameters:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-#  Profiles: profiles.html
-#  Extensions: extensions.html
   Terminologies: terminologies.html
   Examples: examples.html
   Artifacts: artifacts.html
