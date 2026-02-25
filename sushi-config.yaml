@@ -57,8 +57,8 @@ dependencies:
 pages:
   index.md:
     title: Introduction
-  profiles.md:
-  extensions.md:
+#  profiles.md:
+#  extensions.md:
   terminologies.md:
   examples.md:
   downloads.md:
