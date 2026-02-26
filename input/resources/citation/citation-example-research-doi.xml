@@ -6,7 +6,7 @@
     <type>
       <text value="FEvIR Object Identifier"/>
     </type>
-    <system value="https://fevir.net"/>
+    <system value="https://fevir.net/FOI"/>
     <value value="60"/>
     <assigner>
       <display value="Computable Publishing LLC"/>
@@ -86,9 +86,7 @@
         <text value="original publication"/>
       </classifier>
       <citation value="Sulas, E., Urru, M., Tumbarello, R., Raffo, L., Sameni, R., Pani, D., A non-invasive multimodal foetal ECG–Doppler dataset for antenatal cardiology research. Sci Data 8, 30 (2021). https://doi.org/10.1038/s41597-021-00811-3"/>
-      <document>
-        <url value="https://doi.org/10.1038/s41597-021-00811-3"/>
-      </document>
+      <targetUri value="https://doi.org/10.1038/s41597-021-00811-3"/>
     </relatesTo>
     <relatesTo>
       <type>
@@ -102,9 +100,7 @@
         <text value="ontology"/>
       </classifier>
       <display value="Experimental Factor Ontology"/>
-      <document>
-        <url value="http://data.bioontology.org/ontologies/EFO"/>
-      </document>
+      <targetUri value="http://data.bioontology.org/ontologies/EFO"/>
     </relatesTo>
     <publicationForm>
       <publishedIn>
