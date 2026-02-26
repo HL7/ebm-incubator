@@ -7,7 +7,7 @@
     <lastUpdated value="2023-12-02T22:30:09.159Z"/>
   </meta>
   <text>
-    <status value="generated"/>
+    <status value="additional"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
 		
       <p class="res-header-id">
@@ -19,12 +19,12 @@
       <div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%">
         <p style="margin-bottom: 0px">version: 5; Last updated: 2023-12-02 22:30:09+0000</p>
         <p style="margin-bottom: 0px">Profile: 
-          <a href="StructureDefinition-dataset-citation.html">DatasetCitation</a>
+          <a href="https://build.fhir.org/ig/HL7/ebm/en/StructureDefinition-dataset-citation.html">DatasetCitation</a>
         </p>
       </div>
       <p>
         <b>url</b>: 
-        <a href="Citation-179559.html">Citation DatasetCitation: Extrachromosomal DNA Amplification Contributes to Small Cell Lung Cancer Heterogeneity and is Associated with Worse Outcomes</a>
+        <a href="https://build.fhir.org/ig/HL7/ebm/en/Citation-179559.html">Citation DatasetCitation: Extrachromosomal DNA Amplification Contributes to Small Cell Lung Cancer Heterogeneity and is Associated with Worse Outcomes</a>
       </p>
       <p>
         <b>identifier</b>: FEvIR Object Identifier/179559
