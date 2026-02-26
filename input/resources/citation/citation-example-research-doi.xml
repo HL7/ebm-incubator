@@ -187,7 +187,6 @@
       <classifier>
         <coding>
           <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
-          <version value="6.0.0"/>
           <code value="D064886"/>
           <display value="Dataset"/>
         </coding>
