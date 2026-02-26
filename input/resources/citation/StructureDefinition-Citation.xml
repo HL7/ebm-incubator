@@ -2981,7 +2981,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="TitleType"/> 
         </extension> 
         <strength value="extensible"/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/title-type"/> 
+        <valueSet value="http://terminology.hl7.org/ValueSet/title-type"/> 
       </binding> 
     </element> 
     <element id="Citation.citedArtifact.title.language">
@@ -6964,7 +6964,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="TitleType"/>
         </extension>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/title-type"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/title-type"/>
       </binding>
     </element>
     <element id="Citation.citedArtifact.title.language">

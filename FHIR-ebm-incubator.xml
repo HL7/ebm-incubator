@@ -712,8 +712,6 @@
 <artifact deprecated="true" id="StructureDefinition/target-uri" key="StructureDefinition-target-uri" name="TargetUri"/>
 <artifact deprecated="true" id="EvidenceVariable/7751" key="EvidenceVariable-7751" name="Therapeutic-dose anticoagulation with heparin"/>
 <artifact deprecated="true" id="EvidenceVariable/346800" key="EvidenceVariable-346800" name="Time to integration of results in a recommendation"/>
-<artifact id="ValueSet/title-type" key="ValueSet-title-type" name="Title Type"/>
-<artifact id="CodeSystem/title-type" key="CodeSystem-title-type" name="Title Type"/>
 <artifact deprecated="true" id="StructureDefinition/variable-definition" key="StructureDefinition-variable-definition" name="VariableDefinition"/>
 <artifact deprecated="true" id="EvidenceVariable/346296" key="EvidenceVariable-346296" name="VariableDefinition: Comparator"/>
 <artifact deprecated="true" id="EvidenceVariable/342831" key="EvidenceVariable-342831" name="VariableDefinition: Condition(s)"/>

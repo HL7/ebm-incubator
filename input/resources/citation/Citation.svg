@@ -829,7 +829,7 @@
    id="n1992"
    xlink:href="datatypes.html#CodeableConcept">CodeableConcept</a> [0..*] « <a
    id="n1993"
-   xlink:href="valueset-title-type.html"><title
+   xlink:href="http://terminology.hl7.org/ValueSet/title-type"><title
    id="n1994">null (Strength=Extensible)</title>TitleType</a>+ »</text>
     <text
        id="n2000"
