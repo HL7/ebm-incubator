@@ -2217,7 +2217,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         <max value="1"/> 
       </base> 
       <type> 
-        <code value="code"/> 
+        <code value="CodeableConcept"/> 
       </type> 
       <constraint> 
         <key value="ele-1"/> 
@@ -2233,7 +2233,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="ArtifactRelationshipType"/> 
         </extension> 
-        <strength value="required"/> 
+        <strength value="extensible"/> 
         <description value="The type of relationship to the related artifact."/> 
         <valueSet value="http://terminology.hl7.org/ValueSet/artifact-relationship-type"/> 
       </binding> 
@@ -3715,7 +3715,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         <max value="1"/> 
       </base> 
       <type> 
-        <code value="code"/> 
+        <code value="CodeableConcept"/> 
       </type> 
       <constraint> 
         <key value="ele-1"/> 
@@ -3731,7 +3731,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="ArtifactRelationshipType"/> 
         </extension> 
-        <strength value="required"/> 
+        <strength value="extensible"/> 
         <description value="The type of relationship to the related artifact."/> 
         <valueSet value="http://terminology.hl7.org/ValueSet/artifact-relationship-type"/> 
       </binding> 
