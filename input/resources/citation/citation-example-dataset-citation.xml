@@ -5,7 +5,6 @@
   <meta>
     <versionId value="5"/>
     <lastUpdated value="2023-12-02T22:30:09.159Z"/>
-    <profile value="http://hl7.org/fhir/uv/ebm/StructureDefinition/dataset-citation"/>
   </meta>
   <text>
     <status value="generated"/>
