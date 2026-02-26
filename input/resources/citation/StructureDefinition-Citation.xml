@@ -1821,7 +1821,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="CitationStatusType"/> 
         </extension> 
         <strength value="example"/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/citation-status-type"/> 
+        <valueSet value="http://hl7.org/fhir/uv/ebm-incubator/ValueSet/citation-status-type"/> 
       </binding> 
     </element> 
     <element id="Citation.statusDate">
@@ -2000,7 +2000,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="CitationStatusType"/> 
         </extension> 
         <strength value="example"/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/citation-status-type"/> 
+        <valueSet value="http://hl7.org/fhir/uv/ebm-incubator/ValueSet/citation-status-type"/> 
       </binding> 
     </element> 
     <element id="Citation.statusDate.actual">
@@ -6715,7 +6715,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="CitationStatusType"/>
         </extension>
         <strength value="example"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/citation-status-type"/>
+        <valueSet value="http://hl7.org/fhir/uv/ebm-incubator/ValueSet/citation-status-type"/>
       </binding>
     </element>
     <element id="Citation.statusDate">
@@ -6743,7 +6743,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="CitationStatusType"/>
         </extension>
         <strength value="example"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/citation-status-type"/>
+        <valueSet value="http://hl7.org/fhir/uv/ebm-incubator/ValueSet/citation-status-type"/>
       </binding>
     </element>
     <element id="Citation.statusDate.actual">
