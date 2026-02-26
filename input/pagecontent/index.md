@@ -10,8 +10,6 @@ The first Additional Resource is the Citation Resource. The scope of the Citatio
 
 The second anticipated Additional Resource is the Contributorship Resource. The Contributorship Resource will allow the contributorship BackboneElement to be used for any knowledge artifact without the rest of the Citation Resource. There are many situations where contributorship is exchanged independent of citation data exchange.
 
-Other anticipated Additional Resources included PICOSpecification and PICOElement.
-
 ## To Learn About FHIR
 
 This implementation guide is based on the Continuous Integration Build of the HL7 [FHIR](https://build.fhir.org/index.html) standard. It uses terminology, notations and design principles that are specific to FHIR. Before reading this implementation guide, it's important to be familiar with some of the basic principles of FHIR as well as general guidance on how to read FHIR specifications. Readers who are unfamiliar with FHIR are encouraged to review the following R5-based links prior to reading the rest of this implementation guide. For changes that are in development for the next version of FHIR (R6), use the Continuous Integration Build of [FHIR](https://build.fhir.org/index.html) to find related content.
