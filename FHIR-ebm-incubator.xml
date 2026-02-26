@@ -631,6 +631,8 @@
 <artifact id="ValueSet/related-artifact-type-all" key="ValueSet-related-artifact-type-all" name="Related Artifact Type All"/>
 <artifact id="ValueSet/related-artifact-type-expanded" key="ValueSet-related-artifact-type-expanded" name="Related Artifact Type Expanded"/>
 <artifact id="CodeSystem/related-artifact-type-expanded" key="CodeSystem-related-artifact-type-expanded" name="Related Artifact Type Expanded"/>
+<artifact id="ValueSet/citation-status-type" key="ValueSet-citation-status-type" name="Citation Status Type"/>
+<artifact id="CodeSystem/citation-status-type" key="CodeSystem-citation-status-type" name="Citation Status Type"/>
 <artifact deprecated="true" id="StructureDefinition/relates-to" key="StructureDefinition-relates-to" name="RelatesTo"/>
 <artifact deprecated="true" id="StructureDefinition/relates-to-with-quotation" key="StructureDefinition-relates-to-with-quotation" name="RelatesToWithQuotation"/>
 <artifact deprecated="true" id="StructureDefinition/relative-outcome-importance" key="StructureDefinition-relative-outcome-importance" name="RelativeOutcomeImportance"/>
