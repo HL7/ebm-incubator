@@ -1036,7 +1036,7 @@
    id="n2079"
    xlink:href="datatypes.html#code">code</a> [1..1] « <a
    id="n2080"
-   xlink:href="valueset-related-artifact-type-all.html"><title
+   xlink:href="http://terminology.hl7.org/ValueSet/artifact-relationship-type"><title
    id="n2081">null (Strength=Required)</title>RelatedArtifactTypeExpanded</a>! »</text>
     <text
        id="n2087"

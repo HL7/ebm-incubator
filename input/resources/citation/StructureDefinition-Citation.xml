@@ -2235,7 +2235,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         </extension> 
         <strength value="required"/> 
         <description value="The type of relationship to the related artifact."/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/artifact-relationship-type|6.0.0-ballot3"/> 
+        <valueSet value="http://terminology.hl7.org/ValueSet/artifact-relationship-type"/> 
       </binding> 
     </element> 
     <element id="Citation.relatesTo.target[x]">
@@ -3733,7 +3733,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         </extension> 
         <strength value="required"/> 
         <description value="The type of relationship to the related artifact."/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/artifact-relationship-type|6.0.0-ballot3"/> 
+        <valueSet value="http://terminology.hl7.org/ValueSet/artifact-relationship-type"/> 
       </binding> 
     </element> 
     <element id="Citation.citedArtifact.relatesTo.classifier">
