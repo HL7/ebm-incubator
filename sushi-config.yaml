@@ -83,6 +83,7 @@ parameters:
     - input/resources/citation
   additional-resource:
     - input/resources/citation/StructureDefinition-Citation.xml
+    - input/resources/contributorship/StructureDefinition-Contributorship.xml
   special-url-base: http://hl7.org/fhir
 # parameters:
 #   excludettl: true

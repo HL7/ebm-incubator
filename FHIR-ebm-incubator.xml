@@ -117,6 +117,7 @@
 <artifact deprecated="true" id="StructureDefinition/characteristic-value-expression" key="StructureDefinition-characteristic-value-expression" name="CharacteristicValueExpression"/>
 <artifact deprecated="true" id="StructureDefinition/characteristic-value-uri" key="StructureDefinition-characteristic-value-uri" name="CharacteristicValueUri"/>
 <artifact id="StructureDefinition/Citation" key="StructureDefinition-Citation" name="Citation"/>
+<artifact id="StructureDefinition/Contributorship" key="StructureDefinition-Contributorship" name="Contributorship"/>
 <artifact deprecated="true" id="Citation/247416" key="Citation-247416" name="Citation for Composition: ComparativeEvidenceReport: Association of Bariatric Surgery vs Medical Obesity Treatment With Long-term Medical Complications and Obesity-Related Comorbidities (2018 Norwegian Cohort)"/>
 <artifact deprecated="true" id="Citation/58" key="Citation-58" name="Citation for FEvIR Evidence 55: 14-day mortality remdesivir vs placebo meta-analysis (ACTT-1, Wang et al, WHO SOLIDARITY)"/>
 <artifact deprecated="true" id="Citation/7638" key="Citation-7638" name="Citation for FEvIR Evidence 7637: Critically appraised summary of primary outcome of multi-platform RCT of anticoagulation for non-critically ill COVID-19"/>
