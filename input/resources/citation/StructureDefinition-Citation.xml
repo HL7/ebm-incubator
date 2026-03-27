@@ -29,7 +29,7 @@
   <extension url="http://hl7.org/fhir/build/StructureDefinition/template">
     <valueString value="MetadataResource"/>
   </extension>
-  <url value="http:/hl7.org/fhir/uv/ebm-incubator/StructureDefinition/Citation"/>
+  <url value="http://hl7.org/fhir/uv/ebm-incubator/StructureDefinition/Citation"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.5.997"/>
@@ -103,7 +103,7 @@
         <human value="Name should be usable as an identifier for the module by machine processing applications
          such as code generation"/> 
         <expression value="name.exists() implies name.matches('^[A-Z]([A-Za-z0-9_]){1,254}$')"/> 
-        <source value="http://hl7.org/fhir/StructureDefinition/Citation"/> 
+        <source value="http://hl7.org/fhir/uv/ebm-incubator/StructureDefinition/Citation"/> 
       </constraint> 
       <mustSupport value="false"/> 
       <isModifier value="false"/> 
@@ -456,7 +456,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         <human value="URL should not contain | or # - these characters make processing canonical references
          problematic"/> 
         <expression value="exists() implies matches('^[^|# ]+$')"/> 
-        <source value="http://hl7.org/fhir/StructureDefinition/Citation"/> 
+        <source value="http://hl7.org/fhir/uv/ebm-incubator/StructureDefinition/Citation"/> 
       </constraint> 
       <constraint> 
         <key value="ele-1"/> 
@@ -3538,7 +3538,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
       </base> 
       <type> 
         <code value="Reference"/> 
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Citation"/> 
+        <targetProfile value="http://hl7.org/fhir/uv/ebm-incubator/StructureDefinition/Citation"/> 
       </type> 
       <constraint> 
         <key value="ele-1"/> 
@@ -6201,7 +6201,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         <severity value="warning"/>
         <human value="Name should be usable as an identifier for the module by machine processing applications such as code generation"/>
         <expression value="name.exists() implies name.matches('^[A-Z]([A-Za-z0-9_]){1,254}$')"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Citation"/>
+        <source value="http://hl7.org/fhir/uv/ebm-incubator/StructureDefinition/Citation"/>
       </constraint>
       <mapping>
         <identity value="w5"/>
@@ -7116,7 +7116,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
       <max value="1"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Citation"/>
+        <targetProfile value="http://hl7.org/fhir/uv/ebm-incubator/StructureDefinition/Citation"/>
       </type>
     </element>
     <element id="Citation.citedArtifact.relatesTo">
