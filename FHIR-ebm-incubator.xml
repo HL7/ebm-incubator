@@ -123,6 +123,7 @@
 <artifact deprecated="true" id="Citation/7638" key="Citation-7638" name="Citation for FEvIR Evidence 7637: Critically appraised summary of primary outcome of multi-platform RCT of anticoagulation for non-critically ill COVID-19"/>
 <artifact id="List/Citation-examples" key="List-Citation-examples" name="Citation-examples"/>
 <artifact id="List/Citation-operations" key="List-Citation-operations" name="Citation-operations"/>
+<artifact id="List/Contributorship-operations" key="List-Contributorship-operations" name="Contributorship-operations"/>
 <artifact id="SearchParameter/Citation-classification-type" key="SearchParameter-Citation-classification-type" name="CitationClassification-typeSearchParam"/>
 <artifact id="SearchParameter/Citation-classification" key="SearchParameter-Citation-classification" name="CitationClassificationSearchParam"/>
 <artifact id="SearchParameter/Citation-classifier" key="SearchParameter-Citation-classifier" name="CitationClassifierSearchParam"/>

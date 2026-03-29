@@ -81,6 +81,7 @@ parameters:
   apply-jurisdiction: true
   path-resource:
     - input/resources/citation
+    - input/resources/contributorship
   additional-resource:
     - input/resources/citation/StructureDefinition-Citation.xml
     - input/resources/contributorship/StructureDefinition-Contributorship.xml
