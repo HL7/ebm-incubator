@@ -2679,5 +2679,5 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         <code value="markdown"/>
       </type>
     </element>
-  </differential>
+  </snapshot>
 </StructureDefinition>
