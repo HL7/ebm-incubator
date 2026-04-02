@@ -2680,4 +2680,495 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
       </type>
     </element>
   </snapshot>
+  <differential>
+    <element id="Contributorship">
+      <extension url="http://hl7.org/fhir/build/StructureDefinition/svg">
+        <valueCode value="0,40"/>
+      </extension>
+      <path value="Contributorship"/>
+      <short value="A description of contributorship of a publication (article or artifact)"/>
+      <definition value="The Contributorship Resource enables reference to any knowledge artifact for purposes of attribution."/>
+      <min value="0"/>
+      <max value="*"/>
+      <constraint>
+        <key value="cnl-0"/>
+        <severity value="warning"/>
+        <human value="Name should be usable as an identifier for the module by machine processing applications such as code generation"/>
+        <expression value="name.exists() implies name.matches('^[A-Z]([A-Za-z0-9_]){1,254}$')"/>
+        <source value="http://hl7.org/fhir/uv/ebm-incubator/StructureDefinition/Contributorship"/>
+      </constraint>
+      <mapping>
+        <identity value="w5"/>
+        <map value="clinical.general"/>
+      </mapping>
+    </element>
+    <element id="Contributorship.url">
+      <path value="Contributorship.url"/>
+      <short value="Canonical identifier for this contributorship record, represented as a globally unique URI"/>
+      <definition value="An absolute URI that is used to identify this contributorship record when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which an authoritative instance of this summary is (or will be) published. This URL can be the target of a canonical reference. It SHALL remain the same when the summary is stored on different servers."/>
+      <comment value="In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the meta.source element to indicate where the current master source of the resource can be found."/>
+      <requirements value="Allows the contributorship record to be referenced by a single globally unique identifier."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="uri"/>
+      </type>
+      <constraint>
+        <key value="cnl-1"/>
+        <severity value="warning"/>
+        <human value="URL should not contain | or # - these characters make processing canonical references problematic"/>
+        <expression value="exists() implies matches('^[^|# ]+$')"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/CanonicalResource"/>
+      </constraint>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.identifier"/>
+      </mapping>
+    </element>
+    <element id="Contributorship.identifier">
+      <path value="Contributorship.identifier"/>
+      <short value="Identifier for the contributorship record itself"/>
+      <definition value="A formal identifier that is used to identify this contributorship record when it is represented in other formats, or referenced in a specification, model, design or an instance."/>
+      <comment value="Use this element if you need to identify the contributorship record independently from identifying the cited artifact."/>
+      <requirements value="Allows externally provided and/or usable identifiers to be associated with this contributorship record."/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Identifier"/>
+      </type>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.identifier"/>
+      </mapping>
+      <mapping>
+        <identity value="objimpl"/>
+        <map value="no-gen-base"/>
+      </mapping>
+    </element>
+    <element id="Contributorship.version">
+      <path value="Contributorship.version"/>
+      <short value="Business version of the contributorship record"/>
+      <definition value="The identifier that is used to identify this version of the contributorship record when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the contributorship record author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence."/>
+      <comment value="This is a business version label used for display in understanding the formal version of the contributorship record, not a resource version id or technical version number for an archival system. There may be different contributorship record instances that have the same identifier but different versions. The version can be appended to the url in a reference to allow a reference to a particular business version of the contributorship record with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](resource.html#bv-format)."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.version"/>
+      </mapping>
+    </element>
+    <element id="Contributorship.versionAlgorithm[x]">
+      <path value="Contributorship.versionAlgorithm[x]"/>
+      <short value="How to compare versions"/>
+      <definition value="Indicates the mechanism used to compare versions to determine which is more current."/>
+      <comment value="If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 is newer, and a 0 if the version ordering can't successfully be determined."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+      <type>
+        <code value="Coding"/>
+      </type>
+      <isSummary value="true"/>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/version-algorithm"/>
+      </binding>
+    </element>
+    <element id="Contributorship.name">
+      <path value="Contributorship.name"/>
+      <short value="Name for this contributorship record (computer friendly)"/>
+      <definition value="A natural language name identifying the contributorship record. This name should be usable as an identifier for the module by machine processing applications such as code generation."/>
+      <comment value="The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly."/>
+      <requirements value="Support human navigation and code generation."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+      <condition value="cnl-0"/>
+      <isSummary value="true"/>
+    </element>
+    <element id="Contributorship.title">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Contributorship.title"/>
+      <short value="Name for this contributorship record (human friendly)"/>
+      <definition value="A short, descriptive, user-friendly title for the contributorship record."/>
+      <comment value="This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc. Use this element if you have a need for naming the contributorship record for human use, such as a display name for the contributorship record that is used when selecting contributorships from a list."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+      <isSummary value="true"/>
+    </element>
+    <element id="Contributorship.status">
+      <path value="Contributorship.status"/>
+      <short value="draft | active | retired | unknown"/>
+      <definition value="The status of this summary. Enables tracking the life-cycle of the content."/>
+      <comment value="Allows filtering of summaries that are appropriate for use versus not. Use &quot;active&quot; when the contributorship record is the version for others to actively use, &quot;draft&quot; while you are developing the content, and &quot;retired&quot; when this record should no longer be used for any purpose.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
+      <requirements value="Allows filtering of contributorship records that are appropriate for use versus not."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <isModifier value="true"/>
+      <isModifierReason value="This is labeled as &quot;Is Modifier&quot; because applications should not use a retired {{title}} without due consideration"/>
+      <isSummary value="true"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="PublicationStatus"/>
+        </extension>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/publication-status"/>
+      </binding>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.status"/>
+      </mapping>
+    </element>
+    <element id="Contributorship.experimental">
+      <path value="Contributorship.experimental"/>
+      <short value="For testing only - never for real usage"/>
+      <definition value="A Boolean value to indicate that this contributorship record is authored for testing purposes (or education/evaluation/marketing) and no version of this resource will ever be intended for genuine usage."/>
+      <comment value="Allows filtering of contributorship records that are appropriate for use versus not.. Experimental resources might include example instances in implementation guides, instances created solely for testing purposes, etc. If experimental is 'true' for any version of a resource, it should be true for all versions of the resource.  (If experimental changes, then it is being misused or a resource that was never intended for real-world use has unexpectedly changed its purpose.).&#xA;&#xA;Experimental resources are not expected to be stable and may well have breaking changes without a corresponding change to the 'version' element."/>
+      <requirements value="Enables experimental content to be developed following the same lifecycle that would be used for a production-level contributorship record."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="boolean"/>
+      </type>
+      <meaningWhenMissing value="If absent, this resource is treated as though it is not experimental."/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.class"/>
+      </mapping>
+    </element>
+    <element id="Contributorship.date">
+      <path value="Contributorship.date"/>
+      <short value="Date last changed"/>
+      <definition value="The date (and optionally time) when the contributorship record was last significantly changed. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the contributorship record changes."/>
+      <comment value="The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the contributorship record. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
+      <alias value="Revision Date"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.recorded"/>
+      </mapping>
+    </element>
+    <element id="Contributorship.author">
+      <path value="Contributorship.author"/>
+      <short value="Who authored the contributorship record"/>
+      <definition value="Who authored or created the contributorship record."/>
+      <comment value="The Contributorship.author element is structured to support a name (with a string datatype) and contact point information for the author/creator, and is not structured to support unique identifiers for the author. If detailed contributorship data is needed for the authorship of the contributorship record, then one can create a Contributorship Resource for the Contributorship Resource."/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="ContactDetail"/>
+      </type>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.author"/>
+      </mapping>
+    </element>
+    <element id="Contributorship.publisher">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Contributorship.publisher"/>
+      <short value="The publisher of the contributorship record, not the publisher of the article or artifact being cited"/>
+      <definition value="The name of the organization or individual that published the contributorship record."/>
+      <comment value="Usually an organization but may be an individual. The publisher (or steward) of the contributorship record is the organization or individual primarily responsible for the maintenance and upkeep of the contributorship record. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the contributorship record. This item SHOULD be populated unless the information is available from context."/>
+      <requirements value="Helps establish the &quot;authority/credibility&quot; of the contributorship record. May also allow for contact."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.witness"/>
+      </mapping>
+    </element>
+    <element id="Contributorship.contact">
+      <path value="Contributorship.contact"/>
+      <short value="Contact details for the publisher of the contributorship record"/>
+      <definition value="Contact details to assist a user in finding and communicating with the publisher."/>
+      <comment value="May be a web site, an email address, a telephone number, etc.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="ContactDetail"/>
+      </type>
+      <isSummary value="true"/>
+    </element>
+    <element id="Contributorship.description">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Contributorship.description"/>
+      <short value="Natural language description of the contributorship"/>
+      <definition value="A free text natural language description of the contributorship from a consumer's perspective."/>
+      <comment value="This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the contributorship as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the contributorship is presumed to be the predominant language in the place the contributorship was created)."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="markdown"/>
+      </type>
+    </element>
+    <element id="Contributorship.useContext">
+      <path value="Contributorship.useContext"/>
+      <short value="The context that the contributorship record content is intended to support"/>
+      <definition value="The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist with indexing and searching for appropriate contributorship record instances."/>
+      <comment value="When multiple useContexts are specified, there is no expectation that all or any of the contexts apply."/>
+      <requirements value="Assist in searching for appropriate content."/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="UsageContext"/>
+      </type>
+      <isSummary value="true"/>
+    </element>
+    <element id="Contributorship.jurisdiction">
+      <path value="Contributorship.jurisdiction"/>
+      <short value="Jurisdiction of the authority that maintains the contributorship record (if applicable)"/>
+      <definition value="A legal or geographic region in which the authority that maintains the resource is operating.  In general, the jurisdiction is also found in the useContext.  The useContext may reference additional jurisdictions because the defining jurisdiction does not necessarily limit the jurisdictions of use."/>
+      <comment value="It may be possible for the contributorship record to be used in jurisdictions other than those for which it was originally designed or intended.&#xA;&#xA;DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <isSummary value="true"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="Jurisdiction"/>
+        </extension>
+        <strength value="extensible"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/jurisdiction"/>
+      </binding>
+    </element>
+    <element id="Contributorship.purpose">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Contributorship.purpose"/>
+      <short value="Why this contributorship is defined"/>
+      <definition value="Explanation of why this contributorship is needed and why it has been designed as it has."/>
+      <comment value="This element does not describe the usage of the contributorship. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this contributorship."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="markdown"/>
+      </type>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.why[x]"/>
+      </mapping>
+      <mapping>
+        <identity value="objimpl"/>
+        <map value="no-gen-base"/>
+      </mapping>
+    </element>
+    <element id="Contributorship.copyright">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Contributorship.copyright"/>
+      <short value="Notice about intellectual property ownership, can include restrictions on use for the contributorship record, not for the cited artifact"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="markdown"/>
+      </type>
+    </element>
+    <element id="Contributorship.copyrightLabel">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="Contributorship.copyrightLabel"/>
+      <short value="Copyright holder and year(s) for the ciation record, not for the cited artifact"/>
+      <definition value="A short string (&lt;50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are restricted. (e.g. 'All rights reserved', 'Some rights reserved')."/>
+      <comment value="The copyright symbol and the '(c)' textual representation SHOULD NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element."/>
+      <requirements value="Defines the content expected to be rendered in all representations of the artifact."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="Contributorship.approvalDate">
+      <path value="Contributorship.approvalDate"/>
+      <short value="When the contributorship record was approved by publisher"/>
+      <definition value="The date on which the resource content was approved by the publisher. Approval happens once when the content is officially approved for usage."/>
+      <comment value="The 'date' element may be more recent than the approval date because of minor changes or editorial corrections.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="date"/>
+      </type>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="objimpl"/>
+        <map value="no-gen-base"/>
+      </mapping>
+    </element>
+    <element id="Contributorship.lastReviewDate">
+      <path value="Contributorship.lastReviewDate"/>
+      <short value="When the contributorship record was last reviewed by the publisher"/>
+      <definition value="The date on which the resource content was last reviewed. Review happens periodically after approval but does not change the original approval date."/>
+      <comment value="If specified, this date follows the original approval date.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
+      <requirements value="Gives a sense of how &quot;current&quot; the content is.  Resources that have not been reviewed in a long time may have a risk of being less appropriate/relevant."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="date"/>
+      </type>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="objimpl"/>
+        <map value="no-gen-base"/>
+      </mapping>
+    </element>
+    <element id="Contributorship.effectivePeriod">
+      <path value="Contributorship.effectivePeriod"/>
+      <short value="When the contributorship record is expected to be used"/>
+      <definition value="The period during which the contributorship record content was or is planned to be in active use."/>
+      <comment value="The effective period for a contributorship record determines when the content is applicable for usage and is independent of publication and review dates. For example, a contributorship intended to be used for the year 2016 might be published in 2015.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
+      <requirements value="Allows establishing a transition before a resource comes into effect and also allows for a sunsetting process when new versions of the contributorship record are or are expected to be used instead."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Period"/>
+      </type>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="objimpl"/>
+        <map value="no-gen-base"/>
+      </mapping>
+    </element>
+    <element id="Contributorship.recorder">
+      <path value="Contributorship.recorder"/>
+      <short value="Who entered the data for the contributorship record"/>
+      <definition value="Who entered the data for the contributorship record."/>
+      <comment value="The Contributorship.recorder element is structured to support a name (with a string datatype) and contact point information for the recorder, and is not structured to support unique identifiers for the recorder. If detailed contributorship data is needed, then one can create a Contributorship Resource for the Contributorship Resource."/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="ContactDetail"/>
+      </type>
+    </element>
+    <element id="Contributorship.editor">
+      <path value="Contributorship.editor"/>
+      <short value="Who edited the contributorship record"/>
+      <definition value="Who edited or revised the contributorship record."/>
+      <comment value="The Contributorship.editor element is structured to support a name (with a string datatype) and contact point information for the editor, and is not structured to support unique identifiers for the editor. If detailed contributorship data is needed for the editing of the contributorship record, then one can create a Contributorship Resource for the Contributorship Resource."/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="ContactDetail"/>
+      </type>
+    </element>
+    <element id="Contributorship.reviewer">
+      <path value="Contributorship.reviewer"/>
+      <short value="Who reviewed the contributorship record"/>
+      <comment value="The Contributorship.reviewer element is structured to support a name (with a string datatype) and contact point information for the reviewer, and is not structured to support unique identifiers for the reviewer. If detailed contributorship data is needed for the review of the contributorship record, then one can create a Contributorship Resource for the Contributorship Resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="ContactDetail"/>
+      </type>
+    </element>
+    <element id="Contributorship.endorser">
+      <path value="Contributorship.endorser"/>
+      <short value="Who endorsed the contributorship record"/>
+      <comment value="The Contributorship.endorser element is structured to support a name (with a string datatype) and contact point information for the endorser, and is not structured to support unique identifiers for the endorser. If detailed contributorship data is needed for the endorsement of the contributorship record, then one can create a Contributorship Resource for the Contributorship Resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="ContactDetail"/>
+      </type>
+    </element>
+    <element id="Contributorship.note">
+      <path value="Contributorship.note"/>
+      <short value="Used for general notes and annotations not coded elsewhere"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Annotation"/>
+      </type>
+    </element>
+    <element id="Contributorship.relatesTo">
+      <extension url="http://hl7.org/fhir/build/StructureDefinition/svg">
+        <valueCode value="400,0"/>
+      </extension>
+      <path value="Contributorship.relatesTo"/>
+      <short value="Relationships to other Resources"/>
+      <definition value="Relationships that this Contributorship has with other FHIR or non-FHIR resources that already exist."/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="Contributorship.relatesTo.type">
+      <path value="Contributorship.relatesTo.type"/>
+      <short value="documentation | justification | citation | predecessor | successor | derived-from | depends-on | composed-of | part-of | amends | amended-with | appends | appended-with | cites | cited-by | comments-on | comment-in | contains | contained-in | corrects | correction-in | replaces | replaced-with | retracts | retracted-by | signs | similar-to | supports | supported-with | transforms | transformed-into | transformed-with | documents | specification-of | created-with | cite-as | reprint | reprint-of | summarizes"/>
+      <definition value="The type of relationship to the related artifact."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="ArtifactRelationshipType"/>
+        </extension>
+        <strength value="extensible"/>
+        <description value="The type of relationship to the related artifact."/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/artifact-relationship-type"/>
+      </binding>
+    </element>
+    <element id="Contributorship.relatesTo.target[x]">
+      <path value="Contributorship.relatesTo.target[x]"/>
+      <short value="The artifact that is related to this Contributorship"/>
+      <definition value="The artifact that is related to this Contributorship Resource."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="uri"/>
+      </type>
+      <type>
+        <code value="Attachment"/>
+      </type>
+      <type>
+        <code value="canonical"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Resource"/>
+      </type>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Resource"/>
+      </type>
+      <type>
+        <code value="markdown"/>
+      </type>
+    </element>
+  </differential>
 </StructureDefinition>
