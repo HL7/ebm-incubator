@@ -6,7 +6,7 @@ The FHIR Resources for Evidence Based Medicine Knowledge Assets ('EBMonFHIR') Im
 
 THIS EBMonFHIR Incubator Implementation Guide is used to support Additional Resources beyond those in FHIR R6 that are profiled in the EBMonFHIR Implementation Guide.
 
-The first Additional Resource is the Citation Resource. The scope of the Citation Resource is to describe any aspect of identification, location, authorship, and contributorship to a journal article, report, document, resource, or other knowledge artifact. Citations are used extensively in scholarly communication and important for documenting the evidence or source behind statements of fact, opinion, and interpretation. Citations are also used for acknowledgement of the contributions of individuals and groups to the creation and advancement of knowledge.
+The first Additional Resource is the Citation Resource. The scope of the Citation Resource is to describe any aspect of identification, location, authorship, and contributorship to a journal article, report, document, resource, or other knowledge artifact. Citations are used extensively in scholarly communication and important for documenting the evidence or source behind statements of fact, opinion, and interpretation. Citations are also used for acknowledgement of the contributions of individuals and groups to the creation and advancement of knowledge. 
 
 The second anticipated Additional Resource is the Contributorship Resource. The Contributorship Resource will allow the contributorship BackboneElement to be used for any knowledge artifact without the rest of the Citation Resource. There are many situations where contributorship is exchanged independent of citation data exchange.
 
