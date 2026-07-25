@@ -1,11 +1,11 @@
 {
     "package-id" : "hl7.fhir.uv.ebm-incubator",
     "version" : "1.0.0-ballot",
-    "path" : "http://hl7.org/fhir/uv/ebm-incubator/2026May",
+    "path" : "http://hl7.org/fhir/uv/ebm-incubator/1.0.0-202609-ballot",
     "mode" : "working",
     "status" : "ballot",
     "sequence" : "STU1",
-    "desc" : "This is the second ballot of the EBMonFHIR Implementation Guide for May 2025.",
+    "desc" : "This is the first ballot of the EBMonFHIR Incubator Implementation Guide for September 2026.",
     "first" : true,
     "title" : "EBM Incubator Implementation Guide",
     "ci-build" : "https://build.fhir.org/ig/HL7/ebm-incubator",
