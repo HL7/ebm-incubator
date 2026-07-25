@@ -161,7 +161,9 @@
             </type>
             <classifier>
               <coding>
-                <code value="N"/>
+                <system value="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"/>
+                <code value="C49487"/>
+                <display value="No"/>
               </coding>
             </classifier>
           </component>
@@ -237,7 +239,9 @@
             </type>
             <classifier>
               <coding>
-                <code value="Y"/>
+                <system value="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"/>
+                <code value="C49488"/>
+                <display value="Yes"/>
               </coding>
             </classifier>
           </component>
@@ -313,7 +317,9 @@
             </type>
             <classifier>
               <coding>
-                <code value="Y"/>
+                <system value="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"/>
+                <code value="C49488"/>
+                <display value="Yes"/>
               </coding>
             </classifier>
           </component>
@@ -551,7 +557,9 @@
             </type>
             <classifier>
               <coding>
-                <code value="Y"/>
+                <system value="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"/>
+                <code value="C49488"/>
+                <display value="Yes"/>
               </coding>
             </classifier>
           </component>
@@ -591,6 +599,7 @@
       <value value="support@computablepublishing.com"/>
     </telecom>
   </contact>
+  <description value="An example of a journal article citation, representing all the data found in a MEDLINE record."/>
   <useContext>
     <code>
       <system value="http://terminology.hl7.org/CodeSystem/citation-classification-type"/>

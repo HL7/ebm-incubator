@@ -7,7 +7,7 @@
     <lastUpdated value="2023-12-02T22:30:09.159Z"/>
   </meta>
   <text>
-    <status value="additional"/>
+    <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
 		
       <p class="res-header-id">
@@ -474,7 +474,7 @@
       </coding>
       <text value="FEvIR Object Identifier"/>
     </type>
-    <system value="https://fevir.net"/>
+    <system value="https://fevir.net/FOI"/>
     <value value="179559"/>
     <assigner>
       <display value="Computable Publishing LLC"/>
