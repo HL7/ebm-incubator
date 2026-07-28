@@ -83,9 +83,9 @@
 <artifact deprecated="true" id="StructureDefinition/baseline-variables-list" key="StructureDefinition-baseline-variables-list" name="BaselineVariablesList"/>
 <artifact deprecated="true" id="List/312201" key="List-312201" name="BaselineVariablesList: Association of Bariatric Surgery vs Medical Obesity Treatment With Long-term Medical Complications and Obesity-Related Comorbidities (2018 Norwegian Cohort)"/>
 <artifact deprecated="true" id="ResearchStudy/264321" key="ResearchStudy-264321" name="Benefits and harms of drug treatment for type 2 diabetes: systematic review and network meta-analysis of randomised controlled trials"/>
-<artifact deprecated="true" id="StructureDefinition/book-citation" key="StructureDefinition-book-citation" name="BookCitation"/>
+<artifact deprecated="true" id="StructureDefinition/book-publicationrecord" key="StructureDefinition-book-publicationrecord" name="BookCitation"/>
 <artifact deprecated="true" id="PublicationRecord/121719" key="PublicationRecord-121719" name="BookCitation: Crossing the Quality Chasm: A New Health System for the 21st Century"/>
-<artifact deprecated="true" id="StructureDefinition/book-part-citation" key="StructureDefinition-book-part-citation" name="BookPartCitation"/>
+<artifact deprecated="true" id="StructureDefinition/book-part-publicationrecord" key="StructureDefinition-book-part-publicationrecord" name="BookPartCitation"/>
 <artifact deprecated="true" id="PublicationRecord/139859" key="PublicationRecord-139859" name="BookPartCitation: Chapter 3 of Crossing the Quality Chasm: A New Health System for the 21st Century"/>
 <artifact deprecated="true" id="PublicationRecord/139860" key="PublicationRecord-139860" name="BookPartCitation: Chapter 3 of Crossing the Quality Chasm: A New Health System for the 21st Century - without baseCitation"/>
 <artifact deprecated="true" id="Evidence/179690" key="Evidence-179690" name="CIBIC+ EndpointAnalysisPlan from PHUSE Lilly Redacted Protocol - EBMonFHIR IG Version"/>
@@ -237,12 +237,12 @@
 <artifact deprecated="true" id="StructureDefinition/data-dictionary" key="StructureDefinition-data-dictionary" name="DataDictionary"/>
 <artifact deprecated="true" id="CodeSystem/181451" key="CodeSystem-181451" name="DataDictionary: Measuring the Rate of Scientific Knowledge Transfer"/>
 <artifact deprecated="true" id="CodeSystem/179650" key="CodeSystem-179650" name="DataDictionary: phs003190"/>
-<artifact deprecated="true" id="StructureDefinition/database-citation" key="StructureDefinition-database-citation" name="DatabaseCitation"/>
+<artifact deprecated="true" id="StructureDefinition/database-publicationrecord" key="StructureDefinition-database-publicationrecord" name="DatabaseCitation"/>
 <artifact deprecated="true" id="PublicationRecord/29812" key="PublicationRecord-29812" name="DatabaseCitation: PublicationRecord for FEvIR Platform"/>
-<artifact deprecated="true" id="StructureDefinition/database-entry-citation" key="StructureDefinition-database-entry-citation" name="DatabaseEntryCitation"/>
+<artifact deprecated="true" id="StructureDefinition/database-entry-publicationrecord" key="StructureDefinition-database-entry-publicationrecord" name="DatabaseEntryCitation"/>
 <artifact deprecated="true" id="PublicationRecord/179558" key="PublicationRecord-179558" name="DatabaseEntryCitation: ComparativeEvidenceReport: Association of Bariatric Surgery vs Medical Obesity Treatment With Long-term Medical Complications and Obesity-Related Comorbidities (2018 Norwegian Cohort)"/>
-<artifact deprecated="true" id="StructureDefinition/dataset-citation" key="StructureDefinition-dataset-citation" name="DatasetCitation"/>
-<artifact id="PublicationRecord/example-dataset-citation" key="PublicationRecord-179559" name="DatasetCitation: Extrachromosomal DNA Amplification Contributes to Small Cell Lung Cancer Heterogeneity and is Associated with Worse Outcomes"/>
+<artifact deprecated="true" id="StructureDefinition/dataset-publicationrecord" key="StructureDefinition-dataset-publicationrecord" name="DatasetCitation"/>
+<artifact id="PublicationRecord/example-dataset-publicationrecord" key="PublicationRecord-179559" name="DatasetCitation: Extrachromosomal DNA Amplification Contributes to Small Cell Lung Cancer Heterogeneity and is Associated with Worse Outcomes"/>
 <artifact deprecated="true" id="StructureDefinition/date-as-rating" key="StructureDefinition-date-as-rating" name="DateAsRating"/>
 <artifact deprecated="true" id="ArtifactAssessment/181452" key="ArtifactAssessment-155969" name="DateOfFirstPublication Classification of FOI 153881 by Rachel Couban"/>
 <artifact deprecated="true" id="Evidence/318274" key="Evidence-318274" name="Death or Major Traumatic Injury 30 days after Impact comparing intervention vs. comparator"/>
@@ -383,7 +383,7 @@
 <artifact deprecated="true" id="EvidenceVariable/159673" key="EvidenceVariable-159673" name="Investigator"/>
 <artifact deprecated="true" id="EvidenceVariable/156673" key="EvidenceVariable-156673" name="Investigator-by-treatment interaction for ADAS-Cog(11) ANCOVA"/>
 <artifact deprecated="true" id="ArtifactAssessment/179698" key="ArtifactAssessment-179698" name="Joanne Dehnbostel's Adaptation Report of Recommendation: ADA Obesity Management Recommendation 8.16"/>
-<artifact deprecated="true" id="StructureDefinition/journal-article-citation" key="StructureDefinition-journal-article-citation" name="JournalArticleCitation"/>
+<artifact deprecated="true" id="StructureDefinition/journal-article-publicationrecord" key="StructureDefinition-journal-article-publicationrecord" name="JournalArticleCitation"/>
 <artifact deprecated="true" id="PublicationRecord/32137" key="PublicationRecord-32137" name="JournalArticleCitation: ADA 2021 Standards of Medical Care 8. Obesity Management for the Treatment of Type 2 Diabetes"/>
 <artifact deprecated="true" id="PublicationRecord/104116" key="PublicationRecord-104116" name="JournalArticleCitation: Association of Bariatric Surgery with Complications and Comorbidities JAMA 2018 Norwegian Cohort"/>
 <artifact deprecated="true" id="PublicationRecord/33090" key="PublicationRecord-33090" name="JournalArticleCitation: Metabolic Surgery in the Treatment Algorithm for Type 2 Diabetes: A Joint Statement by International Diabetes Organizations"/>
@@ -479,7 +479,7 @@
 <artifact deprecated="true" id="EvidenceVariable/282880" key="EvidenceVariable-282880" name="NHANES SEQN Respondent Sequence Number"/>
 <artifact deprecated="true" id="Group/282899" key="Group-282899" name="NHANES WTSAF2YR Variable Definition"/>
 <artifact deprecated="true" id="EvidenceVariable/282898" key="EvidenceVariable-282898" name="NHANES WTSAF2YR: Fasting Subsample 2 Year MEC Weight"/>
-<artifact id="PublicationRecord/citation-example-research-doi" key="PublicationRecord-citation-example-research-doi" name="NInFEA PublicationRecord"/>
+<artifact id="PublicationRecord/publicationrecord-example-research-doi" key="PublicationRecord-publicationrecord-example-research-doi" name="NInFEA PublicationRecord"/>
 <artifact deprecated="true" id="Composition/342828" key="Composition-342828" name="NT-proBNP Study Data Dictionary"/>
 <artifact deprecated="true" id="StructureDefinition/net-effect-contribution" key="StructureDefinition-net-effect-contribution" name="NetEffectContribution"/>
 <artifact deprecated="true" id="Evidence/179591" key="Evidence-179591" name="NetEffectContribution: Additional GI surgical procedure for Example for GIN 2022"/>
@@ -610,7 +610,7 @@
 <artifact deprecated="true" id="EvidenceVariable/12718" key="EvidenceVariable-12718" name="Placebo"/>
 <artifact deprecated="true" id="PlanDefinition/179468" key="PlanDefinition-179468" name="PlanDefinition for Recommendation: ADA Obesity Management Recommendation 8.16"/>
 <artifact deprecated="true" id="PlanDefinition/179554" key="PlanDefinition-179554" name="PlanDefinition for Recommendation: ADA Obesity Management Recommendation 8.17"/>
-<artifact deprecated="true" id="StructureDefinition/preprint-citation" key="StructureDefinition-preprint-citation" name="PreprintCitation"/>
+<artifact deprecated="true" id="StructureDefinition/preprint-publicationrecord" key="StructureDefinition-preprint-publicationrecord" name="PreprintCitation"/>
 <artifact deprecated="true" id="PublicationRecord/5296" key="PublicationRecord-5296" name="PreprintCitation: Nigella Sativa for COVID-19 OSF Preprint"/>
 <artifact deprecated="true" id="Evidence/318264" key="Evidence-318264" name="Rate of Death or Major Traumatic Injury on Impact with comparator"/>
 <artifact deprecated="true" id="Evidence/312173" key="Evidence-312173" name="Rate of Death or Major Traumatic Injury on Impact with intervention"/>
@@ -627,8 +627,8 @@
 <artifact deprecated="true" id="Group/32139" key="Group-32139" name="RecommendationEligibilityCriteria: Eligibility Criteria for Bariatric Surgery (ADA Recommendation 8.16)"/>
 <artifact deprecated="true" id="StructureDefinition/recommendation-justification" key="StructureDefinition-recommendation-justification" name="RecommendationJustification"/>
 <artifact deprecated="true" id="StructureDefinition/recommendation-plan" key="StructureDefinition-recommendation-plan" name="RecommendationPlan"/>
-<artifact id="ValueSet/citation-status-type" key="ValueSet-citation-status-type" name="PublicationRecord Status Type"/>
-<artifact id="CodeSystem/citation-status-type" key="CodeSystem-citation-status-type" name="PublicationRecord Status Type CodeSystem"/>
+<artifact id="ValueSet/publicationrecord-status-type" key="ValueSet-publicationrecord-status-type" name="PublicationRecord Status Type"/>
+<artifact id="CodeSystem/publicationrecord-status-type" key="CodeSystem-publicationrecord-status-type" name="PublicationRecord Status Type CodeSystem"/>
 <artifact deprecated="true" id="StructureDefinition/relates-to" key="StructureDefinition-relates-to" name="RelatesTo"/>
 <artifact deprecated="true" id="StructureDefinition/relates-to-with-quotation" key="StructureDefinition-relates-to-with-quotation" name="RelatesToWithQuotation"/>
 <artifact deprecated="true" id="StructureDefinition/relative-outcome-importance" key="StructureDefinition-relative-outcome-importance" name="RelativeOutcomeImportance"/>
@@ -667,7 +667,7 @@
 <artifact deprecated="true" id="StructureDefinition/single-study-evidence" key="StructureDefinition-single-study-evidence" name="SingleStudyEvidence"/>
 <artifact deprecated="true" id="StructureDefinition/soa-plandefinition" key="StructureDefinition-soa-plandefinition" name="SoaPlanDefinition"/>
 <artifact deprecated="true" id="PlanDefinition/181450" key="PlanDefinition-181450" name="SoaPlanDefinition: Follow-up assessment 3 months after study start"/>
-<artifact deprecated="true" id="StructureDefinition/software-citation" key="StructureDefinition-software-citation" name="SoftwareCitation"/>
+<artifact deprecated="true" id="StructureDefinition/software-publicationrecord" key="StructureDefinition-software-publicationrecord" name="SoftwareCitation"/>
 <artifact deprecated="true" id="PublicationRecord/179560" key="PublicationRecord-179560" name="SoftwareCitation: Computable Publishing®: ClinicalTrials.gov-to-FEvIR Converter"/>
 <artifact deprecated="true" id="Group/236534" key="Group-236534" name="Standard care Group in Adults with type 2 diabetes with moderate CV risk"/>
 <artifact deprecated="true" id="StructureDefinition/statistic-model" key="StructureDefinition-statistic-model" name="StatisticModel"/>
@@ -725,7 +725,7 @@
 <artifact deprecated="true" id="Evidence/307441" key="Evidence-307441" name="Velocity for non participant group"/>
 <artifact deprecated="true" id="Evidence/298048" key="Evidence-298048" name="Velocity with comparator"/>
 <artifact deprecated="true" id="Evidence/298047" key="Evidence-298047" name="Velocity with intervention"/>
-<artifact deprecated="true" id="StructureDefinition/web-page-citation" key="StructureDefinition-web-page-citation" name="WebPageCitation"/>
+<artifact deprecated="true" id="StructureDefinition/web-page-publicationrecord" key="StructureDefinition-web-page-publicationrecord" name="WebPageCitation"/>
 <artifact deprecated="true" id="PublicationRecord/179561" key="PublicationRecord-179561" name="WebPageCitation: A HEvKA Update Summary"/>
 <artifact deprecated="true" id="EvidenceVariable/307244" key="EvidenceVariable-307244" name="Weight"/>
 <artifact deprecated="true" id="Evidence/307253" key="Evidence-307253" name="Weight with comparator"/>
@@ -737,7 +737,7 @@
 <page key="many" name="(many)"/>
 <page deprecated="true" key="artifactassessment" name="ArtifactAssessment Profiles"/>
 <page key="artifacts" name="Artifacts Summary"/>
-<page deprecated="true" key="citation" name="PublicationRecord Profiles"/>
+<page deprecated="true" key="publicationrecord" name="PublicationRecord Profiles"/>
 <page deprecated="true" key="composition" name="Composition Profiles"/>
 <page key="downloads" name="Downloads"/>
 <page deprecated="true" key="evidence" name="Evidence Profiles"/>

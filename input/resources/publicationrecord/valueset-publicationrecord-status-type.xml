@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="citation-status-type"/>
+  <id value="publicationrecord-status-type"/>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="cds"/>
   </extension>
@@ -11,7 +11,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/ebm-incubator/ValueSet/citation-status-type"/>
+  <url value="http://hl7.org/fhir/uv/ebm-incubator/ValueSet/publicationrecord-status-type"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.3.2972"/>
@@ -37,7 +37,7 @@
   <immutable value="true"/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/uv/ebm-incubator/CodeSystem/citation-status-type"/>
+      <system value="http://hl7.org/fhir/uv/ebm-incubator/CodeSystem/publicationrecord-status-type"/>
     </include>
   </compose>
 </ValueSet>

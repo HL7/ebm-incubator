@@ -5,8 +5,8 @@
 [BaselineMeasureEvidence]: StructureDefinition-baseline-measure-evidence.html
 [BaselineMeasureReport]: StructureDefinition-baseline-measure-report.html
 [BaselineVariablesList]: StructureDefinition-baseline-variables-list.html
-[BookCitation]: StructureDefinition-book-citation.html
-[BookPartCitation]: StructureDefinition-book-part-citation.html
+[BookCitation]: StructureDefinition-book-publicationrecord.html
+[BookPartCitation]: StructureDefinition-book-part-publicationrecord.html
 [CertaintyOfEvidence]: StructureDefinition-certainty-of-evidence.html
 [CharacteristicTiming]: StructureDefinition-characteristic-timing.html
 [Classification]: StructureDefinition-classification.html
@@ -26,9 +26,9 @@
 [ConceptualCohortDefinition]: StructureDefinition-conceptual-cohort-definition.html
 [ConceptualComparatorDefinition]: StructureDefinition-conceptual-comparator-definition.html
 [ConceptualExposureDefinition]: StructureDefinition-conceptual-exposure-definition.html
-[DatabaseCitation]: StructureDefinition-database-citation.html
-[DatabaseEntryCitation]: StructureDefinition-database-entry-citation.html
-[DatasetCitation]: StructureDefinition-dataset-citation.html
+[DatabaseCitation]: StructureDefinition-database-publicationrecord.html
+[DatabaseEntryCitation]: StructureDefinition-database-entry-publicationrecord.html
+[DatasetCitation]: StructureDefinition-dataset-publicationrecord.html
 [DateAsRating]: StructureDefinition-date-as-rating.html
 [DichotomousIntendedOutcome]: StructureDefinition-dichotomous-intended-outcome.html
 [EndpointAnalysisPlan]: StructureDefinition-endpoint-analysis-plan.html
@@ -45,7 +45,7 @@
 [GroupR6]: StructureDefinition-group-r6.html
 [Guideline]: StructureDefinition-guideline.html
 [InterventionOnlyEvidence]: StructureDefinition-intervention-only-evidence.html
-[JournalArticleCitation]: StructureDefinition-journal-article-citation.html
+[JournalArticleCitation]: StructureDefinition-journal-article-publicationrecord.html
 [M11Report]: StructureDefinition-m11-report.html
 [MetaanalysisEligibilityCriteria]: StructureDefinition-metaanalysis-eligibility-criteria.html
 [MetaanalysisOutcomeDefinition]: StructureDefinition-metaanalysis-outcome-definition.html
@@ -65,7 +65,7 @@
 [ParticipantFlowReasonEvidenceVariable]: StructureDefinition-participant-flow-reason-evidence-variable.html
 [ParticipantFlowReport]: StructureDefinition-participant-flow-report.html
 [ParticipantFlowVariablesList]: StructureDefinition-participant-flow-variables-list.html
-[PreprintCitation]: StructureDefinition-preprint-citation.html
+[PreprintCitation]: StructureDefinition-preprint-publicationrecord.html
 [Rating]: StructureDefinition-rating.html
 [Recommendation]: StructureDefinition-recommendation.html
 [Recommendation Justification Code System]: CodeSystem-27834.html
@@ -80,7 +80,7 @@
 [SearchStrategy]: StructureDefinition-search-strategy.html
 [SingleStudyEvidence]: StructureDefinition-single-study-evidence.html
 [SoaPlanDefinition]: StructureDefinition-soa-plandefinition.html
-[SoftwareCitation]: StructureDefinition-software-citation.html
+[SoftwareCitation]: StructureDefinition-software-publicationrecord.html
 [StatisticModel]: StructureDefinition-statistic-model.html
 [StatisticModelExpression]: StructureDefinition-statistic-model-expression.html
 [StatisticModelIncludeIf]: StructureDefinition-statistic-model-include-if.html
@@ -94,7 +94,7 @@
 [SystematicReviewEligibilityCriteria]: StructureDefinition-systematic-review-eligibility-criteria.html
 [SystematicReviewExcludedStudies]: StructureDefinition-systematic-review-excluded-studies.html
 [SystematicReviewIncludedStudies]: StructureDefinition-systematic-review-included-studies.html
-[WebPageCitation]: StructureDefinition-web-page-citation.html
+[WebPageCitation]: StructureDefinition-web-page-publicationrecord.html
 [VariableDefinition]: StructureDefinition-variable-definition.html
 
 [VS EBMImplementationGuideProfile Value Set]: ValueSet-179430.html

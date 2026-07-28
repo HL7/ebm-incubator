@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <PublicationRecord xmlns="http://hl7.org/fhir">
-  <id value="citation-example-research-doi"/>
+  <id value="publicationrecord-example-research-doi"/>
   <identifier>
     <type>
       <text value="FEvIR Object Identifier"/>
@@ -27,7 +27,7 @@
       <value value="support@computablepublishing.com"/>
     </telecom>
   </contact>
-  <description value="A citation of a dataset"/>
+  <description value="A publicationrecord of a dataset"/>
   <copyright value="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
   <summary>
     <style>
@@ -38,7 +38,7 @@
   <summary>
     <style>
       <coding>
-        <system value="http://terminology.hl7.org/CodeSystem/citation-summary-style"/>
+        <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-summary-style"/>
         <code value="comppub"/>
         <display value="Computable Publishing"/>
       </coding>
@@ -85,7 +85,7 @@
       <classifier>
         <text value="original publication"/>
       </classifier>
-      <citation value="Sulas, E., Urru, M., Tumbarello, R., Raffo, L., Sameni, R., Pani, D., A non-invasive multimodal foetal ECG–Doppler dataset for antenatal cardiology research. Sci Data 8, 30 (2021). https://doi.org/10.1038/s41597-021-00811-3"/>
+      <publicationrecord value="Sulas, E., Urru, M., Tumbarello, R., Raffo, L., Sameni, R., Pani, D., A non-invasive multimodal foetal ECG–Doppler dataset for antenatal cardiology research. Sci Data 8, 30 (2021). https://doi.org/10.1038/s41597-021-00811-3"/>
       <targetUri value="https://doi.org/10.1038/s41597-021-00811-3"/>
     </relatesTo>
     <relatesTo>
@@ -182,7 +182,7 @@
       </classifier>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
           <code value="D064886"/>
           <display value="Dataset"/>
         </coding>

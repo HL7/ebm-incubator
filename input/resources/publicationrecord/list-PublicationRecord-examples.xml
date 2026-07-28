@@ -9,10 +9,10 @@
       <valueString value="NInFEA PublicationRecord"/>
     </extension>
     <extension url="http://hl7.org/fhir/build/StructureDefinition/title">
-      <valueString value="citation-example-research-doi"/>
+      <valueString value="publicationrecord-example-research-doi"/>
     </extension>
     <item>
-      <reference value="PublicationRecord/citation-example-research-doi"/>
+      <reference value="PublicationRecord/publicationrecord-example-research-doi"/>
       <display value="NInFEA PublicationRecord"/>
     </item>
   </entry>
@@ -21,7 +21,7 @@
       <valueString value="PublicationRecord for PARACHUTE RCT"/>
     </extension>
     <extension url="http://hl7.org/fhir/build/StructureDefinition/title">
-      <valueString value="citation-example-for-parachute-rct"/>
+      <valueString value="publicationrecord-example-for-parachute-rct"/>
     </extension>
     <item>
       <reference value="PublicationRecord/example-for-parachute-rct"/>
@@ -33,10 +33,10 @@
       <valueString value="DatasetCitation Profile Example"/>
     </extension>
     <extension url="http://hl7.org/fhir/build/StructureDefinition/title">
-      <valueString value="citation-example-dataset-citation"/>
+      <valueString value="publicationrecord-example-dataset-publicationrecord"/>
     </extension>
     <item>
-      <reference value="PublicationRecord/example-dataset-citation"/>
+      <reference value="PublicationRecord/example-dataset-publicationrecord"/>
       <display value="DatasetCitation Profile Example"/>
     </item>
   </entry>

@@ -80,9 +80,9 @@ pages:
 parameters:
   apply-jurisdiction: true
   path-resource:
-    - input/resources/citation
+    - input/resources/publicationrecord
   additional-resource:
-    - input/resources/citation/StructureDefinition-PublicationRecord.xml
+    - input/resources/publicationrecord/StructureDefinition-PublicationRecord.xml
   special-url-base: http://hl7.org/fhir
   pin-canonicals: pin-all
 # parameters:
