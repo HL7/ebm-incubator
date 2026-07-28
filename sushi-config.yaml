@@ -84,7 +84,7 @@ parameters:
   additional-resource:
     - input/resources/citation/StructureDefinition-Citation.xml
   special-url-base: http://hl7.org/fhir
-  pin-canonical: pin-all
+  pin-canonicals: pin-all
 # parameters:
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
