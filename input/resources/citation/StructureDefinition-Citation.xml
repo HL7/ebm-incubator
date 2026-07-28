@@ -23,9 +23,9 @@
   <extension url="http://hl7.org/fhir/build/StructureDefinition/entered-in-error-status">
     <valueCode value=".status = retired"/>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-implements">
+  <!--<extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-implements">
     <valueCanonical value="http://hl7.org/fhir/StructureDefinition/CanonicalResource"/>
-  </extension>
+  </extension>-->
   <extension url="http://hl7.org/fhir/build/StructureDefinition/template">
     <valueString value="MetadataResource"/>
   </extension>
