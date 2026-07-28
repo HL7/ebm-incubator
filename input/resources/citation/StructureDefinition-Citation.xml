@@ -23,13 +23,13 @@
   <extension url="http://hl7.org/fhir/build/StructureDefinition/entered-in-error-status">
     <valueCode value=".status = retired"/>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-implements">
+  <!--<extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-implements">
     <valueCanonical value="http://hl7.org/fhir/StructureDefinition/CanonicalResource"/>
-  </extension>
+  </extension>-->
   <extension url="http://hl7.org/fhir/build/StructureDefinition/template">
     <valueString value="MetadataResource"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/ebm-incubator/StructureDefinition/Citation"/>
+  <url value="http://hl7.org/fhir/StructureDefinition/Citation"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.5.997"/>
