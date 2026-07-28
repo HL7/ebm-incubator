@@ -18,7 +18,7 @@
   </identifier>
   <version value="1.0.0"/>
   <name value="CitationStatusType"/>
-  <title value="Citation Status Type Value Set"/>
+  <title value="PublicationRecord Status Type Value Set"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2021-03-11"/>
@@ -33,7 +33,7 @@
       <value value="fhir@lists.hl7.org"/>
     </telecom>
   </contact>
-  <description value="Citation status type"/>
+  <description value="PublicationRecord status type"/>
   <immutable value="true"/>
   <compose>
     <include>

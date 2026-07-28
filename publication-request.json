@@ -13,5 +13,5 @@
     "registry-country": "uv",
     "registry-authority": "HL7",
     "category": "Evidence Base Medicine",
-    "introduction": "This implementation guide is the incubator for evidence-based medicine resources, including the Citation resource."
+    "introduction": "This implementation guide is the incubator for evidence-based medicine resources, including the PublicationRecord resource."
 }

@@ -82,7 +82,7 @@ parameters:
   path-resource:
     - input/resources/citation
   additional-resource:
-    - input/resources/citation/StructureDefinition-Citation.xml
+    - input/resources/citation/StructureDefinition-PublicationRecord.xml
   special-url-base: http://hl7.org/fhir
   pin-canonicals: pin-all
 # parameters:

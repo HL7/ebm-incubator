@@ -6,46 +6,46 @@
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
 <artifact deprecated="true" id="Evidence/55" key="Evidence-55" name="14-day mortality remdesivir vs placebo meta-analysis (ACTT-1, Wang et al, WHO SOLIDARITY)"/>
-<artifact deprecated="true" id="Citation/179628" key="Citation-179628" name="14706014 Chemohormonal therapy as primary treatment for metastatic prostate cancer: a randomized study of estramustine phosphate plus luteinizing hormone-releasing hormone agonist versus flutamide plus luteinizing hormone-releasing hormone agonist."/>
-<artifact deprecated="true" id="Citation/267247" key="Citation-267247" name="15832493 Spotlight on rosiglitazone in the management of type 2 diabetes mellitus."/>
-<artifact deprecated="true" id="Citation/267496" key="Citation-267496" name="15855602 Defining and reporting hypoglycemia in diabetes: a report from the American Diabetes Association Workgroup on Hypoglycemia."/>
+<artifact deprecated="true" id="PublicationRecord/179628" key="PublicationRecord-179628" name="14706014 Chemohormonal therapy as primary treatment for metastatic prostate cancer: a randomized study of estramustine phosphate plus luteinizing hormone-releasing hormone agonist versus flutamide plus luteinizing hormone-releasing hormone agonist."/>
+<artifact deprecated="true" id="PublicationRecord/267247" key="PublicationRecord-267247" name="15832493 Spotlight on rosiglitazone in the management of type 2 diabetes mellitus."/>
+<artifact deprecated="true" id="PublicationRecord/267496" key="PublicationRecord-267496" name="15855602 Defining and reporting hypoglycemia in diabetes: a report from the American Diabetes Association Workgroup on Hypoglycemia."/>
 <artifact deprecated="true" id="DeviceDefinition/179899" key="DeviceDefinition-179899" name="179899"/>
-<artifact deprecated="true" id="Citation/179602" key="Citation-179602" name="18160893 Wonder woman. Like my childhood heroine, Mrs. Betty also had amazing powers."/>
-<artifact deprecated="true" id="Citation/179637" key="Citation-179637" name="18508207 A Phase 3 placebo-controlled, double-blind, multi-site trial of the alpha-2-adrenergic agonist, lofexidine, for opioid withdrawal."/>
-<artifact deprecated="true" id="Citation/179631" key="Citation-179631" name="19029421 Phase III trial of androgen ablation with or without three cycles of systemic chemotherapy for advanced prostate cancer."/>
-<artifact deprecated="true" id="Citation/179627" key="Citation-179627" name="19091394 Endocrine treatment, with or without radiotherapy, in locally advanced prostate cancer (SPCG-7/SFUO-3): an open randomised phase III trial."/>
-<artifact deprecated="true" id="Citation/179603" key="Citation-179603" name="19967827 Wonder woman was Argentine and her real name was Evita."/>
-<artifact deprecated="true" id="Citation/179626" key="Citation-179626" name="22056152 Combined androgen deprivation therapy and radiation therapy for locally advanced prostate cancer: a randomised, phase 3 trial."/>
-<artifact deprecated="true" id="Citation/179625" key="Citation-179625" name="22502942 Addition of radiotherapy to long-term androgen deprivation in locally advanced prostate cancer: an open randomised phase 3 trial."/>
-<artifact deprecated="true" id="Citation/179615" key="Citation-179615" name="23306100 Androgen-deprivation therapy alone or with docetaxel in non-castrate metastatic prostate cancer (GETUG-AFU 15): a randomised, open-label, phase 3 trial."/>
-<artifact deprecated="true" id="Citation/179623" key="Citation-179623" name="23452809 Long-term follow-up of a phase II trial of chemotherapy plus hormone therapy for biochemical relapse after definitive local therapy for prostate cancer."/>
-<artifact deprecated="true" id="Citation/267501" key="Citation-267501" name="23589542 Hypoglycemia and diabetes: a report of a workgroup of the American Diabetes Association and the Endocrine Society."/>
-<artifact deprecated="true" id="Citation/179629" key="Citation-179629" name="23604530 A phase II trial of androgen deprivation therapy (ADT) plus chemotherapy as initial treatment for local failures or advanced prostate cancer."/>
-<artifact deprecated="true" id="Citation/179624" key="Citation-179624" name="24598155 Long-term results of a phase II study with neoadjuvant docetaxel chemotherapy and complete androgen blockade in locally advanced and high-risk prostate cancer."/>
-<artifact deprecated="true" id="Citation/179617" key="Citation-179617" name="25301760 Survival with Newly Diagnosed Metastatic Prostate Cancer in the &#34;Docetaxel Era&#34;: Data from 917 Patients in the Control Arm of the STAMPEDE Trial (MRC PR08, CRUK/06/019)."/>
-<artifact deprecated="true" id="Citation/179622" key="Citation-179622" name="26002607 Should docetaxel be standard of care for patients with metastatic hormone-sensitive prostate cancer? Pro and contra."/>
-<artifact deprecated="true" id="Citation/179621" key="Citation-179621" name="26028518 Androgen deprivation therapy plus docetaxel and estramustine versus androgen deprivation therapy alone for high-risk localised prostate cancer (GETUG 12): a phase 3 randomised controlled trial."/>
-<artifact deprecated="true" id="Citation/179630" key="Citation-179630" name="26092557 Feasibility study of a randomized controlled trial comparing docetaxel chemotherapy and androgen deprivation therapy with sequential prostatic biopsies from patients with advanced non-castration-resistant prostate cancer."/>
-<artifact deprecated="true" id="Citation/179616" key="Citation-179616" name="26244877 Chemohormonal Therapy in Metastatic Hormone-Sensitive Prostate Cancer."/>
-<artifact deprecated="true" id="Citation/267500" key="Citation-267500" name="26502880 A novel nasal powder formulation of glucagon: toxicology studies in animal models."/>
-<artifact deprecated="true" id="Citation/267499" key="Citation-267499" name="26681725 Intranasal Glucagon for Treatment of Insulin-Induced Hypoglycemia in Adults With Type 1 Diabetes: A Randomized Crossover Noninferiority Study."/>
-<artifact deprecated="true" id="Citation/267498" key="Citation-267498" name="26859072 Emotional Distress in the Partners of Type 1 Diabetes Adults: Worries About Hypoglycemia and Other Key Concerns."/>
-<artifact deprecated="true" id="Citation/33089" key="Citation-33089" name="27222544 Metabolic Surgery in the Treatment Algorithm for Type 2 Diabetes: A Joint Statement by International Diabetes Organizations."/>
-<artifact deprecated="true" id="Citation/179613" key="Citation-179613" name="27308831 Efficacy and Safety of Combined Androgen Deprivation Therapy (ADT) and Docetaxel Compared with ADT Alone for Metastatic Hormone-Naive Prostate Cancer: A Systematic Review and Meta-Analysis."/>
-<artifact deprecated="true" id="Citation/267497" key="Citation-267497" name="27979893 6. Glycemic Targets."/>
-<artifact deprecated="true" id="Citation/179601" key="Citation-179601" name="29114761 Web Exclusives. Annals Story Slam - How Wonder Woman Became My Alter Ego."/>
-<artifact deprecated="true" id="Citation/179600" key="Citation-179600" name="29114762 Web Exclusives. Annals Story Slam - Wonder Woman Is a Cartoon Character."/>
-<artifact deprecated="true" id="Citation/179599" key="Citation-179599" name="29202628 &#34;I Kinda Feel Like Wonder Woman&#34;: An Interpretative Phenomenological Analysis of Pole Fitness and Positive Body Image."/>
-<artifact deprecated="true" id="Citation/179598" key="Citation-179598" name="29357271 Using Hawkeye from the Avengers to communicate on the eye."/>
-<artifact deprecated="true" id="Citation/179597" key="Citation-179597" name="29694275 A regressive formula of perversity: Wertham and the women of comics."/>
-<artifact deprecated="true" id="Citation/179596" key="Citation-179596" name="29694302 Introduction: &#34;Suffering Sappho!&#34;: Lesbian content and queer female characters in comics."/>
-<artifact deprecated="true" id="Citation/179595" key="Citation-179595" name="30467172 Finding my inner Wonder Woman."/>
-<artifact id="Citation/example-for-parachute-rct" key="Citation-306957" name="30545967 Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial."/>
-<artifact deprecated="true" id="Citation/179594" key="Citation-179594" name="34871555 What Can Wonder Woman Teach Radiologists?"/>
-<artifact deprecated="true" id="Citation/33399" key="Citation-33399" name="35243488 Bariatric surgery and cardiovascular disease: a systematic review and meta-analysis."/>
-<artifact deprecated="true" id="Citation/179605" key="Citation-179605" name="36491989 Another Georgia Wonder Woman: She Does More Astounding Tricks Than Did Lula Hurst."/>
-<artifact deprecated="true" id="Citation/264329" key="Citation-264329" name="37024129 Benefits and harms of drug treatment for type 2 diabetes: systematic review and network meta-analysis of randomised controlled trials."/>
-<artifact deprecated="true" id="Citation/179604" key="Citation-179604" name="6907780 Career guide: to change what needs changing...doesn't take Wonder Woman."/>
+<artifact deprecated="true" id="PublicationRecord/179602" key="PublicationRecord-179602" name="18160893 Wonder woman. Like my childhood heroine, Mrs. Betty also had amazing powers."/>
+<artifact deprecated="true" id="PublicationRecord/179637" key="PublicationRecord-179637" name="18508207 A Phase 3 placebo-controlled, double-blind, multi-site trial of the alpha-2-adrenergic agonist, lofexidine, for opioid withdrawal."/>
+<artifact deprecated="true" id="PublicationRecord/179631" key="PublicationRecord-179631" name="19029421 Phase III trial of androgen ablation with or without three cycles of systemic chemotherapy for advanced prostate cancer."/>
+<artifact deprecated="true" id="PublicationRecord/179627" key="PublicationRecord-179627" name="19091394 Endocrine treatment, with or without radiotherapy, in locally advanced prostate cancer (SPCG-7/SFUO-3): an open randomised phase III trial."/>
+<artifact deprecated="true" id="PublicationRecord/179603" key="PublicationRecord-179603" name="19967827 Wonder woman was Argentine and her real name was Evita."/>
+<artifact deprecated="true" id="PublicationRecord/179626" key="PublicationRecord-179626" name="22056152 Combined androgen deprivation therapy and radiation therapy for locally advanced prostate cancer: a randomised, phase 3 trial."/>
+<artifact deprecated="true" id="PublicationRecord/179625" key="PublicationRecord-179625" name="22502942 Addition of radiotherapy to long-term androgen deprivation in locally advanced prostate cancer: an open randomised phase 3 trial."/>
+<artifact deprecated="true" id="PublicationRecord/179615" key="PublicationRecord-179615" name="23306100 Androgen-deprivation therapy alone or with docetaxel in non-castrate metastatic prostate cancer (GETUG-AFU 15): a randomised, open-label, phase 3 trial."/>
+<artifact deprecated="true" id="PublicationRecord/179623" key="PublicationRecord-179623" name="23452809 Long-term follow-up of a phase II trial of chemotherapy plus hormone therapy for biochemical relapse after definitive local therapy for prostate cancer."/>
+<artifact deprecated="true" id="PublicationRecord/267501" key="PublicationRecord-267501" name="23589542 Hypoglycemia and diabetes: a report of a workgroup of the American Diabetes Association and the Endocrine Society."/>
+<artifact deprecated="true" id="PublicationRecord/179629" key="PublicationRecord-179629" name="23604530 A phase II trial of androgen deprivation therapy (ADT) plus chemotherapy as initial treatment for local failures or advanced prostate cancer."/>
+<artifact deprecated="true" id="PublicationRecord/179624" key="PublicationRecord-179624" name="24598155 Long-term results of a phase II study with neoadjuvant docetaxel chemotherapy and complete androgen blockade in locally advanced and high-risk prostate cancer."/>
+<artifact deprecated="true" id="PublicationRecord/179617" key="PublicationRecord-179617" name="25301760 Survival with Newly Diagnosed Metastatic Prostate Cancer in the &#34;Docetaxel Era&#34;: Data from 917 Patients in the Control Arm of the STAMPEDE Trial (MRC PR08, CRUK/06/019)."/>
+<artifact deprecated="true" id="PublicationRecord/179622" key="PublicationRecord-179622" name="26002607 Should docetaxel be standard of care for patients with metastatic hormone-sensitive prostate cancer? Pro and contra."/>
+<artifact deprecated="true" id="PublicationRecord/179621" key="PublicationRecord-179621" name="26028518 Androgen deprivation therapy plus docetaxel and estramustine versus androgen deprivation therapy alone for high-risk localised prostate cancer (GETUG 12): a phase 3 randomised controlled trial."/>
+<artifact deprecated="true" id="PublicationRecord/179630" key="PublicationRecord-179630" name="26092557 Feasibility study of a randomized controlled trial comparing docetaxel chemotherapy and androgen deprivation therapy with sequential prostatic biopsies from patients with advanced non-castration-resistant prostate cancer."/>
+<artifact deprecated="true" id="PublicationRecord/179616" key="PublicationRecord-179616" name="26244877 Chemohormonal Therapy in Metastatic Hormone-Sensitive Prostate Cancer."/>
+<artifact deprecated="true" id="PublicationRecord/267500" key="PublicationRecord-267500" name="26502880 A novel nasal powder formulation of glucagon: toxicology studies in animal models."/>
+<artifact deprecated="true" id="PublicationRecord/267499" key="PublicationRecord-267499" name="26681725 Intranasal Glucagon for Treatment of Insulin-Induced Hypoglycemia in Adults With Type 1 Diabetes: A Randomized Crossover Noninferiority Study."/>
+<artifact deprecated="true" id="PublicationRecord/267498" key="PublicationRecord-267498" name="26859072 Emotional Distress in the Partners of Type 1 Diabetes Adults: Worries About Hypoglycemia and Other Key Concerns."/>
+<artifact deprecated="true" id="PublicationRecord/33089" key="PublicationRecord-33089" name="27222544 Metabolic Surgery in the Treatment Algorithm for Type 2 Diabetes: A Joint Statement by International Diabetes Organizations."/>
+<artifact deprecated="true" id="PublicationRecord/179613" key="PublicationRecord-179613" name="27308831 Efficacy and Safety of Combined Androgen Deprivation Therapy (ADT) and Docetaxel Compared with ADT Alone for Metastatic Hormone-Naive Prostate Cancer: A Systematic Review and Meta-Analysis."/>
+<artifact deprecated="true" id="PublicationRecord/267497" key="PublicationRecord-267497" name="27979893 6. Glycemic Targets."/>
+<artifact deprecated="true" id="PublicationRecord/179601" key="PublicationRecord-179601" name="29114761 Web Exclusives. Annals Story Slam - How Wonder Woman Became My Alter Ego."/>
+<artifact deprecated="true" id="PublicationRecord/179600" key="PublicationRecord-179600" name="29114762 Web Exclusives. Annals Story Slam - Wonder Woman Is a Cartoon Character."/>
+<artifact deprecated="true" id="PublicationRecord/179599" key="PublicationRecord-179599" name="29202628 &#34;I Kinda Feel Like Wonder Woman&#34;: An Interpretative Phenomenological Analysis of Pole Fitness and Positive Body Image."/>
+<artifact deprecated="true" id="PublicationRecord/179598" key="PublicationRecord-179598" name="29357271 Using Hawkeye from the Avengers to communicate on the eye."/>
+<artifact deprecated="true" id="PublicationRecord/179597" key="PublicationRecord-179597" name="29694275 A regressive formula of perversity: Wertham and the women of comics."/>
+<artifact deprecated="true" id="PublicationRecord/179596" key="PublicationRecord-179596" name="29694302 Introduction: &#34;Suffering Sappho!&#34;: Lesbian content and queer female characters in comics."/>
+<artifact deprecated="true" id="PublicationRecord/179595" key="PublicationRecord-179595" name="30467172 Finding my inner Wonder Woman."/>
+<artifact id="PublicationRecord/example-for-parachute-rct" key="PublicationRecord-306957" name="30545967 Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial."/>
+<artifact deprecated="true" id="PublicationRecord/179594" key="PublicationRecord-179594" name="34871555 What Can Wonder Woman Teach Radiologists?"/>
+<artifact deprecated="true" id="PublicationRecord/33399" key="PublicationRecord-33399" name="35243488 Bariatric surgery and cardiovascular disease: a systematic review and meta-analysis."/>
+<artifact deprecated="true" id="PublicationRecord/179605" key="PublicationRecord-179605" name="36491989 Another Georgia Wonder Woman: She Does More Astounding Tricks Than Did Lula Hurst."/>
+<artifact deprecated="true" id="PublicationRecord/264329" key="PublicationRecord-264329" name="37024129 Benefits and harms of drug treatment for type 2 diabetes: systematic review and network meta-analysis of randomised controlled trials."/>
+<artifact deprecated="true" id="PublicationRecord/179604" key="PublicationRecord-179604" name="6907780 Career guide: to change what needs changing...doesn't take Wonder Woman."/>
 <artifact deprecated="true" id="ResearchStudy/267245" key="ResearchStudy-267245" name="A Study of Nasal Glucagon (LY900018) in Japanese Participants With Diabetes Mellitus - M11 Example"/>
 <artifact deprecated="true" id="Evidence/179683" key="Evidence-179683" name="ADAS-Cog(11) EndpointAnalysisPlan from PHUSE Lilly Redacted Protocol - EBMonFHIR IG Version"/>
 <artifact deprecated="true" id="StructureDefinition/adaptation" key="StructureDefinition-adaptation" name="Adaptation"/>
@@ -66,7 +66,7 @@
 <artifact deprecated="true" id="Evidence/307251" key="Evidence-307251" name="Altitude with comparator"/>
 <artifact deprecated="true" id="Evidence/307250" key="Evidence-307250" name="Altitude with intervention"/>
 <artifact deprecated="true" id="Group/306658" key="Group-306658" name="Analyzed Group PARACHUTE Trial"/>
-<artifact deprecated="true" id="Citation/7636" key="Citation-7636" name="Anticoagulation for COVID-19 Combined RCTs in NEJM"/>
+<artifact deprecated="true" id="PublicationRecord/7636" key="PublicationRecord-7636" name="Anticoagulation for COVID-19 Combined RCTs in NEJM"/>
 <artifact deprecated="true" id="StructureDefinition/artifact-approvalDate" key="StructureDefinition-artifact-approvalDate" name="ArtifactApprovalDate"/>
 <artifact deprecated="true" id="StructureDefinition/artifact-assessment-compared" key="StructureDefinition-artifact-assessment-compared" name="ArtifactAssessmentCompared"/>
 <artifact deprecated="true" id="StructureDefinition/artifact-assessment-date-as-rating" key="StructureDefinition-artifact-assessment-date-as-rating" name="ArtifactAssessmentDateAsRating"/>
@@ -84,10 +84,10 @@
 <artifact deprecated="true" id="List/312201" key="List-312201" name="BaselineVariablesList: Association of Bariatric Surgery vs Medical Obesity Treatment With Long-term Medical Complications and Obesity-Related Comorbidities (2018 Norwegian Cohort)"/>
 <artifact deprecated="true" id="ResearchStudy/264321" key="ResearchStudy-264321" name="Benefits and harms of drug treatment for type 2 diabetes: systematic review and network meta-analysis of randomised controlled trials"/>
 <artifact deprecated="true" id="StructureDefinition/book-citation" key="StructureDefinition-book-citation" name="BookCitation"/>
-<artifact deprecated="true" id="Citation/121719" key="Citation-121719" name="BookCitation: Crossing the Quality Chasm: A New Health System for the 21st Century"/>
+<artifact deprecated="true" id="PublicationRecord/121719" key="PublicationRecord-121719" name="BookCitation: Crossing the Quality Chasm: A New Health System for the 21st Century"/>
 <artifact deprecated="true" id="StructureDefinition/book-part-citation" key="StructureDefinition-book-part-citation" name="BookPartCitation"/>
-<artifact deprecated="true" id="Citation/139859" key="Citation-139859" name="BookPartCitation: Chapter 3 of Crossing the Quality Chasm: A New Health System for the 21st Century"/>
-<artifact deprecated="true" id="Citation/139860" key="Citation-139860" name="BookPartCitation: Chapter 3 of Crossing the Quality Chasm: A New Health System for the 21st Century - without baseCitation"/>
+<artifact deprecated="true" id="PublicationRecord/139859" key="PublicationRecord-139859" name="BookPartCitation: Chapter 3 of Crossing the Quality Chasm: A New Health System for the 21st Century"/>
+<artifact deprecated="true" id="PublicationRecord/139860" key="PublicationRecord-139860" name="BookPartCitation: Chapter 3 of Crossing the Quality Chasm: A New Health System for the 21st Century - without baseCitation"/>
 <artifact deprecated="true" id="Evidence/179690" key="Evidence-179690" name="CIBIC+ EndpointAnalysisPlan from PHUSE Lilly Redacted Protocol - EBMonFHIR IG Version"/>
 <artifact deprecated="true" id="Group/12714" key="Group-12714" name="COVID_19PneumoniaHospitalizedAdult"/>
 <artifact deprecated="true" id="Group/346486" key="Group-346486" name="CTIS2024-516402-32-00 Eligibility Criteria"/>
@@ -115,32 +115,32 @@
 <artifact deprecated="true" id="StructureDefinition/characteristic-timing" key="StructureDefinition-characteristic-timing" name="CharacteristicTiming"/>
 <artifact deprecated="true" id="StructureDefinition/characteristic-value-expression" key="StructureDefinition-characteristic-value-expression" name="CharacteristicValueExpression"/>
 <artifact deprecated="true" id="StructureDefinition/characteristic-value-uri" key="StructureDefinition-characteristic-value-uri" name="CharacteristicValueUri"/>
-<artifact id="StructureDefinition/Citation" key="StructureDefinition-Citation" name="Citation"/>
-<artifact deprecated="true" id="Citation/247416" key="Citation-247416" name="Citation for Composition: ComparativeEvidenceReport: Association of Bariatric Surgery vs Medical Obesity Treatment With Long-term Medical Complications and Obesity-Related Comorbidities (2018 Norwegian Cohort)"/>
-<artifact deprecated="true" id="Citation/58" key="Citation-58" name="Citation for FEvIR Evidence 55: 14-day mortality remdesivir vs placebo meta-analysis (ACTT-1, Wang et al, WHO SOLIDARITY)"/>
-<artifact deprecated="true" id="Citation/7638" key="Citation-7638" name="Citation for FEvIR Evidence 7637: Critically appraised summary of primary outcome of multi-platform RCT of anticoagulation for non-critically ill COVID-19"/>
-<artifact id="List/Citation-examples" key="List-Citation-examples" name="Citation-examples"/>
-<artifact id="List/Citation-operations" key="List-Citation-operations" name="Citation-operations"/>
-<artifact id="SearchParameter/Citation-classification-type" key="SearchParameter-Citation-classification-type" name="CitationClassification-typeSearchParam"/>
-<artifact id="SearchParameter/Citation-classification" key="SearchParameter-Citation-classification" name="CitationClassificationSearchParam"/>
-<artifact id="SearchParameter/Citation-classifier" key="SearchParameter-Citation-classifier" name="CitationClassifierSearchParam"/>
-<artifact id="SearchParameter/Citation-context-quantity" key="SearchParameter-Citation-context-quantity" name="CitationContext-quantitySearchParam"/>
-<artifact id="SearchParameter/Citation-context-type-quantity" key="SearchParameter-Citation-context-type-quantity" name="CitationContext-type-quantitySearchParam"/>
-<artifact id="SearchParameter/Citation-context-type-value" key="SearchParameter-Citation-context-type-value" name="CitationContext-type-valueSearchParam"/>
-<artifact id="SearchParameter/Citation-context-type" key="SearchParameter-Citation-context-type" name="CitationContext-typeSearchParam"/>
-<artifact id="SearchParameter/Citation-context" key="SearchParameter-Citation-context" name="CitationContextSearchParam"/>
-<artifact id="SearchParameter/Citation-date" key="SearchParameter-Citation-date" name="CitationDateSearchParam"/>
-<artifact id="SearchParameter/Citation-description" key="SearchParameter-Citation-description" name="CitationDescriptionSearchParam"/>
-<artifact id="SearchParameter/Citation-effective" key="SearchParameter-Citation-effective" name="CitationEffectiveSearchParam"/>
-<artifact id="SearchParameter/Citation-experimental" key="SearchParameter-Citation-experimental" name="CitationExperimentalSearchParam"/>
-<artifact id="SearchParameter/Citation-identifier" key="SearchParameter-Citation-identifier" name="CitationIdentifierSearchParam"/>
-<artifact id="SearchParameter/Citation-jurisdiction" key="SearchParameter-Citation-jurisdiction" name="CitationJurisdictionSearchParam"/>
-<artifact id="SearchParameter/Citation-name" key="SearchParameter-Citation-name" name="CitationNameSearchParam"/>
-<artifact id="SearchParameter/Citation-publisher" key="SearchParameter-Citation-publisher" name="CitationPublisherSearchParam"/>
-<artifact id="SearchParameter/Citation-status" key="SearchParameter-Citation-status" name="CitationStatusSearchParam"/>
-<artifact id="SearchParameter/Citation-title" key="SearchParameter-Citation-title" name="CitationTitleSearchParam"/>
-<artifact id="SearchParameter/Citation-url" key="SearchParameter-Citation-url" name="CitationUrlSearchParam"/>
-<artifact id="SearchParameter/Citation-version" key="SearchParameter-Citation-version" name="CitationVersionSearchParam"/>
+<artifact id="StructureDefinition/PublicationRecord" key="StructureDefinition-PublicationRecord" name="PublicationRecord"/>
+<artifact deprecated="true" id="PublicationRecord/247416" key="PublicationRecord-247416" name="PublicationRecord for Composition: ComparativeEvidenceReport: Association of Bariatric Surgery vs Medical Obesity Treatment With Long-term Medical Complications and Obesity-Related Comorbidities (2018 Norwegian Cohort)"/>
+<artifact deprecated="true" id="PublicationRecord/58" key="PublicationRecord-58" name="PublicationRecord for FEvIR Evidence 55: 14-day mortality remdesivir vs placebo meta-analysis (ACTT-1, Wang et al, WHO SOLIDARITY)"/>
+<artifact deprecated="true" id="PublicationRecord/7638" key="PublicationRecord-7638" name="PublicationRecord for FEvIR Evidence 7637: Critically appraised summary of primary outcome of multi-platform RCT of anticoagulation for non-critically ill COVID-19"/>
+<artifact id="List/PublicationRecord-examples" key="List-PublicationRecord-examples" name="PublicationRecord-examples"/>
+<artifact id="List/PublicationRecord-operations" key="List-PublicationRecord-operations" name="PublicationRecord-operations"/>
+<artifact id="SearchParameter/PublicationRecord-classification-type" key="SearchParameter-PublicationRecord-classification-type" name="CitationClassification-typeSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-classification" key="SearchParameter-PublicationRecord-classification" name="CitationClassificationSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-classifier" key="SearchParameter-PublicationRecord-classifier" name="CitationClassifierSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-context-quantity" key="SearchParameter-PublicationRecord-context-quantity" name="CitationContext-quantitySearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-context-type-quantity" key="SearchParameter-PublicationRecord-context-type-quantity" name="CitationContext-type-quantitySearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-context-type-value" key="SearchParameter-PublicationRecord-context-type-value" name="CitationContext-type-valueSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-context-type" key="SearchParameter-PublicationRecord-context-type" name="CitationContext-typeSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-context" key="SearchParameter-PublicationRecord-context" name="CitationContextSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-date" key="SearchParameter-PublicationRecord-date" name="CitationDateSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-description" key="SearchParameter-PublicationRecord-description" name="CitationDescriptionSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-effective" key="SearchParameter-PublicationRecord-effective" name="CitationEffectiveSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-experimental" key="SearchParameter-PublicationRecord-experimental" name="CitationExperimentalSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-identifier" key="SearchParameter-PublicationRecord-identifier" name="CitationIdentifierSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-jurisdiction" key="SearchParameter-PublicationRecord-jurisdiction" name="CitationJurisdictionSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-name" key="SearchParameter-PublicationRecord-name" name="CitationNameSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-publisher" key="SearchParameter-PublicationRecord-publisher" name="CitationPublisherSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-status" key="SearchParameter-PublicationRecord-status" name="CitationStatusSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-title" key="SearchParameter-PublicationRecord-title" name="CitationTitleSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-url" key="SearchParameter-PublicationRecord-url" name="CitationUrlSearchParam"/>
+<artifact id="SearchParameter/PublicationRecord-version" key="SearchParameter-PublicationRecord-version" name="CitationVersionSearchParam"/>
 <artifact deprecated="true" id="StructureDefinition/cite-as" key="StructureDefinition-cite-as" name="CiteAs"/>
 <artifact deprecated="true" id="StructureDefinition/classification" key="StructureDefinition-classification" name="Classification"/>
 <artifact deprecated="true" id="ArtifactAssessment/179448" key="ArtifactAssessment-179448" name="Classification: Study Design for Association of Bariatric Surgery with Complications and Comorbidities JAMA 2018 Norwegian Cohort"/>
@@ -238,18 +238,18 @@
 <artifact deprecated="true" id="CodeSystem/181451" key="CodeSystem-181451" name="DataDictionary: Measuring the Rate of Scientific Knowledge Transfer"/>
 <artifact deprecated="true" id="CodeSystem/179650" key="CodeSystem-179650" name="DataDictionary: phs003190"/>
 <artifact deprecated="true" id="StructureDefinition/database-citation" key="StructureDefinition-database-citation" name="DatabaseCitation"/>
-<artifact deprecated="true" id="Citation/29812" key="Citation-29812" name="DatabaseCitation: Citation for FEvIR Platform"/>
+<artifact deprecated="true" id="PublicationRecord/29812" key="PublicationRecord-29812" name="DatabaseCitation: PublicationRecord for FEvIR Platform"/>
 <artifact deprecated="true" id="StructureDefinition/database-entry-citation" key="StructureDefinition-database-entry-citation" name="DatabaseEntryCitation"/>
-<artifact deprecated="true" id="Citation/179558" key="Citation-179558" name="DatabaseEntryCitation: ComparativeEvidenceReport: Association of Bariatric Surgery vs Medical Obesity Treatment With Long-term Medical Complications and Obesity-Related Comorbidities (2018 Norwegian Cohort)"/>
+<artifact deprecated="true" id="PublicationRecord/179558" key="PublicationRecord-179558" name="DatabaseEntryCitation: ComparativeEvidenceReport: Association of Bariatric Surgery vs Medical Obesity Treatment With Long-term Medical Complications and Obesity-Related Comorbidities (2018 Norwegian Cohort)"/>
 <artifact deprecated="true" id="StructureDefinition/dataset-citation" key="StructureDefinition-dataset-citation" name="DatasetCitation"/>
-<artifact id="Citation/example-dataset-citation" key="Citation-179559" name="DatasetCitation: Extrachromosomal DNA Amplification Contributes to Small Cell Lung Cancer Heterogeneity and is Associated with Worse Outcomes"/>
+<artifact id="PublicationRecord/example-dataset-citation" key="PublicationRecord-179559" name="DatasetCitation: Extrachromosomal DNA Amplification Contributes to Small Cell Lung Cancer Heterogeneity and is Associated with Worse Outcomes"/>
 <artifact deprecated="true" id="StructureDefinition/date-as-rating" key="StructureDefinition-date-as-rating" name="DateAsRating"/>
 <artifact deprecated="true" id="ArtifactAssessment/181452" key="ArtifactAssessment-155969" name="DateOfFirstPublication Classification of FOI 153881 by Rachel Couban"/>
 <artifact deprecated="true" id="Evidence/318274" key="Evidence-318274" name="Death or Major Traumatic Injury 30 days after Impact comparing intervention vs. comparator"/>
 <artifact deprecated="true" id="Evidence/318266" key="Evidence-318266" name="Death or Major Traumatic Injury 30 days after Impact with comparator"/>
 <artifact deprecated="true" id="Evidence/312175" key="Evidence-312175" name="Death or Major Traumatic Injury 30 days after Impact with intervention"/>
 <artifact deprecated="true" id="Evidence/318273" key="Evidence-318273" name="Death or Major Traumatic Injury on Impact comparing intervention vs. comparator"/>
-<artifact deprecated="true" id="Citation/153881" key="Citation-153881" name="Delany-Moretlwe 2022 clinical trial"/>
+<artifact deprecated="true" id="PublicationRecord/153881" key="PublicationRecord-153881" name="Delany-Moretlwe 2022 clinical trial"/>
 <artifact deprecated="true" id="Group/265092" key="Group-265092" name="Diabetes treatment medication"/>
 <artifact deprecated="true" id="StructureDefinition/dichotomous-intended-outcome" key="StructureDefinition-dichotomous-intended-outcome" name="DichotomousIntendedOutcome"/>
 <artifact deprecated="true" id="EvidenceVariable/298615" key="EvidenceVariable-298615" name="DichotomousIntendedOutcome: Death or Major Traumatic Injury within 30 days"/>
@@ -384,9 +384,9 @@
 <artifact deprecated="true" id="EvidenceVariable/156673" key="EvidenceVariable-156673" name="Investigator-by-treatment interaction for ADAS-Cog(11) ANCOVA"/>
 <artifact deprecated="true" id="ArtifactAssessment/179698" key="ArtifactAssessment-179698" name="Joanne Dehnbostel's Adaptation Report of Recommendation: ADA Obesity Management Recommendation 8.16"/>
 <artifact deprecated="true" id="StructureDefinition/journal-article-citation" key="StructureDefinition-journal-article-citation" name="JournalArticleCitation"/>
-<artifact deprecated="true" id="Citation/32137" key="Citation-32137" name="JournalArticleCitation: ADA 2021 Standards of Medical Care 8. Obesity Management for the Treatment of Type 2 Diabetes"/>
-<artifact deprecated="true" id="Citation/104116" key="Citation-104116" name="JournalArticleCitation: Association of Bariatric Surgery with Complications and Comorbidities JAMA 2018 Norwegian Cohort"/>
-<artifact deprecated="true" id="Citation/33090" key="Citation-33090" name="JournalArticleCitation: Metabolic Surgery in the Treatment Algorithm for Type 2 Diabetes: A Joint Statement by International Diabetes Organizations"/>
+<artifact deprecated="true" id="PublicationRecord/32137" key="PublicationRecord-32137" name="JournalArticleCitation: ADA 2021 Standards of Medical Care 8. Obesity Management for the Treatment of Type 2 Diabetes"/>
+<artifact deprecated="true" id="PublicationRecord/104116" key="PublicationRecord-104116" name="JournalArticleCitation: Association of Bariatric Surgery with Complications and Comorbidities JAMA 2018 Norwegian Cohort"/>
+<artifact deprecated="true" id="PublicationRecord/33090" key="PublicationRecord-33090" name="JournalArticleCitation: Metabolic Surgery in the Treatment Algorithm for Type 2 Diabetes: A Joint Statement by International Diabetes Organizations"/>
 <artifact deprecated="true" id="Group/297488" key="Group-297488" name="Jumping from aircraft with empty backpack"/>
 <artifact deprecated="true" id="Group/297486" key="Group-297486" name="Jumping from aircraft with parachute"/>
 <artifact deprecated="true" id="ArtifactAssessment/179469" key="ArtifactAssessment-179469" name="Justification for Recommendation: ADA Obesity Management Recommendation 8.16"/>
@@ -479,7 +479,7 @@
 <artifact deprecated="true" id="EvidenceVariable/282880" key="EvidenceVariable-282880" name="NHANES SEQN Respondent Sequence Number"/>
 <artifact deprecated="true" id="Group/282899" key="Group-282899" name="NHANES WTSAF2YR Variable Definition"/>
 <artifact deprecated="true" id="EvidenceVariable/282898" key="EvidenceVariable-282898" name="NHANES WTSAF2YR: Fasting Subsample 2 Year MEC Weight"/>
-<artifact id="Citation/citation-example-research-doi" key="Citation-citation-example-research-doi" name="NInFEA Citation"/>
+<artifact id="PublicationRecord/citation-example-research-doi" key="PublicationRecord-citation-example-research-doi" name="NInFEA PublicationRecord"/>
 <artifact deprecated="true" id="Composition/342828" key="Composition-342828" name="NT-proBNP Study Data Dictionary"/>
 <artifact deprecated="true" id="StructureDefinition/net-effect-contribution" key="StructureDefinition-net-effect-contribution" name="NetEffectContribution"/>
 <artifact deprecated="true" id="Evidence/179591" key="Evidence-179591" name="NetEffectContribution: Additional GI surgical procedure for Example for GIN 2022"/>
@@ -611,7 +611,7 @@
 <artifact deprecated="true" id="PlanDefinition/179468" key="PlanDefinition-179468" name="PlanDefinition for Recommendation: ADA Obesity Management Recommendation 8.16"/>
 <artifact deprecated="true" id="PlanDefinition/179554" key="PlanDefinition-179554" name="PlanDefinition for Recommendation: ADA Obesity Management Recommendation 8.17"/>
 <artifact deprecated="true" id="StructureDefinition/preprint-citation" key="StructureDefinition-preprint-citation" name="PreprintCitation"/>
-<artifact deprecated="true" id="Citation/5296" key="Citation-5296" name="PreprintCitation: Nigella Sativa for COVID-19 OSF Preprint"/>
+<artifact deprecated="true" id="PublicationRecord/5296" key="PublicationRecord-5296" name="PreprintCitation: Nigella Sativa for COVID-19 OSF Preprint"/>
 <artifact deprecated="true" id="Evidence/318264" key="Evidence-318264" name="Rate of Death or Major Traumatic Injury on Impact with comparator"/>
 <artifact deprecated="true" id="Evidence/312173" key="Evidence-312173" name="Rate of Death or Major Traumatic Injury on Impact with intervention"/>
 <artifact deprecated="true" id="StructureDefinition/rating" key="StructureDefinition-rating" name="Rating"/>
@@ -627,8 +627,8 @@
 <artifact deprecated="true" id="Group/32139" key="Group-32139" name="RecommendationEligibilityCriteria: Eligibility Criteria for Bariatric Surgery (ADA Recommendation 8.16)"/>
 <artifact deprecated="true" id="StructureDefinition/recommendation-justification" key="StructureDefinition-recommendation-justification" name="RecommendationJustification"/>
 <artifact deprecated="true" id="StructureDefinition/recommendation-plan" key="StructureDefinition-recommendation-plan" name="RecommendationPlan"/>
-<artifact id="ValueSet/citation-status-type" key="ValueSet-citation-status-type" name="Citation Status Type"/>
-<artifact id="CodeSystem/citation-status-type" key="CodeSystem-citation-status-type" name="Citation Status Type CodeSystem"/>
+<artifact id="ValueSet/citation-status-type" key="ValueSet-citation-status-type" name="PublicationRecord Status Type"/>
+<artifact id="CodeSystem/citation-status-type" key="CodeSystem-citation-status-type" name="PublicationRecord Status Type CodeSystem"/>
 <artifact deprecated="true" id="StructureDefinition/relates-to" key="StructureDefinition-relates-to" name="RelatesTo"/>
 <artifact deprecated="true" id="StructureDefinition/relates-to-with-quotation" key="StructureDefinition-relates-to-with-quotation" name="RelatesToWithQuotation"/>
 <artifact deprecated="true" id="StructureDefinition/relative-outcome-importance" key="StructureDefinition-relative-outcome-importance" name="RelativeOutcomeImportance"/>
@@ -668,7 +668,7 @@
 <artifact deprecated="true" id="StructureDefinition/soa-plandefinition" key="StructureDefinition-soa-plandefinition" name="SoaPlanDefinition"/>
 <artifact deprecated="true" id="PlanDefinition/181450" key="PlanDefinition-181450" name="SoaPlanDefinition: Follow-up assessment 3 months after study start"/>
 <artifact deprecated="true" id="StructureDefinition/software-citation" key="StructureDefinition-software-citation" name="SoftwareCitation"/>
-<artifact deprecated="true" id="Citation/179560" key="Citation-179560" name="SoftwareCitation: Computable Publishing®: ClinicalTrials.gov-to-FEvIR Converter"/>
+<artifact deprecated="true" id="PublicationRecord/179560" key="PublicationRecord-179560" name="SoftwareCitation: Computable Publishing®: ClinicalTrials.gov-to-FEvIR Converter"/>
 <artifact deprecated="true" id="Group/236534" key="Group-236534" name="Standard care Group in Adults with type 2 diabetes with moderate CV risk"/>
 <artifact deprecated="true" id="StructureDefinition/statistic-model" key="StructureDefinition-statistic-model" name="StatisticModel"/>
 <artifact deprecated="true" id="StructureDefinition/statistic-model-applied" key="StructureDefinition-statistic-model-applied" name="StatisticModelApplied"/>
@@ -678,7 +678,7 @@
 <artifact deprecated="true" id="StructureDefinition/statistic-model-value-codeableconcept" key="StructureDefinition-statistic-model-value-codeableconcept" name="StatisticModelValueCodeableConcept"/>
 <artifact deprecated="true" id="StructureDefinition/statistic-model-value-quantity" key="StructureDefinition-statistic-model-value-quantity" name="StatisticModelValueQuantity"/>
 <artifact deprecated="true" id="StructureDefinition/statistic-model-value-range" key="StructureDefinition-statistic-model-value-range" name="StatisticModelValueRange"/>
-<artifact deprecated="true" id="Citation/33400" key="Citation-33400" name="StudyCitation: 2022 Systematic Review of bariatric surgery mortality effect 35243488"/>
+<artifact deprecated="true" id="PublicationRecord/33400" key="PublicationRecord-33400" name="StudyCitation: 2022 Systematic Review of bariatric surgery mortality effect 35243488"/>
 <artifact deprecated="true" id="StructureDefinition/study-eligibility-criteria" key="StructureDefinition-study-eligibility-criteria" name="StudyEligibilityCriteria"/>
 <artifact deprecated="true" id="Group/172461" key="Group-172461" name="StudyEligibilityCriteria: Eligibility Criteria for DIBASY Trial"/>
 <artifact deprecated="true" id="Group/171819" key="Group-171819" name="StudyEligibilityCriteria: Obese patients ≥ 18 years old"/>
@@ -726,7 +726,7 @@
 <artifact deprecated="true" id="Evidence/298048" key="Evidence-298048" name="Velocity with comparator"/>
 <artifact deprecated="true" id="Evidence/298047" key="Evidence-298047" name="Velocity with intervention"/>
 <artifact deprecated="true" id="StructureDefinition/web-page-citation" key="StructureDefinition-web-page-citation" name="WebPageCitation"/>
-<artifact deprecated="true" id="Citation/179561" key="Citation-179561" name="WebPageCitation: A HEvKA Update Summary"/>
+<artifact deprecated="true" id="PublicationRecord/179561" key="PublicationRecord-179561" name="WebPageCitation: A HEvKA Update Summary"/>
 <artifact deprecated="true" id="EvidenceVariable/307244" key="EvidenceVariable-307244" name="Weight"/>
 <artifact deprecated="true" id="Evidence/307253" key="Evidence-307253" name="Weight with comparator"/>
 <artifact deprecated="true" id="Evidence/307252" key="Evidence-307252" name="Weight with intervention"/>
@@ -737,7 +737,7 @@
 <page key="many" name="(many)"/>
 <page deprecated="true" key="artifactassessment" name="ArtifactAssessment Profiles"/>
 <page key="artifacts" name="Artifacts Summary"/>
-<page deprecated="true" key="citation" name="Citation Profiles"/>
+<page deprecated="true" key="citation" name="PublicationRecord Profiles"/>
 <page deprecated="true" key="composition" name="Composition Profiles"/>
 <page key="downloads" name="Downloads"/>
 <page deprecated="true" key="evidence" name="Evidence Profiles"/>

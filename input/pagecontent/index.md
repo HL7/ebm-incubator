@@ -6,7 +6,7 @@ The FHIR Resources for Evidence Based Medicine Knowledge Assets ('EBMonFHIR') Im
 
 THIS EBMonFHIR Incubator Implementation Guide is used to support Additional Resources beyond those in FHIR R6 that are profiled in the EBMonFHIR Implementation Guide.
 
-The first Additional Resource is the Citation Resource. The scope of the Citation Resource is to describe any aspect of identification, location, authorship, and contributorship to a journal article, report, document, resource, or other knowledge artifact. Citations are used extensively in scholarly communication and important for documenting the evidence or source behind statements of fact, opinion, and interpretation. Citations are also used for acknowledgement of the contributions of individuals and groups to the creation and advancement of knowledge. 
+The first Additional Resource is the PublicationRecord Resource. The scope of the PublicationRecord Resource is to describe any aspect of identification, location, authorship, and contributorship to a journal article, report, document, resource, or other knowledge artifact. Citations are used extensively in scholarly communication and important for documenting the evidence or source behind statements of fact, opinion, and interpretation. Citations are also used for acknowledgement of the contributions of individuals and groups to the creation and advancement of knowledge. 
 
 ## To Learn About FHIR
 
@@ -32,11 +32,11 @@ This implementation guide is based on the Continuous Integration Build of the HL
 
 ## Resources Used in the EBMonFHIR Incubator IG
 
-### Citation Resource
+### PublicationRecord Resource
 
-The <b>Citation Resource</b> enables reference to any knowledge artifact for purposes of identification and attribution. The <b>Citation Resource</b> supports existing reference structures and developing publication practices such as versioning, expressing complex contributorship roles, and referencing computable resources.
+The <b>PublicationRecord Resource</b> enables reference to any knowledge artifact for purposes of identification and attribution. The <b>PublicationRecord Resource</b> supports existing reference structures and developing publication practices such as versioning, expressing complex contributorship roles, and referencing computable resources.
 
-Profiles of <b>Citation Resource</b> in the EBMonFHIR IG include:
+Profiles of <b>PublicationRecord Resource</b> in the EBMonFHIR IG include:
 - <b>JournalArticleCitation</b>
 - <b>BookCitation</b>
 - <b>BookPartCitation</b>
