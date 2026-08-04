@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<PublicationRecord xmlns="http://hl7.org/fhir">
+<PublicationRecord xmlns="http://hl7.org/fhir" resourceDefinition="http://hl7.org/fhir/StructureDefinition/PublicationRecord|1.0.0-ballot">
   <id value="example-for-parachute-rct"/>
   <meta>
     <versionId value="2"/>
@@ -622,8 +622,8 @@
     <type>
       <coding>
         <system value="http://terminology.hl7.org/CodeSystem/citation-classification-type"/>
-        <code value="publicationrecord-source"/>
-        <display value="PublicationRecord Source"/>
+        <code value="citation-source"/>
+        <display value="Citation Source"/>
       </coding>
     </type>
     <classifier>
@@ -649,14 +649,14 @@
   </classification>
   <currentState>
     <coding>
-      <system value="http://hl7.org/fhir/publicationrecord-status-type"/>
+      <system value="http://hl7.org/fhir/citation-status-type"/>
       <code value="medline-medline"/>
-      <display value="Medline PublicationRecord Status of Medline"/>
+      <display value="Medline Citation Status of Medline"/>
     </coding>
   </currentState>
   <currentState>
     <coding>
-      <system value="http://hl7.org/fhir/publicationrecord-status-type"/>
+      <system value="http://hl7.org/fhir/citation-status-type"/>
       <code value="pubmed-publication-status-epublish"/>
       <display value="PubMed PublicationStatus of epublish"/>
     </coding>
@@ -664,7 +664,7 @@
   <statusDate>
     <activity>
       <coding>
-        <system value="http://hl7.org/fhir/publicationrecord-status-type"/>
+        <system value="http://hl7.org/fhir/citation-status-type"/>
         <code value="pubmed-pubstatus-entrez"/>
         <display value="PubMed Pubstatus of Entrez"/>
       </coding>
@@ -676,7 +676,7 @@
   <statusDate>
     <activity>
       <coding>
-        <system value="http://hl7.org/fhir/publicationrecord-status-type"/>
+        <system value="http://hl7.org/fhir/citation-status-type"/>
         <code value="pubmed-pubstatus-pubmed"/>
         <display value="PubMed Pubstatus of Pubmed"/>
       </coding>
@@ -688,7 +688,7 @@
   <statusDate>
     <activity>
       <coding>
-        <system value="http://hl7.org/fhir/publicationrecord-status-type"/>
+        <system value="http://hl7.org/fhir/citation-status-type"/>
         <code value="pubmed-pubstatus-medline"/>
         <display value="PubMed Pubstatus of Medline"/>
       </coding>
@@ -700,7 +700,7 @@
   <statusDate>
     <activity>
       <coding>
-        <system value="http://hl7.org/fhir/publicationrecord-status-type"/>
+        <system value="http://hl7.org/fhir/citation-status-type"/>
         <code value="pubmed-pubstatus-pmc-release"/>
         <display value="PubMed Pubstatus of PMC release"/>
       </coding>
@@ -791,7 +791,6 @@
       </classifier>
       <publicationrecord value="Knapik J, Steelman R. Risk factors for injuries during military static-line airborne operations: a systematic review and meta-analysis. J Athl Train 2016;51:962-80. 10.4085/1062-6050-51.9.10 "/>
       <targetReference>
-        <reference value="https://pubmed.ncbi.nlm.nih.gov/28068166/"/>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
           <value value="28068166"/>
@@ -818,7 +817,6 @@
       </classifier>
       <publicationrecord value="Ellitsgaard N. Parachuting injuries: a study of 110,000 sports jumps. Br J Sports Med 1987;21:13-7. 10.1136/bjsm.21.1.13 "/>
       <targetReference>
-        <reference value="https://pubmed.ncbi.nlm.nih.gov/3580720/"/>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
           <value value="3580720"/>
@@ -855,7 +853,6 @@
       </classifier>
       <publicationrecord value="Echt DS, Liebson PR, Mitchell LB, et al. Mortality and morbidity in patients receiving encainide, flecainide, or placebo. The Cardiac Arrhythmia Suppression Trial. N Engl J Med 1991;324:781-8. 10.1056/NEJM199103213241201 "/>
       <targetReference>
-        <reference value="https://pubmed.ncbi.nlm.nih.gov/1900101/"/>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
           <value value="1900101"/>
@@ -882,7 +879,6 @@
       </classifier>
       <publicationrecord value="Rossouw JE, Anderson GL, Prentice RL, et al. Writing Group for the Women’s Health Initiative Investigators Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results From the Women’s Health Initiative randomized controlled trial. JAMA 2002;288:321-33. 10.1001/jama.288.3.321 "/>
       <targetReference>
-        <reference value="https://pubmed.ncbi.nlm.nih.gov/12117397/"/>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
           <value value="12117397"/>
@@ -919,7 +915,6 @@
       </classifier>
       <publicationrecord value="Baker SP, O’Neill B, Haddon W, Jr, Long WB. The injury severity score: a method for describing patients with multiple injuries and evaluating emergency care. J Trauma 1974;14:187-96. 10.1097/00005373-197403000-00001 "/>
       <targetReference>
-        <reference value="https://pubmed.ncbi.nlm.nih.gov/4814394/"/>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
           <value value="4814394"/>
@@ -946,7 +941,6 @@
       </classifier>
       <publicationrecord value="Ware J, Jr, Kosinski M, Keller SD. A 12-Item Short-Form Health Survey: construction of scales and preliminary tests of reliability and validity. Med Care 1996;34:220-33. 10.1097/00005650-199603000-00003 "/>
       <targetReference>
-        <reference value="https://pubmed.ncbi.nlm.nih.gov/8628042/"/>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
           <value value="8628042"/>
@@ -973,7 +967,6 @@
       </classifier>
       <publicationrecord value="Schwartz AL, Landon BE, Elshaug AG, Chernew ME, McWilliams JM. Measuring low-value care in Medicare. JAMA Intern Med 2014;174:1067-76. 10.1001/jamainternmed.2014.1541 "/>
       <targetReference>
-        <reference value="https://pubmed.ncbi.nlm.nih.gov/24819824/"/>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
           <value value="24819824"/>
@@ -1000,7 +993,6 @@
       </classifier>
       <publicationrecord value="Kunz R, Oxman AD. The unpredictability paradox: review of empirical comparisons of randomised and non--randomised clinical trials. BMJ 1998;317:1185-90. 10.1136/bmj.317.7167.1185 "/>
       <targetReference>
-        <reference value="https://pubmed.ncbi.nlm.nih.gov/9794851/"/>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
           <value value="9794851"/>
@@ -1027,7 +1019,6 @@
       </classifier>
       <publicationrecord value="Nallamothu BK, Hayward RA, Bates ER. Beyond the randomized clinical trial: the role of effectiveness studies in evaluating cardiovascular therapies. Circulation 2008;118:1294-303. 10.1161/CIRCULATIONAHA.107.703579 "/>
       <targetReference>
-        <reference value="https://pubmed.ncbi.nlm.nih.gov/18794402/"/>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
           <value value="18794402"/>
@@ -1054,7 +1045,6 @@
       </classifier>
       <publicationrecord value="Kennedy-Martin T, Curtis S, Faries D, Robinson S, Johnston J. A literature review on the representativeness of randomized controlled trial samples and implications for the external validity of trial results. Trials 2015;16:495. 10.1186/s13063-015-1023-4 "/>
       <targetReference>
-        <reference value="https://pubmed.ncbi.nlm.nih.gov/26530985/"/>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
           <value value="26530985"/>
@@ -1081,7 +1071,6 @@
       </classifier>
       <publicationrecord value="Hayes MJ, Kaestner V, Mailankody S, Prasad V. Most medical practices are not parachutes: a publicationrecord analysis of practices felt by biomedical authors to be analogous to parachutes. CMAJ Open 2018;6:E31-8. 10.9778/cmajo.20170088 "/>
       <targetReference>
-        <reference value="https://pubmed.ncbi.nlm.nih.gov/29343497/"/>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
           <value value="29343497"/>
@@ -1118,7 +1107,6 @@
       </classifier>
       <publicationrecord value="Al-Lamee R, Thompson D, Dehbi H-M, et al. ORBITA investigators Percutaneous coronary intervention in stable angina (ORBITA): a double-blind, randomised controlled trial. Lancet 2018;391:31-40. 10.1016/S0140-6736(17)32714-9 "/>
       <targetReference>
-        <reference value="https://pubmed.ncbi.nlm.nih.gov/29103656/"/>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
           <value value="29103656"/>
@@ -1146,7 +1134,6 @@
       </classifier>
       <publicationrecord value="BMJ. 2018 Dec 18;363:k5343. doi: 10.1136/bmj.k5343"/>
       <targetReference>
-        <reference value="https://pubmed.ncbi.nlm.nih.gov/30563831/"/>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
           <value value="30563831"/>
@@ -1174,7 +1161,6 @@
       </classifier>
       <publicationrecord value="Catheter Cardiovasc Interv. 2019 Apr 1;93(5):944-945. doi: 10.1002/ccd.28151"/>
       <targetReference>
-        <reference value="https://pubmed.ncbi.nlm.nih.gov/30762932/"/>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
           <value value="30762932"/>
@@ -1202,7 +1188,6 @@
       </classifier>
       <publicationrecord value="MMW Fortschr Med. 2019 Feb;161(3):26. doi: 10.1007/s15006-019-0173-9"/>
       <targetReference>
-        <reference value="https://pubmed.ncbi.nlm.nih.gov/30778977/"/>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
           <value value="30778977"/>
@@ -1386,8 +1371,8 @@
       <type>
         <coding>
           <system value="http://terminology.hl7.org/CodeSystem/cited-artifact-classification-type"/>
-          <code value="publicationrecord-subset"/>
-          <display value="PublicationRecord subset"/>
+          <code value="citation-subset"/>
+          <display value="Citation subset"/>
           <userSelected value="false"/>
         </coding>
       </type>
