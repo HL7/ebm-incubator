@@ -124,38 +124,38 @@
   </concept>
   <concept>
     <code value="medline-completed"/>
-    <display value="Medline PublicationRecord Status of Completed"/>
-    <definition value="Medline PublicationRecord Status of Completed"/>
+    <display value="Medline Citation Status of Completed"/>
+    <definition value="Medline Citation Status of Completed"/>
   </concept>
   <concept>
     <code value="medline-in-process"/>
-    <display value="Medline PublicationRecord Status of In-Process"/>
-    <definition value="Medline PublicationRecord Status of In-Process"/>
+    <display value="Medline Citation Status of In-Process"/>
+    <definition value="Medline Citation Status of In-Process"/>
   </concept>
   <concept>
     <code value="medline-pubmed-not-medline"/>
-    <display value="Medline PublicationRecord Status of PubMed-not-MEDLINE"/>
-    <definition value="Medline PublicationRecord Status of PubMed-not-MEDLINE"/>
+    <display value="Medline Citation Status of PubMed-not-MEDLINE"/>
+    <definition value="Medline Citation Status of PubMed-not-MEDLINE"/>
   </concept>
   <concept>
     <code value="medline-in-data-review"/>
-    <display value="Medline PublicationRecord Status of In-Data-Review"/>
-    <definition value="Medline PublicationRecord Status of In-Data-Review"/>
+    <display value="Medline Citation Status of In-Data-Review"/>
+    <definition value="Medline Citation Status of In-Data-Review"/>
   </concept>
   <concept>
     <code value="medline-publisher"/>
-    <display value="Medline PublicationRecord Status of Publisher"/>
-    <definition value="Medline PublicationRecord Status of Publisher"/>
+    <display value="Medline Citation Status of Publisher"/>
+    <definition value="Medline Citation Status of Publisher"/>
   </concept>
   <concept>
     <code value="medline-medline"/>
-    <display value="Medline PublicationRecord Status of MEDLINE"/>
-    <definition value="Medline PublicationRecord Status of MEDLINE"/>
+    <display value="Medline Citation Status of MEDLINE"/>
+    <definition value="Medline Citation Status of MEDLINE"/>
   </concept>
   <concept>
     <code value="medline-oldmedline"/>
-    <display value="Medline PublicationRecord Status of OLDMEDLINE"/>
-    <definition value="Medline PublicationRecord Status of OLDMEDLINE"/>
+    <display value="Medline Citation Status of OLDMEDLINE"/>
+    <definition value="Medline Citation Status of OLDMEDLINE"/>
   </concept>
   <concept>
     <code value="pubmed-publication-status-ppublish"/>

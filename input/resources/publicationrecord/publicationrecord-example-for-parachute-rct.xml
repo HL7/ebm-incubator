@@ -634,7 +634,7 @@
       <coding>
         <system value="http://terminology.hl7.org/CodeSystem/citation-classification-type"/>
         <code value="medline-owner"/>
-        <display value="MEDLINE PublicationRecord Owner"/>
+        <display value="MEDLINE Citation Owner"/>
       </coding>
     </type>
     <classifier>
@@ -753,7 +753,6 @@
       </classifier>
       <publicationrecord value="Smith GC, Pell JP. Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials. BMJ 2003;327:1459-61. 10.1136/bmj.327.7429.1459 "/>
       <targetReference>
-        <reference value="https://pubmed.ncbi.nlm.nih.gov/14684649/"/>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
           <value value="14684649"/>
