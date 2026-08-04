@@ -602,13 +602,13 @@
   <description value="An example of a journal article publicationrecord, representing all the data found in a MEDLINE record."/>
   <useContext>
     <code>
-      <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-classification-type"/>
+      <system value="http://terminology.hl7.org/CodeSystem/citation-classification-type"/>
       <code value="fevir-platform-use"/>
       <display value="FEvIR Platform Use"/>
     </code>
     <valueCodeableConcept>
       <coding>
-        <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
+        <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
         <code value="medline-base"/>
         <display value="Medline Base"/>
         <userSelected value="false"/>
@@ -621,7 +621,7 @@
   <classification>
     <type>
       <coding>
-        <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-classification-type"/>
+        <system value="http://terminology.hl7.org/CodeSystem/citation-classification-type"/>
         <code value="publicationrecord-source"/>
         <display value="PublicationRecord Source"/>
       </coding>
@@ -633,7 +633,7 @@
   <classification>
     <type>
       <coding>
-        <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-classification-type"/>
+        <system value="http://terminology.hl7.org/CodeSystem/citation-classification-type"/>
         <code value="medline-owner"/>
         <display value="MEDLINE PublicationRecord Owner"/>
       </coding>
@@ -747,7 +747,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
+          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -784,7 +784,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
+          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -811,7 +811,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
+          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -848,7 +848,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
+          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -875,7 +875,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
+          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -912,7 +912,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
+          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -939,7 +939,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
+          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -966,7 +966,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
+          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -993,7 +993,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
+          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -1020,7 +1020,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
+          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -1047,7 +1047,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
+          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -1074,7 +1074,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
+          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -1111,7 +1111,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
+          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -1316,7 +1316,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
+          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
           <code value="Electronic"/>
           <display value="Electronic"/>
           <userSelected value="false"/>
@@ -1372,7 +1372,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/publicationrecord-artifact-classifier"/>
+          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
           <userSelected value="false"/>

@@ -9,7 +9,7 @@
       "type": {
         "coding": [
           {
-            "system": "http://terminology.hl7.org/CodeSystem/publicationrecord-classification-type",
+            "system": "http://terminology.hl7.org/CodeSystem/citation-classification-type",
             "code": "publicationrecord-source",
             "display": "PublicationRecord Source"
           }
@@ -25,7 +25,7 @@
       "type": {
         "coding": [
           {
-            "system": "http://terminology.hl7.org/CodeSystem/publicationrecord-classification-type",
+            "system": "http://terminology.hl7.org/CodeSystem/citation-classification-type",
             "code": "medline-owner",
             "display": "MEDLINE PublicationRecord Owner"
           }
