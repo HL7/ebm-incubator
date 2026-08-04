@@ -567,7 +567,6 @@
       </content>
     </ArtifactAssessment>
   </contained>
-  <url value="http://hl7.org/fhir/PublicationRecord/example-for-parachute-rct"/>
   <identifier>
     <type>
       <coding>

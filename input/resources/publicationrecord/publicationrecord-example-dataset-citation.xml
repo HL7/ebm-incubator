@@ -42,7 +42,6 @@
       </name>
     </Practitioner>
   </contained>
-  <url value="http://hl7.org/fhir/PublicationRecord/example-dataset-publicationrecord"/>
   <identifier>
     <type>
       <coding>
