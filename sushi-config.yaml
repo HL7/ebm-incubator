@@ -84,6 +84,7 @@ parameters:
   additional-resource:
     - input/resources/publicationrecord/StructureDefinition-PublicationRecord.xml
   special-url-base: http://hl7.org/fhir
+  auto-oid-root: 2.16.840.1.113883.4.642.40.84
   pin-canonicals: pin-all
 # parameters:
 #   excludettl: true
