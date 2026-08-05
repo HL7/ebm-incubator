@@ -117,7 +117,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="PublicationRecord.date"/>
         </extension>
-        <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-date"/>
+        <url value="http://hl7.org/fhir/SearchParameter/PublicationRecord-date"/>
         <description value="The publication record publication date"/>
         <code value="date"/>
         <type value="date"/>
@@ -368,11 +368,11 @@
         <expression value="PublicationRecord.classification"/>
         <processingMode value="normal"/>
         <component>
-          <definition value="classification-type"/>
+          <definition value="http://hl7.org/fhir/SearchParameter/PublicationRecord-classification-type"/>
           <expression value="type"/>
         </component>
         <component>
-          <definition value="classifier"/>
+          <definition value="http://hl7.org/fhir/SearchParameter/PublicationRecord-classifier"/>
           <expression value="classifier"/>
         </component>
       </SearchParameter>
