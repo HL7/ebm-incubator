@@ -17,7 +17,7 @@
     <value value="urn:oid:2.16.840.1.113883.4.642.4.1878"/>
   </identifier>
   <version value="1.0.0"/>
-  <name value="CitationStatusType"/>
+  <name value="PublicationRecordStatusType"/>
   <title value="PublicationRecord Status Type"/>
   <status value="active"/>
   <experimental value="false"/>
@@ -34,6 +34,13 @@
     </telecom>
   </contact>
   <description value="PublicationRecord status type."/>
+  <jurisdiction> 
+    <coding> 
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/> 
+      <code value="001"/> 
+      <display value="World"/> 
+    </coding> 
+  </jurisdiction> 
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/uv/ebm-incubator/ValueSet/publicationrecord-status-type"/>
   <content value="complete"/>
