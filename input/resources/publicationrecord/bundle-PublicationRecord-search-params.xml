@@ -14,7 +14,7 @@
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-context"/>
         <description value="A use context assigned to the publication record"/>
-        <code value="http://hl7.org/fhir/SearchParameter/context"/>
+        <code value="context"/>
         <type value="token"/>
         <expression value="(PublicationRecord.useContext.value.ofType(CodeableConcept))"/>
         <processingMode value="normal"/>
@@ -33,7 +33,7 @@
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-context-quantity"/>
         <description value="A quantity- or range-valued use context assigned to the publication record"/>
-        <code value="http://hl7.org/fhir/SearchParameter/context-quantity"/>
+        <code value="context-quantity"/>
         <type value="quantity"/>
         <expression value="(PublicationRecord.useContext.value.ofType(Quantity)) | (PublicationRecord.useContext.value.ofType(Range))"/>
         <processingMode value="normal"/>
@@ -52,7 +52,7 @@
         </extension>
         <url value="http://hl7.org/fhir/SearchParameter/PublicationRecord-context-type"/>
         <description value="A type of use context assigned to the publication record"/>
-        <code value="http://hl7.org/fhir/SearchParameter/PublicationRecord-context-type"/>
+        <code value="context-type"/>
         <type value="token"/>
         <expression value="PublicationRecord.useContext.code"/>
         <processingMode value="normal"/>
@@ -68,7 +68,7 @@
         </extension>
         <url value="http://hl7.org/fhir/SearchParameter/PublicationRecord-context-type-quantity"/>
         <description value="A use context type and quantity- or range-based value assigned to the publication record"/>
-        <code value="http://hl7.org/fhir/SearchParameter/PublicationRecord-context-type-quantity"/>
+        <code value="context-type-quantity"/>
         <type value="composite"/>
         <expression value="PublicationRecord.useContext"/>
         <processingMode value="normal"/>
