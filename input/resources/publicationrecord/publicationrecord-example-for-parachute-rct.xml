@@ -751,7 +751,7 @@
           <display value="Journal Article"/>
         </coding>
       </classifier>
-      <publicationrecord value="Smith GC, Pell JP. Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials. BMJ 2003;327:1459-61. 10.1136/bmj.327.7429.1459 "/>
+      <citation value="Smith GC, Pell JP. Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials. BMJ 2003;327:1459-61. 10.1136/bmj.327.7429.1459 "/>
       <targetReference>
         <identifier>
           <system value="https://pubmed.ncbi.nlm.nih.gov"/>
