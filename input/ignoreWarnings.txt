@@ -3,13 +3,19 @@
 # Suppressing warnings about using tooling from version 5.0.0 for a version 6.0.0-ballot3 because version 6.0.0 tooling not available
 This IG is version 6.0.0-ballot3, while the IG 'hl7.fhir.uv.tools.r5' is from version 5.0.0
 
+# Suppressing errors about PublicationRecord not being a Resource Type
+The System URI could not be determined for the code 'PublicationRecord' in the ValueSet 'http://hl7.org/fhir/ValueSet/version-independent-all-resource-types|6.0.0-ballot3'
+he value provided ('PublicationRecord') was not found in the value set 'Version Independent Resource Types (All)' (http://hl7.org/fhir/ValueSet/version-independent-all-resource-types|6.0.0-ballot3), and a code is required from this value set (error message = The System URI could not be determined for the code 'PublicationRecord' in the ValueSet 'http://hl7.org/fhir/ValueSet/version-independent-all-resource-types|6.0.0-ballot3'; The provided code '#PublicationRecord' was not found in the value set 'http://hl7.org/fhir/ValueSet/version-independent-all-resource-types|6.0.0-ballot3')
+
 # Suppressing warnings about additionalBindings constraints that do not appear to be a result of IG content
 Constraint failed: eld-31: 'additionalBindings should have a key (key.exists())' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
 Constraint failed: eld-33: 'If there's more than one bindable type, it's usually an error for there to be a binding (type.where(code in 'code' | 'Coding' | 'CodeableConcept' | 'CodeableReference' | 'uri' | 'string' | 'Quantity').count() > 1 implies binding.empty())' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
 
+# Suppressing warning of no definition found for URL value for many instances in which the URL is an external website and the data element (e.g. relatesTo.targetUri or webLocation.url) does not expect a listed and verified value
+No definition could be found for URL value '%
+
 # Nothing can be done about this for now
 A definition for CodeSystem 'https://www.nlm.nih.gov/mesh' could not be found, so the value set cannot be expanded
-
 
 # Suppressing warning that Composition.type coding value is not coming from the 'Preferred' value set as this is specific to the IG and not the FHIR-defined value set
 A definition for CodeSystem 'https://fevir.net/resources/CodeSystem/179423' could not be found, so the code cannot be validated
