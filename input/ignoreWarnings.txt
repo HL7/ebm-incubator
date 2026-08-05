@@ -40,3 +40,6 @@ Unknown Code 'C49488' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Th
 A definition for CodeSystem 'https://fevir.net/resources/CodeSystem/179423' could not be found, so the code cannot be validated
 A definition for CodeSystem 'https://fevir.net/resources/CodeSystem/181513' could not be found, so the code cannot be validated
 None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes|6.0.0-ballot3), and a coding is recommended to come from this value set (codes = https://fevir.net/resources/CodeSystem/179423#%
+
+# Suppressing information on pinned version
+Pinned the version of http://hl7.org/fhir/StructureDefinition/PublicationRecord to 1.0.0-ballot
