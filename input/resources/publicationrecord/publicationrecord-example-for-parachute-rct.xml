@@ -729,7 +729,7 @@
           <display value="Primary title"/>
         </coding>
       </type>
-			<language value="en"/>
+      <language value="en"/>
       <text value="PARACHUTE Trial PublicationRecord Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial."/>
     </title>
     <abstract>

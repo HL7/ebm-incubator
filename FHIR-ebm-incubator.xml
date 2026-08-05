@@ -261,7 +261,7 @@
 <artifact deprecated="true" id="EvidenceVariable/297729" key="EvidenceVariable-297729" name="Ethnic Group"/>
 <artifact deprecated="true" id="Evidence/303337" key="Evidence-303337" name="Ethnic Group with comparator"/>
 <artifact deprecated="true" id="Evidence/303336" key="Evidence-303336" name="Ethnic Group with intervention"/>
-<artifact deprecated="true" id="CodeSystem/179423" key="CodeSystem-179423" name="Evidence Based Medicine on FHIR Implementation Guide Code System"/>
+<artifact id="CodeSystem/179423" key="CodeSystem-179423" name="Evidence Based Medicine on FHIR Implementation Guide Code System"/>
 <artifact deprecated="true" id="ValueSet/evidence-report-contributor-role" key="ValueSet-evidence-report-contributor-role" name="Evidence Report Contributor Role Value Set"/>
 <artifact deprecated="true" id="ValueSet/evidence-variable-role-subtype" key="ValueSet-evidence-variable-role-subtype" name="Evidence Variable Role Subtype Value Set"/>
 <artifact deprecated="true" id="StructureDefinition/evidence-list" key="StructureDefinition-evidence-list" name="EvidenceList"/>

@@ -3823,7 +3823,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
       <isSummary value="false"/> 
     </element> 
     <element id="PublicationRecord.citedArtifact.relatesTo.citation">
-      <path value="PublicationRecord.citedArtifact.relatesTo.publicationrcitationecord"/> 
+      <path value="PublicationRecord.citedArtifact.relatesTo.citation"/> 
       <short value="Bibliographic citation for the artifact"/> 
       <definition value="A bibliographic citation for the related artifact. This text SHOULD be formatted
        according to an accepted citation format."/> 
