@@ -207,7 +207,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://purl.obolibrary.org/obo"/>
+          <system value="http://purl.obolibrary.org/obo/fma.owl"/>
           <code value="FMA_63919"/>
           <display value="foetus"/>
         </coding>
@@ -351,7 +351,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://purl.obolibrary.org/obo"/>
+          <system value="http://purl.obolibrary.org/obo/vt.owl"/>
           <code value="VT_2000017"/>
           <display value="heart electrical impulse conduction trait"/>
         </coding>
