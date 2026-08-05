@@ -49,3 +49,7 @@ None of the codings provided are in the value set 'FHIR Document Type Codes' (ht
 Pinned the version of http://hl7.org/fhir/StructureDefinition/PublicationRecord to 1.0.0-ballot
 Pinned the version of http://hl7.org/fhir/StructureDefinition/%
 Pinned the version of http://terminology.hl7.org/ValueSet/%
+Pinned the version of http://hl7.org/fhir/uv/ebm-incubator/ValueSet/publicationrecord-status-type to 1.0.0-ballot
+
+# Suppressing information on experimental CodeSystem
+Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot3
