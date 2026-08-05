@@ -3223,7 +3223,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="CitedArtifactAbstractType"/> 
         </extension> 
         <strength value="extensible"/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/cited-artifact-abstract-type"/> 
+        <valueSet value="http://terminology.hl7.org/ValueSet/cited-artifact-abstract-type"/> 
       </binding> 
     </element> 
     <element id="PublicationRecord.citedArtifact.abstract.language">
@@ -3491,7 +3491,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="CitedArtifactPartType"/> 
         </extension> 
         <strength value="extensible"/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/cited-artifact-part-type"/> 
+        <valueSet value="http://terminology.hl7.org/ValueSet/cited-artifact-part-type"/> 
       </binding> 
     </element> 
     <element id="PublicationRecord.citedArtifact.part.value">
@@ -4207,7 +4207,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="PublishedInType"/> 
         </extension> 
         <strength value="extensible"/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/published-in-type"/> 
+        <valueSet value="http://terminology.hl7.org/ValueSet/published-in-type"/> 
       </binding> 
     </element> 
     <element id="PublicationRecord.citedArtifact.publicationForm.publishedIn.identifier">
@@ -4351,7 +4351,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="CitedMedium"/> 
         </extension> 
         <strength value="extensible"/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/cited-medium"/> 
+        <valueSet value="http://terminology.hl7.org/ValueSet/cited-medium"/> 
       </binding> 
     </element> 
     <element id="PublicationRecord.citedArtifact.publicationForm.volume">
@@ -4886,7 +4886,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="ArtifactUrlClassifier"/> 
         </extension> 
         <strength value="extensible"/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/artifact-url-classifier"/> 
+        <valueSet value="http://terminology.hl7.org/ValueSet/artifact-url-classifier"/> 
       </binding> 
     </element> 
     <element id="PublicationRecord.citedArtifact.webLocation.url">
@@ -5088,7 +5088,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="CitedArtifactClassificationType"/> 
         </extension> 
         <strength value="preferred"/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/cited-artifact-classification-type"/> 
+        <valueSet value="http://terminology.hl7.org/ValueSet/cited-artifact-classification-type"/> 
       </binding> 
     </element> 
     <element id="PublicationRecord.citedArtifact.classification.classifier">
@@ -5597,7 +5597,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="ArtifactContributionType"/> 
         </extension> 
         <strength value="extensible"/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/artifact-contribution-type"/> 
+        <valueSet value="http://terminology.hl7.org/ValueSet/cited-artifact-contribution-type"/>
       </binding> 
     </element> 
     <element id="PublicationRecord.citedArtifact.contributorship.entry.role">
@@ -5629,7 +5629,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="ContributorRole"/> 
         </extension> 
         <strength value="extensible"/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/contributor-role"/> 
+        <valueSet value="http://terminology.hl7.org/ValueSet/contributor-role"/> 
       </binding> 
     </element> 
     <element id="PublicationRecord.citedArtifact.contributorship.entry.contributionInstance">
@@ -5805,7 +5805,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="ArtifactContributionInstanceType"/> 
         </extension> 
         <strength value="preferred"/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/artifact-contribution-instance-type"/> 
+        <valueSet value="http://terminology.hl7.org/ValueSet/artifact-contribution-instance-type"/> 
       </binding> 
     </element> 
     <element id="PublicationRecord.citedArtifact.contributorship.entry.contributionInstance.time">
@@ -6067,7 +6067,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="ContributorSummaryType"/> 
         </extension> 
         <strength value="extensible"/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/contributor-summary-type"/> 
+        <valueSet value="http://terminology.hl7.org/ValueSet/contributor-summary-type"/> 
       </binding> 
     </element> 
     <element id="PublicationRecord.citedArtifact.contributorship.summary.style">
@@ -6100,7 +6100,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="ContributorSummaryStyle"/> 
         </extension> 
         <strength value="example"/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/contributor-summary-style"/> 
+        <valueSet value="http://terminology.hl7.org/ValueSet/contributor-summary-style"/> 
       </binding> 
     </element> 
     <element id="PublicationRecord.citedArtifact.contributorship.summary.source">
@@ -6132,7 +6132,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
           <valueString value="ContributorSummarySource"/> 
         </extension> 
         <strength value="preferred"/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/contributor-summary-source"/> 
+        <valueSet value="http://terminology.hl7.org/ValueSet/contributor-summary-source"/> 
       </binding> 
     </element> 
     <element id="PublicationRecord.citedArtifact.contributorship.summary.value">
