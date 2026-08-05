@@ -50,7 +50,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="PublicationRecord.useContext.code"/>
         </extension>
-        <url value="http://hl7.org/fhir/SearchParameter/PublicationRecord-context-type"/>
+        <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-context-type"/>
         <description value="A type of use context assigned to the publication record"/>
         <code value="context-type"/>
         <type value="token"/>
@@ -66,7 +66,7 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="trial-use"/>
         </extension>
-        <url value="http://hl7.org/fhir/SearchParameter/PublicationRecord-context-type-quantity"/>
+        <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-context-type-quantity"/>
         <description value="A use context type and quantity- or range-based value assigned to the publication record"/>
         <code value="context-type-quantity"/>
         <type value="composite"/>
@@ -90,7 +90,7 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="trial-use"/>
         </extension>
-        <url value="http://hl7.org/fhir/SearchParameter/PublicationRecord-context-type-value"/>
+        <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-context-type-value"/>
         <description value="A use context type and value assigned to the publication record"/>
         <code value="context-type-value"/>
         <type value="composite"/>
@@ -117,7 +117,7 @@
         <extension url="http://hl7.org/fhir/build/StructureDefinition/path">
           <valueString value="PublicationRecord.date"/>
         </extension>
-        <url value="http://hl7.org/fhir/SearchParameter/PublicationRecord-date"/>
+        <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-date"/>
         <description value="The publication record publication date"/>
         <code value="date"/>
         <type value="date"/>
