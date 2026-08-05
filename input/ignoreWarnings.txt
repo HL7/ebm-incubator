@@ -1,4 +1,8 @@
 == Suppressed Messages ==
 
+#The element is there in the StructureDefinition and I can see it rendered on the PublicationRecord page
+Undefined element 'citation' at /f:PublicationRecord/f:citedArtifact/f:relatesTo
+
 # Nothing can be done about this for now
 A definition for CodeSystem 'https://www.nlm.nih.gov/mesh' could not be found, so the value set cannot be expanded
+
