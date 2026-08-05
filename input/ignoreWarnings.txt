@@ -15,6 +15,7 @@ Constraint failed: eld-33: 'If there's more than one bindable type, it's usually
 No definition could be found for URL value '%
 
 # Nothing can be done about this for now
+A definition for CodeSystem 'https://www.nlm.nih.gov/mesh' could not be found, so the code cannot be validated
 A definition for CodeSystem 'https://www.nlm.nih.gov/mesh' could not be found, so the value set cannot be expanded
 
 # Suppressing warning that Composition.type coding value is not coming from the 'Preferred' value set as this is specific to the IG and not the FHIR-defined value set
