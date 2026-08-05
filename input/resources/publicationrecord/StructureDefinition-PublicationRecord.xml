@@ -6228,7 +6228,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         <severity value="warning"/>
         <human value="URL should not contain | or # - these characters make processing canonical references problematic"/>
         <expression value="exists() implies matches('^[^|# ]+$')"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/CanonicalResource"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/CanonicalResource|6.0.0-ballot3"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
