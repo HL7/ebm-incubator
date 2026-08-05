@@ -11,6 +11,9 @@ The canonical URL http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv
 The System URI could not be determined for the code 'PublicationRecord' in the ValueSet 'http://hl7.org/fhir/ValueSet/version-independent-all-resource-types|6.0.0-ballot3'
 he value provided ('PublicationRecord') was not found in the value set 'Version Independent Resource Types (All)' (http://hl7.org/fhir/ValueSet/version-independent-all-resource-types|6.0.0-ballot3), and a code is required from this value set (error message = The System URI could not be determined for the code 'PublicationRecord' in the ValueSet 'http://hl7.org/fhir/ValueSet/version-independent-all-resource-types|6.0.0-ballot3'; The provided code '#PublicationRecord' was not found in the value set 'http://hl7.org/fhir/ValueSet/version-independent-all-resource-types|6.0.0-ballot3')
 
+# Suppressing a message about XML tags in markdown. This is a known issue converting structured abstract data from MEDLINE and is handled in the presentation of the data.
+The markdown contains content that appears to be an embedded HTML tag starting at '<A'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
+
 # Suppressing warnings about additionalBindings constraints that do not appear to be a result of IG content
 Constraint failed: eld-31: 'additionalBindings should have a key (key.exists())' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
 Constraint failed: eld-33: 'If there's more than one bindable type, it's usually an error for there to be a binding (type.where(code in 'code' | 'Coding' | 'CodeableConcept' | 'CodeableReference' | 'uri' | 'string' | 'Quantity').count() > 1 implies binding.empty())' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
@@ -24,7 +27,6 @@ A definition for CodeSystem 'http://www.ncbi.nlm.nih.gov/taxonomy' could not be 
 A definition for CodeSystem 'http://purl.obolibrary.org/obo/fma.owl' could not be found, so the code cannot be validated
 A definition for CodeSystem 'http://purl.obolibrary.org/obo/vt.owl' could not be found, so the code cannot be validated
 A definition for CodeSystem 'http://www.ebi.ac.uk/efo' could not be found, so the code cannot be validated
-
 
 # Nothing can be done about this for now
 A definition for CodeSystem 'https://www.nlm.nih.gov/mesh' could not be found, so the code cannot be validated
