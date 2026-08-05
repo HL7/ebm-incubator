@@ -11,9 +11,16 @@ The canonical URL http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv
 The type PublicationRecord is not legal because it is not defined in the FHIR specification. Other types must have a namespace on them
 The System URI could not be determined for the code 'PublicationRecord' in the ValueSet 'http://hl7.org/fhir/ValueSet/version-independent-all-resource-types|6.0.0-ballot3'
 The value provided ('PublicationRecord') was not found in the value set 'Version Independent Resource Types (All)' (http://hl7.org/fhir/ValueSet/version-independent-all-resource-types|6.0.0-ballot3), and a code is required from this value set (error message = The System URI could not be determined for the code 'PublicationRecord' in the ValueSet 'http://hl7.org/fhir/ValueSet/version-independent-all-resource-types|6.0.0-ballot3'; The provided code '#PublicationRecord' was not found in the value set 'http://hl7.org/fhir/ValueSet/version-independent-all-resource-types|6.0.0-ballot3')
+The value provided ('PublicationRecord') was not found in the value set%
 
 # Suppressing a message about XML tags in markdown. This is a known issue converting structured abstract data from MEDLINE and is handled in the presentation of the data.
 The markdown contains content that appears to be an embedded HTML tag starting at '<A'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
+
+# Suppressing this information message because we are adding this ValueSet to THO
+None of the codings provided are in the value set 'Cited Artifact Classification Type' (http://terminology.hl7.org/ValueSet/cited-artifact-classification-type|1.0.0), and a coding is recommended to come from this value set (codes = https://fevir.net/resources/CodeSystem/179423#study-design)
+
+# Suppressing this information because it's too early to move this code system to THO
+Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 
 # PublicationRecord.versionAlgorithm[x] binding information suppression
 The element PublicationRecord.versionAlgorithm[x] has a binding, and has multiple types subject to bindings ([string, Coding]). The binding will apply to all the types
