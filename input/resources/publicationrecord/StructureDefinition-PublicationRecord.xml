@@ -1006,7 +1006,7 @@ DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to
           <valueBoolean value="true"/> 
         </extension> 
         <strength value="extensible"/> 
-        <valueSet value="http://hl7.org/fhir/ValueSet/jurisdiction"/> 
+        <valueSet value="http://terminology.hl7.org/ValueSet/jurisdiction"/> 
       </binding> 
     </element> 
     <element id="PublicationRecord.purpose">
