@@ -456,7 +456,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         <human value="URL should not contain | or # - these characters make processing canonical references
          problematic"/> 
         <expression value="exists() implies matches('^[^|# ]+$')"/> 
-        <source value="http://hl7.org/fhir/StructureDefinition/PublicationRecord"/> 
+        <source value="http://hl7.org/fhir/StructureDefinition/CanonicalResource"/> 
       </constraint> 
       <constraint> 
         <key value="ele-1"/> 
