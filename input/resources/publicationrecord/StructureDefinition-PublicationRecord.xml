@@ -428,9 +428,9 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element> 
     <element id="PublicationRecord.url">
       <path value="PublicationRecord.url"/> 
-      <short value="Canonical identifier for this publicationrecord record, represented as a globally unique
+      <short value="Canonical identifier for this PublicationRecord, represented as a globally unique
        URI"/> 
-      <definition value="An absolute URI that is used to identify this publicationrecord record when it is referenced
+      <definition value="An absolute URI that is used to identify this PublicationRecord when it is referenced
        in a specification, model, design or an instance; also called its canonical identifier.
        This SHOULD be globally unique and SHOULD be a literal address at which an authoritative
        instance of this summary is (or will be) published. This URL can be the target
@@ -439,7 +439,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
       <comment value="In some cases, the resource can no longer be found at the stated url, but the url
        itself cannot change. Implementations can use the meta.source element to indicate
        where the current master source of the resource can be found."/> 
-      <requirements value="Allows the publicationrecord record to be referenced by a single globally unique identifier."/> 
+      <requirements value="Allows the PublicationRecord to be referenced by a single globally unique identifier."/> 
       <min value="0"/> 
       <max value="1"/> 
       <base> 
@@ -475,13 +475,13 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element> 
     <element id="PublicationRecord.identifier">
       <path value="PublicationRecord.identifier"/> 
-      <short value="Identifier for the publicationrecord record itself"/> 
-      <definition value="A formal identifier that is used to identify this publicationrecord record when it is represented
+      <short value="Identifier for the PublicationRecord itself"/> 
+      <definition value="A formal identifier that is used to identify this PublicationRecord when it is represented
        in other formats, or referenced in a specification, model, design or an instance."/> 
-      <comment value="Use this element if you need to identify the publicationrecord record independently from
+      <comment value="Use this element if you need to identify the PublicationRecord independently from
        identifying the cited artifact."/> 
       <requirements value="Allows externally provided and/or usable identifiers to be associated with this
-       publicationrecord record."/> 
+       PublicationRecord."/> 
       <min value="0"/> 
       <max value="*"/> 
       <base> 
@@ -513,19 +513,19 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element> 
     <element id="PublicationRecord.version">
       <path value="PublicationRecord.version"/> 
-      <short value="Business version of the publicationrecord record"/> 
-      <definition value="The identifier that is used to identify this version of the publicationrecord record when
+      <short value="Business version of the PublicationRecord"/> 
+      <definition value="The identifier that is used to identify this version of the PublicationRecord when
        it is referenced in a specification, model, design or instance. This is an arbitrary
-       value managed by the publicationrecord record author and is not expected to be globally
+       value managed by the PublicationRecord author and is not expected to be globally
        unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version
        is not available. There is also no expectation that versions can be placed in a
        lexicographical sequence."/> 
       <comment value="This is a business version label used for display in understanding the formal version
-       of the publicationrecord record, not a resource version id or technical version number for
-       an archival system. There may be different publicationrecord record instances that have
+       of the PublicationRecord, not a resource version id or technical version number for
+       an archival system. There may be different PublicationRecord instances that have
        the same identifier but different versions. The version can be appended to the
        url in a reference to allow a reference to a particular business version of the
-       publicationrecord record with the format [url]|[version]. The version SHOULD NOT contain
+       PublicationRecord with the format [url]|[version]. The version SHOULD NOT contain
        a '#' - see [Business Version](resource.html#bv-format)."/> 
       <min value="0"/> 
       <max value="1"/> 
@@ -590,8 +590,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element> 
     <element id="PublicationRecord.name">
       <path value="PublicationRecord.name"/> 
-      <short value="Name for this publicationrecord record (computer friendly)"/> 
-      <definition value="A natural language name identifying the publicationrecord record. This name should be usable
+      <short value="Name for this PublicationRecord (computer friendly)"/> 
+      <definition value="A natural language name identifying the PublicationRecord. This name should be usable
        as an identifier for the module by machine processing applications such as code
        generation."/> 
       <comment value="The name is not expected to be globally unique. The name should be a simple alphanumeric
@@ -627,11 +627,11 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         <valueBoolean value="true"/> 
       </extension> 
       <path value="PublicationRecord.title"/> 
-      <short value="Name for this publicationrecord record (human friendly)"/> 
-      <definition value="A short, descriptive, user-friendly title for the publicationrecord record."/> 
+      <short value="Name for this PublicationRecord (human friendly)"/> 
+      <definition value="A short, descriptive, user-friendly title for the PublicationRecord."/> 
       <comment value="This name does not need to be machine-processing friendly and may contain punctuation,
-       white-space, etc. Use this element if you have a need for naming the publicationrecord record
-       for human use, such as a display name for the publicationrecord record that is used when
+       white-space, etc. Use this element if you have a need for naming the PublicationRecord
+       for human use, such as a display name for the PublicationRecord that is used when
        selecting citations from a list."/> 
       <min value="0"/> 
       <max value="1"/> 
@@ -659,13 +659,13 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
       <short value="draft | active | retired | unknown"/> 
       <definition value="The status of this summary. Enables tracking the life-cycle of the content."/> 
       <comment value="Allows filtering of summaries that are appropriate for use versus not. Use &quot;active&quot;
-       when the publicationrecord record is the version for others to actively use, &quot;draft&quot;
+       when the PublicationRecord is the version for others to actively use, &quot;draft&quot;
        while you are developing the content, and &quot;retired&quot; when this record
        should no longer be used for any purpose.
 
 See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
       lization)."/> 
-      <requirements value="Allows filtering of publicationrecord records that are appropriate for use versus not."/> 
+      <requirements value="Allows filtering of PublicationRecords that are appropriate for use versus not."/> 
       <min value="1"/> 
       <max value="1"/> 
       <base> 
@@ -706,10 +706,10 @@ See guidance around (not) making local changes to elements [here](canonicalresou
     <element id="PublicationRecord.experimental">
       <path value="PublicationRecord.experimental"/> 
       <short value="For testing only - never for real usage"/> 
-      <definition value="A Boolean value to indicate that this publicationrecord record is authored for testing purposes
+      <definition value="A Boolean value to indicate that this PublicationRecord is authored for testing purposes
        (or education/evaluation/marketing) and no version of this resource will ever be
        intended for genuine usage."/> 
-      <comment value="Allows filtering of publicationrecord records that are appropriate for use versus not..
+      <comment value="Allows filtering of PublicationRecords that are appropriate for use versus not..
        Experimental resources might include example instances in implementation guides,
        instances created solely for testing purposes, etc. If experimental is 'true' for
        any version of a resource, it should be true for all versions of the resource.
@@ -719,7 +719,7 @@ See guidance around (not) making local changes to elements [here](canonicalresou
 Experimental resources are not expected to be stable and may well have breaking
        changes without a corresponding change to the 'version' element."/> 
       <requirements value="Enables experimental content to be developed following the same lifecycle that
-       would be used for a production-level publicationrecord record."/> 
+       would be used for a production-level PublicationRecord."/> 
       <min value="0"/> 
       <max value="1"/> 
       <base> 
@@ -749,13 +749,13 @@ Experimental resources are not expected to be stable and may well have breaking
     <element id="PublicationRecord.date">
       <path value="PublicationRecord.date"/> 
       <short value="Date last changed"/> 
-      <definition value="The date (and optionally time) when the publicationrecord record was last significantly
+      <definition value="The date (and optionally time) when the PublicationRecord was last significantly
        changed. The date must change when the business version changes and it must change
        if the status code changes. In addition, it should change when the substantive
-       content of the publicationrecord record changes."/> 
+       content of the PublicationRecord changes."/> 
       <comment value="The date is often not tracked until the resource is published, but may be present
        on draft content. Note that this is not the same as the resource last-modified-date,
-       since the resource may be a secondary representation of the publicationrecord record. Additional
+       since the resource may be a secondary representation of the PublicationRecord. Additional
        specific dates may be added as extensions or be found by consulting Provenances
        associated with past versions of the resource.
 
@@ -789,12 +789,12 @@ See guidance around (not) making local changes to elements [here](canonicalresou
     </element> 
     <element id="PublicationRecord.author">
       <path value="PublicationRecord.author"/> 
-      <short value="Who authored the publicationrecord record"/> 
-      <definition value="Who authored or created the publicationrecord record."/> 
+      <short value="Who authored the PublicationRecord"/> 
+      <definition value="Who authored or created the PublicationRecord."/> 
       <comment value="The PublicationRecord.author element is structured to support a name (with a string datatype)
        and contact point information for the author/creator, and is not structured to
        support unique identifiers for the author. If detailed contributorship data is
-       needed for the authorship of the publicationrecord record, then one can create a PublicationRecord
+       needed for the authorship of the PublicationRecord, then one can create a PublicationRecord
        Resource for the PublicationRecord Resource."/> 
       <min value="0"/> 
       <max value="*"/> 
@@ -829,17 +829,17 @@ See guidance around (not) making local changes to elements [here](canonicalresou
         <valueBoolean value="true"/> 
       </extension> 
       <path value="PublicationRecord.publisher"/> 
-      <short value="The publisher of the publicationrecord record, not the publisher of the article or artifact
+      <short value="The publisher of the PublicationRecord, not the publisher of the article or artifact
        being cited"/> 
-      <definition value="The name of the organization or individual that published the publicationrecord record."/> 
+      <definition value="The name of the organization or individual that published the PublicationRecord."/> 
       <comment value="Usually an organization but may be an individual. The publisher (or steward) of
-       the publicationrecord record is the organization or individual primarily responsible for
-       the maintenance and upkeep of the publicationrecord record. This is not necessarily the
+       the PublicationRecord is the organization or individual primarily responsible for
+       the maintenance and upkeep of the PublicationRecord. This is not necessarily the
        same individual or organization that developed and initially authored the content.
        The publisher is the primary point of contact for questions or issues with the
-       publicationrecord record. This item SHOULD be populated unless the information is available
+       PublicationRecord. This item SHOULD be populated unless the information is available
        from context."/> 
-      <requirements value="Helps establish the &quot;authority/credibility&quot; of the publicationrecord record. May
+      <requirements value="Helps establish the &quot;authority/credibility&quot; of the PublicationRecord. May
        also allow for contact."/> 
       <min value="0"/> 
       <max value="1"/> 
@@ -868,7 +868,7 @@ See guidance around (not) making local changes to elements [here](canonicalresou
     </element> 
     <element id="PublicationRecord.contact">
       <path value="PublicationRecord.contact"/> 
-      <short value="Contact details for the publisher of the publicationrecord record"/> 
+      <short value="Contact details for the publisher of the PublicationRecord"/> 
       <definition value="Contact details to assist a user in finding and communicating with the publisher."/> 
       <comment value="May be a web site, an email address, a telephone number, etc.
 
@@ -903,14 +903,14 @@ See guidance around (not) making local changes to elements [here](canonicalresou
         <valueBoolean value="true"/> 
       </extension> 
       <path value="PublicationRecord.description"/> 
-      <short value="Natural language description of the publicationrecord"/> 
-      <definition value="A free text natural language description of the publicationrecord from a consumer's perspective."/> 
+      <short value="Natural language description of the PublicationRecord"/> 
+      <definition value="A free text natural language description of the PublicationRecord from a consumer's perspective."/> 
       <comment value="This description can be used to capture details such as comments about misuse,
        instructions for clinical use and interpretation, literature references, examples
-       from the paper world, etc. It is not a rendering of the publicationrecord as conveyed in
+       from the paper world, etc. It is not a rendering of the PublicationRecord as conveyed in
        the 'text' field of the resource itself. This item SHOULD be populated unless the
-       information is available from context (e.g. the language of the publicationrecord is presumed
-       to be the predominant language in the place the publicationrecord was created)."/> 
+       information is available from context (e.g. the language of the PublicationRecord is presumed
+       to be the predominant language in the place the PublicationRecord was created)."/> 
       <min value="0"/> 
       <max value="1"/> 
       <base> 
@@ -934,11 +934,11 @@ See guidance around (not) making local changes to elements [here](canonicalresou
     </element> 
     <element id="PublicationRecord.useContext">
       <path value="PublicationRecord.useContext"/> 
-      <short value="The context that the publicationrecord record content is intended to support"/> 
+      <short value="The context that the PublicationRecord content is intended to support"/> 
       <definition value="The content was developed with a focus and intent of supporting the contexts that
        are listed. These contexts may be general categories (gender, age, ...) or may
        be references to specific programs (insurance plans, studies, ...) and may be used
-       to assist with indexing and searching for appropriate publicationrecord record instances."/> 
+       to assist with indexing and searching for appropriate PublicationRecord instances."/> 
       <comment value="When multiple useContexts are specified, there is no expectation that all or any
        of the contexts apply."/> 
       <requirements value="Assist in searching for appropriate content."/> 
@@ -968,9 +968,9 @@ See guidance around (not) making local changes to elements [here](canonicalresou
         <valueCode value="deprecated"/> 
       </extension> 
       <path value="PublicationRecord.jurisdiction"/> 
-      <short value="Intended jurisdiction for publicationrecord record (if applicable)"/> 
-      <definition value="A legal or geographic region in which the publicationrecord record is intended to be used."/> 
-      <comment value="It may be possible for the publicationrecord record to be used in jurisdictions other than
+      <short value="Intended jurisdiction for PublicationRecord (if applicable)"/> 
+      <definition value="A legal or geographic region in which the PublicationRecord is intended to be used."/> 
+      <comment value="It may be possible for the PublicationRecord to be used in jurisdictions other than
        those for which it was originally designed or intended.
 
 DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to
@@ -1016,12 +1016,12 @@ DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to
         <valueBoolean value="true"/> 
       </extension> 
       <path value="PublicationRecord.purpose"/> 
-      <short value="Why this publicationrecord is defined"/> 
-      <definition value="Explanation of why this publicationrecord is needed and why it has been designed as it has."/> 
-      <comment value="This element does not describe the usage of the publicationrecord. Instead, it provides
+      <short value="Why this PublicationRecord is defined"/> 
+      <definition value="Explanation of why this PublicationRecord is needed and why it has been designed as it has."/> 
+      <comment value="This element does not describe the usage of the PublicationRecord. Instead, it provides
        traceability of ''why'' the resource is either needed or ''why'' it is defined
        as it is.  This may be used to point to source materials or specifications that
-       drove the structure of this publicationrecord."/> 
+       drove the structure of this PublicationRecord."/> 
       <min value="0"/> 
       <max value="1"/> 
       <base> 
@@ -1059,8 +1059,8 @@ DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to
         <valueBoolean value="true"/> 
       </extension> 
       <path value="PublicationRecord.copyright"/> 
-      <short value="Use and/or publishing restrictions for the publicationrecord record, not for the cited artifact"/> 
-      <definition value="Use and/or publishing restrictions for the publicationrecord record, not for the cited artifact."/> 
+      <short value="Use and/or publishing restrictions for the PublicationRecord, not for the cited artifact"/> 
+      <definition value="Use and/or publishing restrictions for the PublicationRecord, not for the cited artifact."/> 
       <min value="0"/> 
       <max value="1"/> 
       <base> 
@@ -1121,7 +1121,7 @@ DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to
     </element> 
     <element id="PublicationRecord.approvalDate">
       <path value="PublicationRecord.approvalDate"/> 
-      <short value="When the publicationrecord record was approved by publisher"/> 
+      <short value="When the PublicationRecord was approved by publisher"/> 
       <definition value="The date on which the resource content was approved by the publisher. Approval
        happens once when the content is officially approved for usage."/> 
       <comment value="The 'date' element may be more recent than the approval date because of minor changes
@@ -1156,7 +1156,7 @@ See guidance around (not) making local changes to elements [here](canonicalresou
     </element> 
     <element id="PublicationRecord.lastReviewDate">
       <path value="PublicationRecord.lastReviewDate"/> 
-      <short value="When the publicationrecord record was last reviewed by the publisher"/> 
+      <short value="When the PublicationRecord was last reviewed by the publisher"/> 
       <definition value="The date on which the resource content was last reviewed. Review happens periodically
        after approval but does not change the original approval date."/> 
       <comment value="If specified, this date follows the original approval date.
@@ -1192,17 +1192,17 @@ See guidance around (not) making local changes to elements [here](canonicalresou
     </element> 
     <element id="PublicationRecord.effectivePeriod">
       <path value="PublicationRecord.effectivePeriod"/> 
-      <short value="When the publicationrecord record is expected to be used"/> 
-      <definition value="The period during which the publicationrecord record content was or is planned to be in
+      <short value="When the PublicationRecord is expected to be used"/> 
+      <definition value="The period during which the PublicationRecord content was or is planned to be in
        active use."/> 
-      <comment value="The effective period for a publicationrecord record determines when the content is applicable
-       for usage and is independent of publication and review dates. For example, a publicationrecord
+      <comment value="The effective period for a PublicationRecord determines when the content is applicable
+       for usage and is independent of publication and review dates. For example, a PublicationRecord
        intended to be used for the year 2016 might be published in 2015.
 
 See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
       lization)."/> 
       <requirements value="Allows establishing a transition before a resource comes into effect and also allows
-       for a sunsetting process when new versions of the publicationrecord record are or are expected
+       for a sunsetting process when new versions of the PublicationRecord are or are expected
        to be used instead."/> 
       <min value="0"/> 
       <max value="1"/> 
@@ -1231,8 +1231,8 @@ See guidance around (not) making local changes to elements [here](canonicalresou
     </element> 
     <element id="PublicationRecord.recorder">
       <path value="PublicationRecord.recorder"/> 
-      <short value="Who entered the data for the publicationrecord record"/> 
-      <definition value="Who entered the data for the publicationrecord record."/> 
+      <short value="Who entered the data for the PublicationRecord"/> 
+      <definition value="Who entered the data for the PublicationRecord."/> 
       <comment value="The PublicationRecord.recorder element is structured to support a name (with a string datatype)
        and contact point information for the recorder, and is not structured to support
        unique identifiers for the recorder. If detailed contributorship data is needed,
@@ -1260,12 +1260,12 @@ See guidance around (not) making local changes to elements [here](canonicalresou
     </element> 
     <element id="PublicationRecord.editor">
       <path value="PublicationRecord.editor"/> 
-      <short value="Who edited the publicationrecord record"/> 
-      <definition value="Who edited or revised the publicationrecord record."/> 
+      <short value="Who edited the PublicationRecord"/> 
+      <definition value="Who edited or revised the PublicationRecord."/> 
       <comment value="The PublicationRecord.editor element is structured to support a name (with a string datatype)
        and contact point information for the editor, and is not structured to support
        unique identifiers for the editor. If detailed contributorship data is needed for
-       the editing of the publicationrecord record, then one can create a PublicationRecord Resource for
+       the editing of the PublicationRecord, then one can create a PublicationRecord Resource for
        the PublicationRecord Resource."/> 
       <min value="0"/> 
       <max value="*"/> 
@@ -1290,12 +1290,12 @@ See guidance around (not) making local changes to elements [here](canonicalresou
     </element> 
     <element id="PublicationRecord.reviewer">
       <path value="PublicationRecord.reviewer"/> 
-      <short value="Who reviewed the publicationrecord record"/> 
-      <definition value="Who reviewed the publicationrecord record."/> 
+      <short value="Who reviewed the PublicationRecord"/> 
+      <definition value="Who reviewed the PublicationRecord."/> 
       <comment value="The PublicationRecord.reviewer element is structured to support a name (with a string datatype)
        and contact point information for the reviewer, and is not structured to support
        unique identifiers for the reviewer. If detailed contributorship data is needed
-       for the review of the publicationrecord record, then one can create a PublicationRecord Resource
+       for the review of the PublicationRecord, then one can create a PublicationRecord Resource
        for the PublicationRecord Resource.
 
 See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
@@ -1323,12 +1323,12 @@ See guidance around (not) making local changes to elements [here](canonicalresou
     </element> 
     <element id="PublicationRecord.endorser">
       <path value="PublicationRecord.endorser"/> 
-      <short value="Who endorsed the publicationrecord record"/> 
-      <definition value="Who endorsed the publicationrecord record."/> 
+      <short value="Who endorsed the PublicationRecord"/> 
+      <definition value="Who endorsed the PublicationRecord."/> 
       <comment value="The PublicationRecord.endorser element is structured to support a name (with a string datatype)
        and contact point information for the endorser, and is not structured to support
        unique identifiers for the endorser. If detailed contributorship data is needed
-       for the endorsement of the publicationrecord record, then one can create a PublicationRecord Resource
+       for the endorsement of the PublicationRecord, then one can create a PublicationRecord Resource
        for the PublicationRecord Resource.
 
 See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
@@ -1356,8 +1356,8 @@ See guidance around (not) making local changes to elements [here](canonicalresou
     </element> 
     <element id="PublicationRecord.summary">
       <path value="PublicationRecord.summary"/> 
-      <short value="A human-readable display of key concepts to represent the publicationrecord"/> 
-      <definition value="A human-readable display of key concepts to represent the publicationrecord."/> 
+      <short value="A human-readable display of key concepts to represent the PublicationRecord"/> 
+      <definition value="A human-readable display of key concepts to represent the PublicationRecord."/> 
       <min value="0"/> 
       <max value="*"/> 
       <base> 
@@ -1500,8 +1500,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element> 
     <element id="PublicationRecord.summary.style">
       <path value="PublicationRecord.summary.style"/> 
-      <short value="Format for display of the publicationrecord summary"/> 
-      <definition value="Format for display of the publicationrecord summary."/> 
+      <short value="Format for display of the PublicationRecord summary"/> 
+      <definition value="Format for display of the PublicationRecord summary."/> 
       <min value="0"/> 
       <max value="1"/> 
       <base> 
@@ -1532,8 +1532,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element> 
     <element id="PublicationRecord.summary.text">
       <path value="PublicationRecord.summary.text"/> 
-      <short value="The human-readable display of the publicationrecord summary"/> 
-      <definition value="The human-readable display of the publicationrecord summary."/> 
+      <short value="The human-readable display of the PublicationRecord summary"/> 
+      <definition value="The human-readable display of the PublicationRecord summary."/> 
       <min value="1"/> 
       <max value="1"/> 
       <base> 
@@ -1559,7 +1559,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
       <path value="PublicationRecord.classification"/> 
       <short value="The assignment to an organizing scheme"/> 
       <definition value="The assignment to an organizing scheme."/> 
-      <comment value="Use this element if you need to classify the publicationrecord record independently from
+      <comment value="Use this element if you need to classify the PublicationRecord independently from
        classifying the cited artifact."/> 
       <min value="0"/> 
       <max value="*"/> 
@@ -1792,9 +1792,9 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element> 
     <element id="PublicationRecord.currentState">
       <path value="PublicationRecord.currentState"/> 
-      <short value="The status of the publicationrecord record"/> 
-      <definition value="The status of the publicationrecord record."/> 
-      <comment value="Use this if needed for reporting the state or status of the publicationrecord record, NOT
+      <short value="The status of the PublicationRecord"/> 
+      <definition value="The status of the PublicationRecord."/> 
+      <comment value="Use this if needed for reporting the state or status of the PublicationRecord, NOT
        FOR reporting the state or status of the cited article."/> 
       <min value="0"/> 
       <max value="*"/> 
@@ -1826,10 +1826,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element> 
     <element id="PublicationRecord.statusDate">
       <path value="PublicationRecord.statusDate"/> 
-      <short value="An effective date or period for a status of the publicationrecord record"/> 
-      <definition value="The state or status of the publicationrecord record paired with an effective date or period
+      <short value="An effective date or period for a status of the PublicationRecord"/> 
+      <definition value="The state or status of the PublicationRecord paired with an effective date or period
        for that state."/> 
-      <comment value="Use this if needed for reporting the state or status of the publicationrecord record, NOT
+      <comment value="Use this if needed for reporting the state or status of the PublicationRecord, NOT
        FOR reporting the state or status of the cited article."/> 
       <min value="0"/> 
       <max value="*"/> 
@@ -1974,7 +1974,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     <element id="PublicationRecord.statusDate.activity">
       <path value="PublicationRecord.statusDate.activity"/> 
       <short value="Classification of the status"/> 
-      <definition value="The state or status of the publicationrecord record (that will be paired with the period)."/> 
+      <definition value="The state or status of the PublicationRecord (that will be paired with the period)."/> 
       <min value="1"/> 
       <max value="1"/> 
       <base> 
@@ -2202,7 +2202,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element> 
     <element id="PublicationRecord.relatesTo.type">
       <path value="PublicationRecord.relatesTo.type"/> 
-      <short value="documentation | justification | predecessor | successor | derived-from | depends-on
+      <short value="documentation | justification | citation | predecessor | successor | derived-from | depends-on
        | composed-of | part-of | amends | amended-with | appends | appended-with | cites
        | cited-by | comments-on | comment-in | contains | contained-in | corrects | correction-in
        | replaces | replaced-with | retracts | retracted-by | signs | similar-to | supports
@@ -3527,8 +3527,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        Resource and consider any data in the current PublicationRecord Resource as superceding
        to be version-specific or part-specific. For example, the part-specific PublicationRecord
        may have additional contributorship data that supercedes the contributorship data
-       for the full publicationrecord when there is a need to uniquely report the contributorship
-       for an image or supplement associated with the fuller publicationrecord record."/> 
+       for the full PublicationRecord when there is a need to uniquely report the contributorship
+       for an image or supplement associated with the fuller PublicationRecord."/> 
       <min value="0"/> 
       <max value="1"/> 
       <base> 
@@ -3700,7 +3700,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element> 
     <element id="PublicationRecord.citedArtifact.relatesTo.type">
       <path value="PublicationRecord.citedArtifact.relatesTo.type"/> 
-      <short value="documentation | justification | predecessor | successor | derived-from | depends-on
+      <short value="documentation | justification | citation | predecessor | successor | derived-from | depends-on
        | composed-of | part-of | amends | amended-with | appends | appended-with | cites
        | cited-by | comments-on | comment-in | contains | contained-in | corrects | correction-in
        | replaces | replaced-with | retracts | retracted-by | signs | similar-to | supports
@@ -3773,7 +3773,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
       <short value="Short label"/> 
       <definition value="A short label that can be used to reference the related artifact from elsewhere
        in the containing artifact, such as a footnote index."/> 
-      <comment value="Though not commonly used in publicationrecord records, this could be used for referencing
+      <comment value="Though not commonly used in PublicationRecords, this could be used for referencing
        other articles in the abstract or explanatory notes."/> 
       <min value="0"/> 
       <max value="1"/> 
@@ -4562,7 +4562,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        for which they are accession numbers. Accession numbers which are used for indexing
        citations in a dataset of citations should NOT be entered in PublicationRecord.citedArtifact.publicati
       onForm.accessionNumber -- this use would be a type of PublicationRecord.identifier for the
-       publicationrecord record itself."/> 
+       PublicationRecord itself."/> 
       <min value="0"/> 
       <max value="1"/> 
       <base> 
@@ -5129,7 +5129,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
       <definition value="Complex or externally created classification."/> 
       <comment value="Examples relevant to study citations include MeSH Headings or Keywords that contain
        qualifier codings or sub-classifications, and include risk of bias assessments
-       created by persons different from the creator of the publicationrecord record."/> 
+       created by persons different from the creator of the PublicationRecord."/> 
       <min value="0"/> 
       <max value="*"/> 
       <base> 
@@ -5505,14 +5505,14 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element> 
     <element id="PublicationRecord.citedArtifact.contributorship.entry.forenameInitials">
       <path value="PublicationRecord.citedArtifact.contributorship.entry.forenameInitials"/> 
-      <short value="For publicationrecord styles that use initials"/> 
-      <definition value="For publicationrecord styles that use initials."/> 
+      <short value="For citation styles that use initials"/> 
+      <definition value="For citation styles that use initials."/> 
       <comment value="This element is used to support a data element used for citations that is not otherwise
-       supported fully by FHIR HumanName datatype. In some publicationrecord summary styles (e.g.
+       supported fully by FHIR HumanName datatype. In some citation summary styles (e.g.
        Medline), authors are presented with full spelling of their last name (family name)
        and initials for all forenames (first names, middle names, preceding names, given
        names). As the FHIR HumanName Datatype does not have a specific element for forename
-       initials and this is common in publicationrecord usage, the element is added to contributorship.entry
+       initials and this is common in citation usage, the element is added to contributorship.entry
        directly."/> 
       <min value="0"/> 
       <max value="1"/> 
@@ -6210,10 +6210,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.url">
       <path value="PublicationRecord.url"/>
-      <short value="Canonical identifier for this publicationrecord record, represented as a globally unique URI"/>
-      <definition value="An absolute URI that is used to identify this publicationrecord record when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which an authoritative instance of this summary is (or will be) published. This URL can be the target of a canonical reference. It SHALL remain the same when the summary is stored on different servers."/>
+      <short value="Canonical identifier for this PublicationRecord, represented as a globally unique URI"/>
+      <definition value="An absolute URI that is used to identify this PublicationRecord when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which an authoritative instance of this summary is (or will be) published. This URL can be the target of a canonical reference. It SHALL remain the same when the summary is stored on different servers."/>
       <comment value="In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the meta.source element to indicate where the current master source of the resource can be found."/>
-      <requirements value="Allows the publicationrecord record to be referenced by a single globally unique identifier."/>
+      <requirements value="Allows the PublicationRecord to be referenced by a single globally unique identifier."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -6234,10 +6234,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.identifier">
       <path value="PublicationRecord.identifier"/>
-      <short value="Identifier for the publicationrecord record itself"/>
-      <definition value="A formal identifier that is used to identify this publicationrecord record when it is represented in other formats, or referenced in a specification, model, design or an instance."/>
-      <comment value="Use this element if you need to identify the publicationrecord record independently from identifying the cited artifact."/>
-      <requirements value="Allows externally provided and/or usable identifiers to be associated with this publicationrecord record."/>
+      <short value="Identifier for the PublicationRecord itself"/>
+      <definition value="A formal identifier that is used to identify this PublicationRecord when it is represented in other formats, or referenced in a specification, model, design or an instance."/>
+      <comment value="Use this element if you need to identify the PublicationRecord independently from identifying the cited artifact."/>
+      <requirements value="Allows externally provided and/or usable identifiers to be associated with this PublicationRecord."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -6255,9 +6255,9 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.version">
       <path value="PublicationRecord.version"/>
-      <short value="Business version of the publicationrecord record"/>
-      <definition value="The identifier that is used to identify this version of the publicationrecord record when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the publicationrecord record author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence."/>
-      <comment value="This is a business version label used for display in understanding the formal version of the publicationrecord record, not a resource version id or technical version number for an archival system. There may be different publicationrecord record instances that have the same identifier but different versions. The version can be appended to the url in a reference to allow a reference to a particular business version of the publicationrecord record with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](resource.html#bv-format)."/>
+      <short value="Business version of the PublicationRecord"/>
+      <definition value="The identifier that is used to identify this version of the PublicationRecord when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the PublicationRecord author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence."/>
+      <comment value="This is a business version label used for display in understanding the formal version of the PublicationRecord, not a resource version id or technical version number for an archival system. There may be different PublicationRecord instances that have the same identifier but different versions. The version can be appended to the url in a reference to allow a reference to a particular business version of the PublicationRecord with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](resource.html#bv-format)."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -6290,8 +6290,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.name">
       <path value="PublicationRecord.name"/>
-      <short value="Name for this publicationrecord record (computer friendly)"/>
-      <definition value="A natural language name identifying the publicationrecord record. This name should be usable as an identifier for the module by machine processing applications such as code generation."/>
+      <short value="Name for this PublicationRecord (computer friendly)"/>
+      <definition value="A natural language name identifying the PublicationRecord. This name should be usable as an identifier for the module by machine processing applications such as code generation."/>
       <comment value="The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly."/>
       <requirements value="Support human navigation and code generation."/>
       <min value="0"/>
@@ -6307,9 +6307,9 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         <valueBoolean value="true"/>
       </extension>
       <path value="PublicationRecord.title"/>
-      <short value="Name for this publicationrecord record (human friendly)"/>
-      <definition value="A short, descriptive, user-friendly title for the publicationrecord record."/>
-      <comment value="This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc. Use this element if you have a need for naming the publicationrecord record for human use, such as a display name for the publicationrecord record that is used when selecting citations from a list."/>
+      <short value="Name for this PublicationRecord (human friendly)"/>
+      <definition value="A short, descriptive, user-friendly title for the PublicationRecord."/>
+      <comment value="This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc. Use this element if you have a need for naming the PublicationRecord for human use, such as a display name for the PublicationRecord that is used when selecting citations from a list."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -6321,8 +6321,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
       <path value="PublicationRecord.status"/>
       <short value="draft | active | retired | unknown"/>
       <definition value="The status of this summary. Enables tracking the life-cycle of the content."/>
-      <comment value="Allows filtering of summaries that are appropriate for use versus not. Use &quot;active&quot; when the publicationrecord record is the version for others to actively use, &quot;draft&quot; while you are developing the content, and &quot;retired&quot; when this record should no longer be used for any purpose.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
-      <requirements value="Allows filtering of publicationrecord records that are appropriate for use versus not."/>
+      <comment value="Allows filtering of summaries that are appropriate for use versus not. Use &quot;active&quot; when the PublicationRecord is the version for others to actively use, &quot;draft&quot; while you are developing the content, and &quot;retired&quot; when this record should no longer be used for any purpose.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
+      <requirements value="Allows filtering of PublicationRecords that are appropriate for use versus not."/>
       <min value="1"/>
       <max value="1"/>
       <type>
@@ -6346,9 +6346,9 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     <element id="PublicationRecord.experimental">
       <path value="PublicationRecord.experimental"/>
       <short value="For testing only - never for real usage"/>
-      <definition value="A Boolean value to indicate that this publicationrecord record is authored for testing purposes (or education/evaluation/marketing) and no version of this resource will ever be intended for genuine usage."/>
-      <comment value="Allows filtering of publicationrecord records that are appropriate for use versus not.. Experimental resources might include example instances in implementation guides, instances created solely for testing purposes, etc. If experimental is 'true' for any version of a resource, it should be true for all versions of the resource.  (If experimental changes, then it is being misused or a resource that was never intended for real-world use has unexpectedly changed its purpose.).&#xA;&#xA;Experimental resources are not expected to be stable and may well have breaking changes without a corresponding change to the 'version' element."/>
-      <requirements value="Enables experimental content to be developed following the same lifecycle that would be used for a production-level publicationrecord record."/>
+      <definition value="A Boolean value to indicate that this PublicationRecord is authored for testing purposes (or education/evaluation/marketing) and no version of this resource will ever be intended for genuine usage."/>
+      <comment value="Allows filtering of PublicationRecords that are appropriate for use versus not.. Experimental resources might include example instances in implementation guides, instances created solely for testing purposes, etc. If experimental is 'true' for any version of a resource, it should be true for all versions of the resource.  (If experimental changes, then it is being misused or a resource that was never intended for real-world use has unexpectedly changed its purpose.).&#xA;&#xA;Experimental resources are not expected to be stable and may well have breaking changes without a corresponding change to the 'version' element."/>
+      <requirements value="Enables experimental content to be developed following the same lifecycle that would be used for a production-level PublicationRecord."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -6364,8 +6364,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     <element id="PublicationRecord.date">
       <path value="PublicationRecord.date"/>
       <short value="Date last changed"/>
-      <definition value="The date (and optionally time) when the publicationrecord record was last significantly changed. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the publicationrecord record changes."/>
-      <comment value="The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the publicationrecord record. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
+      <definition value="The date (and optionally time) when the PublicationRecord was last significantly changed. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the PublicationRecord changes."/>
+      <comment value="The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the PublicationRecord. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
       <alias value="Revision Date"/>
       <min value="0"/>
       <max value="1"/>
@@ -6380,9 +6380,9 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.author">
       <path value="PublicationRecord.author"/>
-      <short value="Who authored the publicationrecord record"/>
-      <definition value="Who authored or created the publicationrecord record."/>
-      <comment value="The PublicationRecord.author element is structured to support a name (with a string datatype) and contact point information for the author/creator, and is not structured to support unique identifiers for the author. If detailed contributorship data is needed for the authorship of the publicationrecord record, then one can create a PublicationRecord Resource for the PublicationRecord Resource."/>
+      <short value="Who authored the PublicationRecord"/>
+      <definition value="Who authored or created the PublicationRecord."/>
+      <comment value="The PublicationRecord.author element is structured to support a name (with a string datatype) and contact point information for the author/creator, and is not structured to support unique identifiers for the author. If detailed contributorship data is needed for the authorship of the PublicationRecord, then one can create a PublicationRecord Resource for the PublicationRecord Resource."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -6398,10 +6398,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         <valueBoolean value="true"/>
       </extension>
       <path value="PublicationRecord.publisher"/>
-      <short value="The publisher of the publicationrecord record, not the publisher of the article or artifact being cited"/>
-      <definition value="The name of the organization or individual that published the publicationrecord record."/>
-      <comment value="Usually an organization but may be an individual. The publisher (or steward) of the publicationrecord record is the organization or individual primarily responsible for the maintenance and upkeep of the publicationrecord record. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the publicationrecord record. This item SHOULD be populated unless the information is available from context."/>
-      <requirements value="Helps establish the &quot;authority/credibility&quot; of the publicationrecord record. May also allow for contact."/>
+      <short value="The publisher of the PublicationRecord, not the publisher of the article or artifact being cited"/>
+      <definition value="The name of the organization or individual that published the PublicationRecord."/>
+      <comment value="Usually an organization but may be an individual. The publisher (or steward) of the PublicationRecord is the organization or individual primarily responsible for the maintenance and upkeep of the PublicationRecord. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the PublicationRecord. This item SHOULD be populated unless the information is available from context."/>
+      <requirements value="Helps establish the &quot;authority/credibility&quot; of the PublicationRecord. May also allow for contact."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -6415,7 +6415,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.contact">
       <path value="PublicationRecord.contact"/>
-      <short value="Contact details for the publisher of the publicationrecord record"/>
+      <short value="Contact details for the publisher of the PublicationRecord"/>
       <definition value="Contact details to assist a user in finding and communicating with the publisher."/>
       <comment value="May be a web site, an email address, a telephone number, etc.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
       <min value="0"/>
@@ -6430,9 +6430,9 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         <valueBoolean value="true"/>
       </extension>
       <path value="PublicationRecord.description"/>
-      <short value="Natural language description of the publicationrecord"/>
-      <definition value="A free text natural language description of the publicationrecord from a consumer's perspective."/>
-      <comment value="This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the publicationrecord as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the publicationrecord is presumed to be the predominant language in the place the publicationrecord was created)."/>
+      <short value="Natural language description of the PublicationRecord"/>
+      <definition value="A free text natural language description of the PublicationRecord from a consumer's perspective."/>
+      <comment value="This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the PublicationRecord as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the PublicationRecord is presumed to be the predominant language in the place the PublicationRecord was created)."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -6441,8 +6441,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.useContext">
       <path value="PublicationRecord.useContext"/>
-      <short value="The context that the publicationrecord record content is intended to support"/>
-      <definition value="The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist with indexing and searching for appropriate publicationrecord record instances."/>
+      <short value="The context that the PublicationRecord content is intended to support"/>
+      <definition value="The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist with indexing and searching for appropriate PublicationRecord instances."/>
       <comment value="When multiple useContexts are specified, there is no expectation that all or any of the contexts apply."/>
       <requirements value="Assist in searching for appropriate content."/>
       <min value="0"/>
@@ -6454,9 +6454,9 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.jurisdiction">
       <path value="PublicationRecord.jurisdiction"/>
-      <short value="Jurisdiction of the authority that maintains the publicationrecord record (if applicable)"/>
+      <short value="Jurisdiction of the authority that maintains the PublicationRecord (if applicable)"/>
       <definition value="A legal or geographic region in which the authority that maintains the resource is operating.  In general, the jurisdiction is also found in the useContext.  The useContext may reference additional jurisdictions because the defining jurisdiction does not necessarily limit the jurisdictions of use."/>
-      <comment value="It may be possible for the publicationrecord record to be used in jurisdictions other than those for which it was originally designed or intended.&#xA;&#xA;DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)"/>
+      <comment value="It may be possible for the PublicationRecord to be used in jurisdictions other than those for which it was originally designed or intended.&#xA;&#xA;DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -6476,9 +6476,9 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         <valueBoolean value="true"/>
       </extension>
       <path value="PublicationRecord.purpose"/>
-      <short value="Why this publicationrecord is defined"/>
-      <definition value="Explanation of why this publicationrecord is needed and why it has been designed as it has."/>
-      <comment value="This element does not describe the usage of the publicationrecord. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this publicationrecord."/>
+      <short value="Why this PublicationRecord is defined"/>
+      <definition value="Explanation of why this PublicationRecord is needed and why it has been designed as it has."/>
+      <comment value="This element does not describe the usage of the PublicationRecord. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this PublicationRecord."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -6498,7 +6498,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         <valueBoolean value="true"/>
       </extension>
       <path value="PublicationRecord.copyright"/>
-      <short value="Notice about intellectual property ownership, can include restrictions on use for the publicationrecord record, not for the cited artifact"/>
+      <short value="Notice about intellectual property ownership, can include restrictions on use for the PublicationRecord, not for the cited artifact"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -6522,7 +6522,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.approvalDate">
       <path value="PublicationRecord.approvalDate"/>
-      <short value="When the publicationrecord record was approved by publisher"/>
+      <short value="When the PublicationRecord was approved by publisher"/>
       <definition value="The date on which the resource content was approved by the publisher. Approval happens once when the content is officially approved for usage."/>
       <comment value="The 'date' element may be more recent than the approval date because of minor changes or editorial corrections.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
       <min value="0"/>
@@ -6538,7 +6538,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.lastReviewDate">
       <path value="PublicationRecord.lastReviewDate"/>
-      <short value="When the publicationrecord record was last reviewed by the publisher"/>
+      <short value="When the PublicationRecord was last reviewed by the publisher"/>
       <definition value="The date on which the resource content was last reviewed. Review happens periodically after approval but does not change the original approval date."/>
       <comment value="If specified, this date follows the original approval date.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
       <requirements value="Gives a sense of how &quot;current&quot; the content is.  Resources that have not been reviewed in a long time may have a risk of being less appropriate/relevant."/>
@@ -6555,10 +6555,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.effectivePeriod">
       <path value="PublicationRecord.effectivePeriod"/>
-      <short value="When the publicationrecord record is expected to be used"/>
-      <definition value="The period during which the publicationrecord record content was or is planned to be in active use."/>
-      <comment value="The effective period for a publicationrecord record determines when the content is applicable for usage and is independent of publication and review dates. For example, a publicationrecord intended to be used for the year 2016 might be published in 2015.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
-      <requirements value="Allows establishing a transition before a resource comes into effect and also allows for a sunsetting process when new versions of the publicationrecord record are or are expected to be used instead."/>
+      <short value="When the PublicationRecord is expected to be used"/>
+      <definition value="The period during which the PublicationRecord content was or is planned to be in active use."/>
+      <comment value="The effective period for a PublicationRecord determines when the content is applicable for usage and is independent of publication and review dates. For example, a PublicationRecord intended to be used for the year 2016 might be published in 2015.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
+      <requirements value="Allows establishing a transition before a resource comes into effect and also allows for a sunsetting process when new versions of the PublicationRecord are or are expected to be used instead."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -6572,8 +6572,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.recorder">
       <path value="PublicationRecord.recorder"/>
-      <short value="Who entered the data for the publicationrecord record"/>
-      <definition value="Who entered the data for the publicationrecord record."/>
+      <short value="Who entered the data for the PublicationRecord"/>
+      <definition value="Who entered the data for the PublicationRecord."/>
       <comment value="The PublicationRecord.recorder element is structured to support a name (with a string datatype) and contact point information for the recorder, and is not structured to support unique identifiers for the recorder. If detailed contributorship data is needed, then one can create a PublicationRecord Resource for the PublicationRecord Resource."/>
       <min value="0"/>
       <max value="*"/>
@@ -6583,9 +6583,9 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.editor">
       <path value="PublicationRecord.editor"/>
-      <short value="Who edited the publicationrecord record"/>
-      <definition value="Who edited or revised the publicationrecord record."/>
-      <comment value="The PublicationRecord.editor element is structured to support a name (with a string datatype) and contact point information for the editor, and is not structured to support unique identifiers for the editor. If detailed contributorship data is needed for the editing of the publicationrecord record, then one can create a PublicationRecord Resource for the PublicationRecord Resource."/>
+      <short value="Who edited the PublicationRecord"/>
+      <definition value="Who edited or revised the PublicationRecord."/>
+      <comment value="The PublicationRecord.editor element is structured to support a name (with a string datatype) and contact point information for the editor, and is not structured to support unique identifiers for the editor. If detailed contributorship data is needed for the editing of the PublicationRecord, then one can create a PublicationRecord Resource for the PublicationRecord Resource."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -6594,8 +6594,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.reviewer">
       <path value="PublicationRecord.reviewer"/>
-      <short value="Who reviewed the publicationrecord record"/>
-      <comment value="The PublicationRecord.reviewer element is structured to support a name (with a string datatype) and contact point information for the reviewer, and is not structured to support unique identifiers for the reviewer. If detailed contributorship data is needed for the review of the publicationrecord record, then one can create a PublicationRecord Resource for the PublicationRecord Resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
+      <short value="Who reviewed the PublicationRecord"/>
+      <comment value="The PublicationRecord.reviewer element is structured to support a name (with a string datatype) and contact point information for the reviewer, and is not structured to support unique identifiers for the reviewer. If detailed contributorship data is needed for the review of the PublicationRecord, then one can create a PublicationRecord Resource for the PublicationRecord Resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -6604,8 +6604,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.endorser">
       <path value="PublicationRecord.endorser"/>
-      <short value="Who endorsed the publicationrecord record"/>
-      <comment value="The PublicationRecord.endorser element is structured to support a name (with a string datatype) and contact point information for the endorser, and is not structured to support unique identifiers for the endorser. If detailed contributorship data is needed for the endorsement of the publicationrecord record, then one can create a PublicationRecord Resource for the PublicationRecord Resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
+      <short value="Who endorsed the PublicationRecord"/>
+      <comment value="The PublicationRecord.endorser element is structured to support a name (with a string datatype) and contact point information for the endorser, and is not structured to support unique identifiers for the endorser. If detailed contributorship data is needed for the endorsement of the PublicationRecord, then one can create a PublicationRecord Resource for the PublicationRecord Resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -6614,8 +6614,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.summary">
       <path value="PublicationRecord.summary"/>
-      <short value="A human-readable display of key concepts to represent the publicationrecord"/>
-      <definition value="A human-readable display of key concepts to represent the publicationrecord."/>
+      <short value="A human-readable display of key concepts to represent the PublicationRecord"/>
+      <definition value="A human-readable display of key concepts to represent the PublicationRecord."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -6624,8 +6624,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.summary.style">
       <path value="PublicationRecord.summary.style"/>
-      <short value="Format for display of the publicationrecord summary"/>
-      <definition value="Format for display of the publicationrecord summary."/>
+      <short value="Format for display of the PublicationRecord summary"/>
+      <definition value="Format for display of the PublicationRecord summary."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -6641,8 +6641,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.summary.text">
       <path value="PublicationRecord.summary.text"/>
-      <short value="The human-readable display of the publicationrecord summary"/>
-      <definition value="The human-readable display of the publicationrecord summary."/>
+      <short value="The human-readable display of the PublicationRecord summary"/>
+      <definition value="The human-readable display of the PublicationRecord summary."/>
       <min value="1"/>
       <max value="1"/>
       <type>
@@ -6653,7 +6653,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     <element id="PublicationRecord.classification">
       <path value="PublicationRecord.classification"/>
       <short value="The assignment to an organizing scheme"/>
-      <comment value="Use this element if you need to classify the publicationrecord record independently from classifying the cited artifact."/>
+      <comment value="Use this element if you need to classify the PublicationRecord independently from classifying the cited artifact."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -6703,8 +6703,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.currentState">
       <path value="PublicationRecord.currentState"/>
-      <short value="The status of the publicationrecord record"/>
-      <comment value="Use this if needed for reporting the state or status of the publicationrecord record, NOT FOR reporting the state or status of the cited article."/>
+      <short value="The status of the PublicationRecord"/>
+      <comment value="Use this if needed for reporting the state or status of the PublicationRecord, NOT FOR reporting the state or status of the cited article."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -6720,9 +6720,9 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.statusDate">
       <path value="PublicationRecord.statusDate"/>
-      <short value="An effective date or period for a status of the publicationrecord record"/>
-      <definition value="The state or status of the publicationrecord record paired with an effective date or period for that state."/>
-      <comment value="Use this if needed for reporting the state or status of the publicationrecord record, NOT FOR reporting the state or status of the cited article."/>
+      <short value="An effective date or period for a status of the PublicationRecord"/>
+      <definition value="The state or status of the PublicationRecord paired with an effective date or period for that state."/>
+      <comment value="Use this if needed for reporting the state or status of the PublicationRecord, NOT FOR reporting the state or status of the cited article."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -6732,7 +6732,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     <element id="PublicationRecord.statusDate.activity">
       <path value="PublicationRecord.statusDate.activity"/>
       <short value="Classification of the status"/>
-      <definition value="The state or status of the publicationrecord record (that will be paired with the period)."/>
+      <definition value="The state or status of the PublicationRecord (that will be paired with the period)."/>
       <min value="1"/>
       <max value="1"/>
       <type>
@@ -6782,7 +6782,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.relatesTo.type">
       <path value="PublicationRecord.relatesTo.type"/>
-      <short value="documentation | justification | publicationrecord | predecessor | successor | derived-from | depends-on | composed-of | part-of | amends | amended-with | appends | appended-with | cites | cited-by | comments-on | comment-in | contains | contained-in | corrects | correction-in | replaces | replaced-with | retracts | retracted-by | signs | similar-to | supports | supported-with | transforms | transformed-into | transformed-with | documents | specification-of | created-with | cite-as | reprint | reprint-of | summarizes"/>
+      <short value="documentation | justification | citation | predecessor | successor | derived-from | depends-on | composed-of | part-of | amends | amended-with | appends | appended-with | cites | cited-by | comments-on | comment-in | contains | contained-in | corrects | correction-in | replaces | replaced-with | retracts | retracted-by | signs | similar-to | supports | supported-with | transforms | transformed-into | transformed-with | documents | specification-of | created-with | cite-as | reprint | reprint-of | summarizes"/>
       <definition value="The type of relationship to the related artifact."/>
       <min value="1"/>
       <max value="1"/>
@@ -7111,7 +7111,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     <element id="PublicationRecord.citedArtifact.baseCitation">
       <path value="PublicationRecord.citedArtifact.baseCitation"/>
       <short value="PublicationRecord for the primary version and complete form of the cited artifact"/>
-      <comment value="When referencing a baseCitation, one may inherit any data from the referenced PublicationRecord Resource and consider any data in the current PublicationRecord Resource as superceding to be version-specific or part-specific. For example, the part-specific PublicationRecord may have additional contributorship data that supercedes the contributorship data for the full publicationrecord when there is a need to uniquely report the contributorship for an image or supplement associated with the fuller publicationrecord record."/>
+      <comment value="When referencing a baseCitation, one may inherit any data from the referenced PublicationRecord Resource and consider any data in the current PublicationRecord Resource as superceding to be version-specific or part-specific. For example, the part-specific PublicationRecord may have additional contributorship data that supercedes the contributorship data for the full citation when there is a need to uniquely report the contributorship for an image or supplement associated with the fuller PublicationRecord."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7131,7 +7131,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.citedArtifact.relatesTo.type">
       <path value="PublicationRecord.citedArtifact.relatesTo.type"/>
-      <short value="documentation | justification | publicationrecord | predecessor | successor | derived-from | depends-on | composed-of | part-of | amends | amended-with | appends | appended-with | cites | cited-by | comments-on | comment-in | contains | contained-in | corrects | correction-in | replaces | replaced-with | retracts | retracted-by | signs | similar-to | supports | supported-with | transforms | transformed-into | transformed-with | documents | specification-of | created-with | cite-as | reprint | reprint-of | summarizes"/>
+      <short value="documentation | justification | citation | predecessor | successor | derived-from | depends-on | composed-of | part-of | amends | amended-with | appends | appended-with | cites | cited-by | comments-on | comment-in | contains | contained-in | corrects | correction-in | replaces | replaced-with | retracts | retracted-by | signs | similar-to | supports | supported-with | transforms | transformed-into | transformed-with | documents | specification-of | created-with | cite-as | reprint | reprint-of | summarizes"/>
       <definition value="The type of relationship to the related artifact."/>
       <min value="1"/>
       <max value="1"/>
@@ -7168,7 +7168,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
       <path value="PublicationRecord.citedArtifact.relatesTo.label"/>
       <short value="Short label"/>
       <definition value="A short label that can be used to reference the related artifact from elsewhere in the containing artifact, such as a footnote index."/>
-      <comment value="Though not commonly used in publicationrecord records, this could be used for referencing other articles in the abstract or explanatory notes."/>
+      <comment value="Though not commonly used in PublicationRecords, this could be used for referencing other articles in the abstract or explanatory notes."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7185,10 +7185,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
         <code value="string"/>
       </type>
     </element>
-    <element id="PublicationRecord.citedArtifact.relatesTo.publicationrecord">
-      <path value="PublicationRecord.citedArtifact.relatesTo.publicationrecord"/>
-      <short value="Bibliographic publicationrecord for the artifact"/>
-      <definition value="A bibliographic publicationrecord for the related artifact. This text SHOULD be formatted according to an accepted publicationrecord format."/>
+    <element id="PublicationRecord.citedArtifact.relatesTo.citation">
+      <path value="PublicationRecord.citedArtifact.relatesTo.citation"/>
+      <short value="Bibliographic citation for the artifact"/>
+      <definition value="A bibliographic citation for the related artifact. This text SHOULD be formatted according to an accepted citation format."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7395,7 +7395,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     <element id="PublicationRecord.citedArtifact.publicationForm.accessionNumber">
       <path value="PublicationRecord.citedArtifact.publicationForm.accessionNumber"/>
       <short value="Entry number or identifier for inclusion in a database"/>
-      <comment value="Accession numbers may be used instead of or in addition to page numbers.  Accession numbers are functionally identifiers when coupled with the identity of the database for which they are accession numbers. Accession numbers which are used for indexing citations in a dataset of citations should NOT be entered in PublicationRecord.citedArtifact.publicationForm.accessionNumber -- this use would be a type of PublicationRecord.identifier for the publicationrecord record itself."/>
+      <comment value="Accession numbers may be used instead of or in addition to page numbers.  Accession numbers are functionally identifiers when coupled with the identity of the database for which they are accession numbers. Accession numbers which are used for indexing citations in a dataset of citations should NOT be entered in PublicationRecord.citedArtifact.publicationForm.accessionNumber -- this use would be a type of PublicationRecord.identifier for the PublicationRecord itself."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7530,7 +7530,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     <element id="PublicationRecord.citedArtifact.classification.artifactAssessment">
       <path value="PublicationRecord.citedArtifact.classification.artifactAssessment"/>
       <short value="Complex or externally created classification"/>
-      <comment value="Examples relevant to study citations include MeSH Headings or Keywords that contain qualifier codings or sub-classifications, and include risk of bias assessments created by persons different from the creator of the publicationrecord record."/>
+      <comment value="Examples relevant to study citations include MeSH Headings or Keywords that contain qualifier codings or sub-classifications, and include risk of bias assessments created by persons different from the creator of the PublicationRecord."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -7586,8 +7586,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
     </element>
     <element id="PublicationRecord.citedArtifact.contributorship.entry.forenameInitials">
       <path value="PublicationRecord.citedArtifact.contributorship.entry.forenameInitials"/>
-      <short value="For publicationrecord styles that use initials"/>
-      <comment value="This element is used to support a data element used for citations that is not otherwise supported fully by FHIR HumanName datatype. In some publicationrecord summary styles (e.g. Medline), authors are presented with full spelling of their last name (family name) and initials for all forenames (first names, middle names, preceding names, given names). As the FHIR HumanName Datatype does not have a specific element for forename initials and this is common in publicationrecord usage, the element is added to contributorship.entry directly."/>
+      <short value="For citation styles that use initials"/>
+      <comment value="This element is used to support a data element used for citations that is not otherwise supported fully by FHIR HumanName datatype. In some citation summary styles (e.g. Medline), authors are presented with full spelling of their last name (family name) and initials for all forenames (first names, middle names, preceding names, given names). As the FHIR HumanName Datatype does not have a specific element for forename initials and this is common in citation usage, the element is added to contributorship.entry directly."/>
       <min value="0"/>
       <max value="1"/>
       <type>

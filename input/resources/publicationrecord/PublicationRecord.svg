@@ -105,7 +105,7 @@
        class="diagram-class-detail"><a
    id="n1652"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.url"><title
-   id="title62787">An absolute URI that is used to identify this publicationrecord record when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which an authoritative instance of this summary is (or will be) published. This URL can be the target of a canonical reference. It SHALL remain the same when the summary is stored on different servers</title>url</a> : <a
+   id="title62787">An absolute URI that is used to identify this PublicationRecord when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which an authoritative instance of this summary is (or will be) published. This URL can be the target of a canonical reference. It SHALL remain the same when the summary is stored on different servers</title>url</a> : <a
    id="n1653"
    xlink:href="datatypes.html#uri">uri</a> [0..1]</text>
     <text
@@ -116,7 +116,7 @@
        class="diagram-class-detail"><a
    id="n1658"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.identifier"><title
-   id="title62792">A formal identifier that is used to identify this publicationrecord record when it is represented in other formats, or referenced in a specification, model, design or an instance</title>identifier</a> : <a
+   id="title62792">A formal identifier that is used to identify this PublicationRecord when it is represented in other formats, or referenced in a specification, model, design or an instance</title>identifier</a> : <a
    id="n1659"
    xlink:href="datatypes.html#Identifier">Identifier</a> [0..*]</text>
     <text
@@ -127,7 +127,7 @@
        class="diagram-class-detail"><a
    id="n1664"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.version"><title
-   id="title62797">The identifier that is used to identify this version of the publicationrecord record when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the publicationrecord record author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence</title>version</a> : <a
+   id="title62797">The identifier that is used to identify this version of the PublicationRecord when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the PublicationRecord author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence</title>version</a> : <a
    id="n1665"
    xlink:href="datatypes.html#string">string</a> [0..1]</text>
     <text
@@ -164,7 +164,7 @@
        class="diagram-class-detail"><a
    id="n1688"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.name"><title
-   id="title62813">A natural language name identifying the publicationrecord record. This name should be usable as an identifier for the module by machine processing applications such as code generation</title>name</a> : <a
+   id="title62813">A natural language name identifying the PublicationRecord. This name should be usable as an identifier for the module by machine processing applications such as code generation</title>name</a> : <a
    id="n1689"
    xlink:href="datatypes.html#string">string</a> [0..1] « <a
    id="n1690"
@@ -179,7 +179,7 @@
        class="diagram-class-detail"><a
    id="n1698"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.title"><title
-   id="title62820">A short, descriptive, user-friendly title for the publicationrecord record</title>title</a> : <a
+   id="title62820">A short, descriptive, user-friendly title for the PublicationRecord</title>title</a> : <a
    id="n1699"
    xlink:href="datatypes.html#string">string</a> [0..1]</text>
     <text
@@ -204,7 +204,7 @@
        class="diagram-class-detail"><a
    id="n1714"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.experimental"><title
-   id="title62832">A Boolean value to indicate that this publicationrecord record is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage</title>experimental</a> : <a
+   id="title62832">A Boolean value to indicate that this PublicationRecord is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage</title>experimental</a> : <a
    id="n1715"
    xlink:href="datatypes.html#boolean">boolean</a> [0..1]</text>
     <text
@@ -215,7 +215,7 @@
        class="diagram-class-detail"><a
    id="n1720"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.date"><title
-   id="title62837">The date (and optionally time) when the publicationrecord record was last significantly changed. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the publicationrecord record changes</title>date</a> : <a
+   id="title62837">The date (and optionally time) when the PublicationRecord was last significantly changed. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the PublicationRecord changes</title>date</a> : <a
    id="n1721"
    xlink:href="datatypes.html#dateTime">dateTime</a> [0..1]</text>
     <text
@@ -226,7 +226,7 @@
        class="diagram-class-detail"><a
    id="n1726"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.publisher"><title
-   id="title62842">The name of the organization or individual that published the publicationrecord record</title>publisher</a> : <a
+   id="title62842">The name of the organization or individual that published the PublicationRecord</title>publisher</a> : <a
    id="n1727"
    xlink:href="datatypes.html#string">string</a> [0..1]</text>
     <text
@@ -259,7 +259,7 @@
        class="diagram-class-detail"><a
    id="n1744"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.useContext"><title
-   id="title62857">The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist with indexing and searching for appropriate publicationrecord record instances</title>useContext</a> : <a
+   id="title62857">The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist with indexing and searching for appropriate PublicationRecord instances</title>useContext</a> : <a
    id="n1745"
    xlink:href="metadatatypes.html#UsageContext">UsageContext</a> [0..*]</text>
     <text
@@ -270,7 +270,7 @@
        class="diagram-class-detail"><a
    id="n1750"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.jurisdiction"><title
-   id="title62862">A legal or geographic region in which the publicationrecord record is intended to be used</title>jurisdiction</a> : <a
+   id="title62862">A legal or geographic region in which the PublicationRecord is intended to be used</title>jurisdiction</a> : <a
    id="n1751"
    xlink:href="datatypes.html#CodeableConcept">CodeableConcept</a> [0..*] « <a
    id="n1752"
@@ -295,7 +295,7 @@
        class="diagram-class-detail"><a
    id="n1766"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.copyright"><title
-   id="title62874">Use and/or publishing restrictions for the publicationrecord record, not for the cited artifact</title>copyright</a> : <a
+   id="title62874">Use and/or publishing restrictions for the PublicationRecord, not for the cited artifact</title>copyright</a> : <a
    id="n1767"
    xlink:href="datatypes.html#markdown">markdown</a> [0..1]</text>
     <text
@@ -339,7 +339,7 @@
        class="diagram-class-detail"><a
    id="n1790"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.effectivePeriod"><title
-   id="title62894">The period during which the publicationrecord record content was or is planned to be in active use</title>effectivePeriod</a> : <a
+   id="title62894">The period during which the PublicationRecord content was or is planned to be in active use</title>effectivePeriod</a> : <a
    id="n1791"
    xlink:href="datatypes.html#Period">Period</a> [0..1]</text>
     <text
@@ -350,7 +350,7 @@
        class="diagram-class-detail"><a
    id="n1796"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.author"><title
-   id="title62899">Who authored or created the publicationrecord record</title>author</a> : <a
+   id="title62899">Who authored or created the PublicationRecord</title>author</a> : <a
    id="n1797"
    xlink:href="metadatatypes.html#ContactDetail">ContactDetail</a> [0..*]</text>
     <text
@@ -361,7 +361,7 @@
        class="diagram-class-detail"><a
    id="n1802"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.editor"><title
-   id="title62904">Who edited or revised the publicationrecord record</title>editor</a> : <a
+   id="title62904">Who edited or revised the PublicationRecord</title>editor</a> : <a
    id="n1803"
    xlink:href="metadatatypes.html#ContactDetail">ContactDetail</a> [0..*]</text>
     <text
@@ -372,7 +372,7 @@
        class="diagram-class-detail"><a
    id="n1808"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.reviewer"><title
-   id="title62909">Who reviewed the publicationrecord record</title>reviewer</a> : <a
+   id="title62909">Who reviewed the PublicationRecord</title>reviewer</a> : <a
    id="n1809"
    xlink:href="metadatatypes.html#ContactDetail">ContactDetail</a> [0..*]</text>
     <text
@@ -383,7 +383,7 @@
        class="diagram-class-detail"><a
    id="n1814"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.endorser"><title
-   id="title62914">Who endorsed the publicationrecord record</title>endorser</a> : <a
+   id="title62914">Who endorsed the PublicationRecord</title>endorser</a> : <a
    id="n1815"
    xlink:href="metadatatypes.html#ContactDetail">ContactDetail</a> [0..*]</text>
     <text
@@ -405,7 +405,7 @@
        class="diagram-class-detail"><a
    id="n1826"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.currentState"><title
-   id="title62924">The status of the publicationrecord record</title>currentState</a> : <a
+   id="title62924">The status of the PublicationRecord</title>currentState</a> : <a
    id="n1827"
    xlink:href="datatypes.html#CodeableConcept">CodeableConcept</a> [0..*] « <a
    id="n1828"
@@ -419,7 +419,7 @@
        class="diagram-class-detail"><a
    id="n1836"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.relatedArtifact"><title
-   id="title62931">Artifact related to the publicationrecord record</title>relatedArtifact</a> : <a
+   id="title62931">Artifact related to the PublicationRecord</title>relatedArtifact</a> : <a
    id="n1837"
    xlink:href="metadatatypes.html#RelatedArtifact">RelatedArtifact</a> [0..*]</text>
   </g>
@@ -563,7 +563,7 @@
        class="diagram-class-detail"><a
    id="n1887"
    xlink:href="publicationrecord-definitions.html#PublicationRecord.statusDate.activity"><title
-   id="title62974">The state or status of the publicationrecord record (that will be paired with the period)</title>activity</a> : <a
+   id="title62974">The state or status of the PublicationRecord (that will be paired with the period)</title>activity</a> : <a
    id="n1888"
    xlink:href="datatypes.html#CodeableConcept">CodeableConcept</a> [1..1] « <a
    id="n1889"
@@ -1896,7 +1896,7 @@
      class="diagram-class-linkage"><a
        id="n2459"
        xlink:href="publicationrecord-definitions.html#PublicationRecord.statusDate"><title
-   id="title63454">The state or status of the publicationrecord record paired with an effective date or period for that state</title>statusDate</a></text>
+   id="title63454">The state or status of the PublicationRecord paired with an effective date or period for that state</title>statusDate</a></text>
   <text
      id="n2460"
      x="322.30482000000006"
