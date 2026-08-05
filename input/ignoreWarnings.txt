@@ -53,3 +53,6 @@ Pinned the version of http://hl7.org/fhir/uv/ebm-incubator/ValueSet/publicationr
 
 # Suppressing information on experimental CodeSystem
 Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot3
+
+# Suppressing information about not linking to examples, but the examples are there and reachable
+The Implementation Guide contains no explicitly linked examples for this profile
