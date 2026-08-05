@@ -8,10 +8,10 @@
   <status value="current"/>
   <mode value="working"/>
   <entry>
-    <extension url="http://hl7.org/fhir/StructureDefinition/description">
+    <extension url="http://hl7.org/fhir/build/StructureDefinition/description">
       <valueString value="NInFEA PublicationRecord"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/title">
+    <extension url="http://hl7.org/fhir/build/StructureDefinition/title">
       <valueString value="publicationrecord-example-research-doi"/>
     </extension>
     <item>
@@ -20,10 +20,10 @@
     </item>
   </entry>
   <entry>
-    <extension url="http://hl7.org/fhir/StructureDefinition/description">
+    <extension url="http://hl7.org/fhir/build/StructureDefinition/description">
       <valueString value="PublicationRecord for PARACHUTE RCT"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/title">
+    <extension url="http://hl7.org/fhir/build/StructureDefinition/title">
       <valueString value="publicationrecord-example-for-parachute-rct"/>
     </extension>
     <item>
@@ -32,10 +32,10 @@
     </item>
   </entry>
   <entry>
-    <extension url="http://hl7.org/fhir/StructureDefinition/description">
+    <extension url="http://hl7.org/fhir/build/StructureDefinition/description">
       <valueString value="DatasetCitation Profile Example"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/title">
+    <extension url="http://hl7.org/fhir/build/StructureDefinition/title">
       <valueString value="publicationrecord-example-dataset-publicationrecord"/>
     </extension>
     <item>
