@@ -17,6 +17,8 @@ Constraint failed: eld-33: 'If there's more than one bindable type, it's usually
 # Suppressing warning of no definition found for URL value for many instances in which the URL is an external website and the data element (e.g. relatesTo.targetUri or webLocation.url) does not expect a listed and verified value
 No definition could be found for URL value '%
 A definition for CodeSystem 'https://www.nlm.nih.gov/bsd/licensee/elements_descriptions.html#owner_value' could not be found, so the code cannot be validated
+A definition for CodeSystem 'https://www.nlm.nih.gov/bsd/licensee/elements_descriptions.html#issn' could not be found, so the code cannot be validated
+A definition for CodeSystem 'https://www.nlm.nih.gov/bsd/licensee/elements_descriptions.html#citationsubset' could not be found, so the code cannot be validated
 A definition for CodeSystem 'http://purl.obolibrary.org/obo/fma.owl' could not be found, so the code cannot be validated
 A definition for CodeSystem 'http://purl.obolibrary.org/obo/vt.owl' could not be found, so the code cannot be validated
 A definition for CodeSystem 'http://www.ebi.ac.uk/efo' could not be found, so the code cannot be validated
