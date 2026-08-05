@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<PublicationRecord xmlns="http://hl7.org/fhir" resourceDefinition="http://hl7.org/fhir/StructureDefinition/PublicationRecord">
+<PublicationRecord xmlns="http://hl7.org/fhir" resourceDefinition="http://hl7.org/fhir/StructureDefinition/PublicationRecord|1.0.0-ballot">
   <id value="publicationrecord-example-research-doi"/>
   <identifier>
     <type>
