@@ -13,7 +13,7 @@
           <valueString value="PublicationRecord.useContext.valueCodeableConcept"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-context"/>
-        <description value="A use context assigned to the publicationrecord"/>
+        <description value="A use context assigned to the publication record"/>
         <code value="context"/>
         <type value="token"/>
         <expression value="(PublicationRecord.useContext.value.ofType(CodeableConcept))"/>
@@ -32,7 +32,7 @@
           <valueString value="PublicationRecord.useContext.valueQuantity,PublicationRecord.useContext.valueRange"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-context-quantity"/>
-        <description value="A quantity- or range-valued use context assigned to the publicationrecord"/>
+        <description value="A quantity- or range-valued use context assigned to the publication record"/>
         <code value="context-quantity"/>
         <type value="quantity"/>
         <expression value="(PublicationRecord.useContext.value.ofType(Quantity)) | (PublicationRecord.useContext.value.ofType(Range))"/>
@@ -51,7 +51,7 @@
           <valueString value="PublicationRecord.useContext.code"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-context-type"/>
-        <description value="A type of use context assigned to the publicationrecord"/>
+        <description value="A type of use context assigned to the publication record"/>
         <code value="context-type"/>
         <type value="token"/>
         <expression value="PublicationRecord.useContext.code"/>
@@ -67,7 +67,7 @@
           <valueCode value="trial-use"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-context-type-quantity"/>
-        <description value="A use context type and quantity- or range-based value assigned to the publicationrecord"/>
+        <description value="A use context type and quantity- or range-based value assigned to the publication record"/>
         <code value="context-type-quantity"/>
         <type value="composite"/>
         <expression value="PublicationRecord.useContext"/>
@@ -91,7 +91,7 @@
           <valueCode value="trial-use"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-context-type-value"/>
-        <description value="A use context type and value assigned to the publicationrecord"/>
+        <description value="A use context type and value assigned to the publication record"/>
         <code value="context-type-value"/>
         <type value="composite"/>
         <expression value="PublicationRecord.useContext"/>
@@ -118,7 +118,7 @@
           <valueString value="PublicationRecord.date"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-date"/>
-        <description value="The publicationrecord publication date"/>
+        <description value="The publication record publication date"/>
         <code value="date"/>
         <type value="date"/>
         <expression value="PublicationRecord.date"/>
@@ -137,7 +137,7 @@
           <valueString value="PublicationRecord.description"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-description"/>
-        <description value="The description of the publicationrecord"/>
+        <description value="The description of the publication record"/>
         <code value="description"/>
         <type value="string"/>
         <expression value="PublicationRecord.description"/>
@@ -156,7 +156,7 @@
           <valueString value="PublicationRecord.effectivePeriod"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-effective"/>
-        <description value="The time during which the publicationrecord is intended to be in use"/>
+        <description value="The time during which the publication record is intended to be in use"/>
         <code value="effective"/>
         <type value="date"/>
         <expression value="PublicationRecord.effectivePeriod"/>
@@ -175,7 +175,7 @@
           <valueString value="PublicationRecord.identifier"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-identifier"/>
-        <description value="External identifier for the publicationrecord"/>
+        <description value="External identifier for the publication record"/>
         <code value="identifier"/>
         <type value="token"/>
         <expression value="PublicationRecord.identifier"/>
@@ -194,7 +194,7 @@
           <valueString value="PublicationRecord.jurisdiction"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-jurisdiction"/>
-        <description value="Jurisdiction of the authority that maintains the the publicationrecord"/>
+        <description value="Jurisdiction of the authority that maintains the the publication record"/>
         <code value="jurisdiction"/>
         <type value="token"/>
         <expression value="PublicationRecord.jurisdiction"/>
@@ -213,7 +213,7 @@
           <valueString value="PublicationRecord.name"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-name"/>
-        <description value="Computationally friendly name of the publicationrecord"/>
+        <description value="Computationally friendly name of the publication record"/>
         <code value="name"/>
         <type value="string"/>
         <expression value="PublicationRecord.name"/>
@@ -232,7 +232,7 @@
           <valueString value="PublicationRecord.publisher"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-publisher"/>
-        <description value="Name of the publisher of the publicationrecord"/>
+        <description value="Name of the publisher of the publication record"/>
         <code value="publisher"/>
         <type value="string"/>
         <expression value="PublicationRecord.publisher"/>
@@ -251,7 +251,7 @@
           <valueString value="PublicationRecord.status"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-status"/>
-        <description value="The current status of the publicationrecord"/>
+        <description value="The current status of the publication record"/>
         <code value="status"/>
         <type value="token"/>
         <expression value="PublicationRecord.status"/>
@@ -270,7 +270,7 @@
           <valueString value="PublicationRecord.title"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-title"/>
-        <description value="The human-friendly name of the publicationrecord"/>
+        <description value="The human-friendly name of the publication record"/>
         <code value="title"/>
         <type value="string"/>
         <expression value="PublicationRecord.title"/>
@@ -289,7 +289,7 @@
           <valueString value="PublicationRecord.url"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-url"/>
-        <description value="The uri that identifies the publicationrecord"/>
+        <description value="The uri that identifies the publication record"/>
         <code value="url"/>
         <type value="uri"/>
         <expression value="PublicationRecord.url"/>
@@ -308,7 +308,7 @@
           <valueString value="PublicationRecord.version"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-version"/>
-        <description value="The business version of the publicationrecord"/>
+        <description value="The business version of the publication record"/>
         <code value="version"/>
         <type value="token"/>
         <expression value="PublicationRecord.version"/>
@@ -327,7 +327,7 @@
           <valueString value="PublicationRecord.classification.classifier"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-classifier"/>
-        <description value="A classifier assigned to the publicationrecord"/>
+        <description value="A classifier assigned to the publication record"/>
         <code value="classifier"/>
         <type value="token"/>
         <expression value="(PublicationRecord.classification.classifier)"/>
@@ -346,7 +346,7 @@
           <valueString value="PublicationRecord.classification.type"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-classification-type"/>
-        <description value="A type of classification assigned to the publicationrecord"/>
+        <description value="A type of classification assigned to the publication record"/>
         <code value="classification-type"/>
         <type value="token"/>
         <expression value="(PublicationRecord.classification.type)"/>
@@ -362,7 +362,7 @@
           <valueCode value="trial-use"/>
         </extension>
         <url value="http://hl7.org/fhir/build/SearchParameter/PublicationRecord-classification"/>
-        <description value="A classification type and value assigned to the publicationrecord"/>
+        <description value="A classification type and value assigned to the publication record"/>
         <code value="classification"/>
         <type value="composite"/>
         <expression value="PublicationRecord.classification"/>
