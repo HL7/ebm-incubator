@@ -315,7 +315,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://purl.bioontology.org/ontology/NCBITAXON"/>
+          <system value="http://www.ncbi.nlm.nih.gov/taxonomy"/>
           <code value="9606"/>
           <display value="Homo sapiens"/>
         </coding>

@@ -2,6 +2,9 @@
 
 # Suppressing warnings about using tooling from version 5.0.0 for a version 6.0.0-ballot3 because version 6.0.0 tooling not available
 This IG is version 6.0.0-ballot3, while the IG 'hl7.fhir.uv.tools.r5' is from version 5.0.0
+This IG is version 6.0.0-ballot3, while the IG 'hl7.terminology.r5' is from version 5.0.0
+This IG is version 6.0.0-ballot3, while the IG 'hl7.fhir.uv.extensions.r5' is from version 5.0.0
+The canonical URL http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions points to the package hl7.fhir.uv.extensions which is inconsistent with the stated packageId of hl7.fhir.uv.extensions.r5
 
 # Suppressing errors about PublicationRecord not being a Resource Type
 The System URI could not be determined for the code 'PublicationRecord' in the ValueSet 'http://hl7.org/fhir/ValueSet/version-independent-all-resource-types|6.0.0-ballot3'
@@ -14,6 +17,8 @@ Constraint failed: eld-33: 'If there's more than one bindable type, it's usually
 # Suppressing warning of no definition found for URL value for many instances in which the URL is an external website and the data element (e.g. relatesTo.targetUri or webLocation.url) does not expect a listed and verified value
 No definition could be found for URL value '%
 A definition for CodeSystem 'https://www.nlm.nih.gov/bsd/licensee/elements_descriptions.html#owner_value' could not be found, so the code cannot be validated
+A definition for CodeSystem 'http://purl.obolibrary.org/obo/fma.owl' could not be found, so the code cannot be validated
+A definition for CodeSystem 'http://purl.obolibrary.org/obo/vt.owl' could not be found, so the code cannot be validated
 A definition for CodeSystem 'http://www.ebi.ac.uk/efo' could not be found, so the code cannot be validated
 
 
