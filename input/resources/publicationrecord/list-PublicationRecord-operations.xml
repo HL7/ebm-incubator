@@ -2,6 +2,9 @@
 
 <List xmlns="http://hl7.org/fhir">
   <id value="PublicationRecord-operations"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-instance-description">
+    <valueMarkdown value="A list of operations for the PublicationRecord"/>
+  </extension>
   <status value="current"/>
   <mode value="working"/>
 </List>
