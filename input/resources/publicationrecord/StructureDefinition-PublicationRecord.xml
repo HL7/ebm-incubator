@@ -20,13 +20,13 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="cds"/>
   </extension>
-  <extension url="http://hl7.org/fhir/build/StructureDefinition/entered-in-error-status">
+  <extension url="http://hl7.org/fhir/StructureDefinition/entered-in-error-status">
     <valueCode value=".status = retired"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-implements">
     <valueCanonical value="http://hl7.org/fhir/StructureDefinition/CanonicalResource"/>
   </extension>
-  <extension url="http://hl7.org/fhir/build/StructureDefinition/template">
+  <extension url="http://hl7.org/fhir/StructureDefinition/template">
     <valueString value="MetadataResource"/>
   </extension>
   <url value="http://hl7.org/fhir/StructureDefinition/PublicationRecord"/>
@@ -6192,7 +6192,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
   </snapshot> 
   <differential>
     <element id="PublicationRecord">
-      <extension url="http://hl7.org/fhir/build/StructureDefinition/svg">
+      <extension url="http://hl7.org/fhir/StructureDefinition/svg">
         <valueCode value="0,40"/>
       </extension>
       <path value="PublicationRecord"/>
@@ -6772,7 +6772,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
       </type>
     </element>
     <element id="PublicationRecord.relatesTo">
-      <extension url="http://hl7.org/fhir/build/StructureDefinition/svg">
+      <extension url="http://hl7.org/fhir/StructureDefinition/svg">
         <valueCode value="400,0"/>
       </extension>
       <path value="PublicationRecord.relatesTo"/>
