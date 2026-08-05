@@ -43,3 +43,5 @@ None of the codings provided are in the value set 'FHIR Document Type Codes' (ht
 
 # Suppressing information on pinned version
 Pinned the version of http://hl7.org/fhir/StructureDefinition/PublicationRecord to 1.0.0-ballot
+Pinned the version of http://hl7.org/fhir/StructureDefinition/%
+Pinned the version of http://terminology.hl7.org/ValueSet/%
