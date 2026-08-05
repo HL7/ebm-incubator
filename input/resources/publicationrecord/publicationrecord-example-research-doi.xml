@@ -85,7 +85,7 @@
       <classifier>
         <text value="original publication"/>
       </classifier>
-      <publicationrecord value="Sulas, E., Urru, M., Tumbarello, R., Raffo, L., Sameni, R., Pani, D., A non-invasive multimodal foetal ECG–Doppler dataset for antenatal cardiology research. Sci Data 8, 30 (2021). https://doi.org/10.1038/s41597-021-00811-3"/>
+      <citation value="Sulas, E., Urru, M., Tumbarello, R., Raffo, L., Sameni, R., Pani, D., A non-invasive multimodal foetal ECG–Doppler dataset for antenatal cardiology research. Sci Data 8, 30 (2021). https://doi.org/10.1038/s41597-021-00811-3"/>
       <targetUri value="https://doi.org/10.1038/s41597-021-00811-3"/>
     </relatesTo>
     <relatesTo>
