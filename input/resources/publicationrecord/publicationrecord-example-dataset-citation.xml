@@ -222,11 +222,6 @@
     </classification>
     <classification>
       <type>
-        <coding>
-          <system value="https://fevir.net/resources/CodeSystem/179423"/>
-          <code value="defined-in-text"/>
-          <display value="Defined in text"/>
-        </coding>
         <text value="Primary Phenotype"/>
       </type>
       <classifier>
