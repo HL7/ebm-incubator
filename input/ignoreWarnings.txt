@@ -73,8 +73,18 @@ Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0
 # Suppressing SearchParameter error about status draft, asked Zulip for guidance on it: https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Need.20some.20help.20on.20how.20to.20deal.20with.20these.20SearchParameter.20err/with/614811369
 The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
 
-# Suppressing the information about pinning
+# Suppressing SearchParameter pinning information
+Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-context to 1.0.0-ballot
+Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-context-type to 1.0.0-ballot
+Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-context-quantity to 1.0.0-ballot
+Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-classification-type to 1.0.0-ballot
+Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-classifier to 1.0.0-ballot
+
+# Suppressing the information about ValueSet pinning
 Pinned the version of http://hl7.org/fhir/ValueSet/languages to 6.0.0-ballot3
 Pinned the version of http://hl7.org/fhir/ValueSet/all-languages to 6.0.0-ballot3
 Pinned the version of http://hl7.org/fhir/ValueSet/version-algorithm to 6.0.0-ballot3
 Pinned the version of http://hl7.org/fhir/ValueSet/publication-status to 6.0.0-ballot3
+
+# Suppressing the information about CodeSystem pinning
+Pinned the version of http://hl7.org/fhir/uv/ebm-incubator/CodeSystem/publicationrecord-status-type to 1.0.0-ballot
