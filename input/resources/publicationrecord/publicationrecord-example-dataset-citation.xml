@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<PublicationRecord xmlns="http://hl7.org/fhir" resourceDefinition="http://hl7.org/fhir/StructureDefinition/PublicationRecord|1.0.0-ballot">
+<PublicationRecord xmlns="http://hl7.org/fhir" resourceDefinition="http://hl7.org/fhir/StructureDefinition/PublicationRecord|1.0.0-snapshot">
   <id value="example-dataset-publicationrecord"/>
   <meta>
     <versionId value="5"/>
@@ -57,7 +57,7 @@
       <display value="Computable Publishing LLC"/>
     </assigner>
   </identifier>
-  <version value="1.0.0-ballot2"/>
+  <version value="1.0.0-snapshot2"/>
   <title value="DatasetCitation: Extrachromosomal DNA Amplification Contributes to Small Cell Lung Cancer Heterogeneity and is Associated with Worse Outcomes"/>
   <status value="active"/>
   <date value="2025-02-24T19:37:10+00:00"/>

@@ -31,7 +31,7 @@
         <b>identifier</b>: FEvIR Object Identifier/179559
       </p>
       <p>
-        <b>version</b>: 1.0.0-ballot2
+        <b>version</b>: 1.0.0-snapshot
       </p>
       <p>
         <b>title</b>: DatasetCitation: Extrachromosomal DNA Amplification Contributes to Small Cell Lung Cancer Heterogeneity and is Associated with Worse Outcomes
@@ -481,7 +481,7 @@
       <display value="Computable Publishing LLC"/>
     </assigner>
   </identifier>
-  <version value="1.0.0-ballot2"/>
+  <version value="1.0.0-snapshot"/>
   <title value="DatasetCitation: Extrachromosomal DNA Amplification Contributes to Small Cell Lung Cancer Heterogeneity and is Associated with Worse Outcomes"/>
   <status value="active"/>
   <date value="2025-02-24T19:37:10+00:00"/>
