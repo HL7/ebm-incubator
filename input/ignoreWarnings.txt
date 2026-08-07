@@ -63,3 +63,18 @@ Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-typ
 
 # Suppressing information about not linking to examples, but the examples are there and reachable
 The Implementation Guide contains no explicitly linked examples for this profile
+
+# Suppressing this help.png error, asked on Zulip for how to resolve: https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/The.20image.20source.20.27help.2Epng.27.20cannot.20be.20resolved/with/614807966
+The image source 'help.png' cannot be resolved
+
+# Suppressing errors about ValueSet jurisdiction, asked on Zulip what it should be: https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/IG.20getting.20an.20information.20message/with/614836468
+Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
+
+# Suppressing SearchParameter error about status draft, asked Zulip for guidance on it: https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Need.20some.20help.20on.20how.20to.20deal.20with.20these.20SearchParameter.20err/with/614811369
+The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+
+# Suppressing the information about pinning
+Pinned the version of http://hl7.org/fhir/ValueSet/languages to 6.0.0-ballot3
+Pinned the version of http://hl7.org/fhir/ValueSet/all-languages to 6.0.0-ballot3
+Pinned the version of http://hl7.org/fhir/ValueSet/version-algorithm to 6.0.0-ballot3
+Pinned the version of http://hl7.org/fhir/ValueSet/publication-status to 6.0.0-ballot3
