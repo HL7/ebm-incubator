@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<PublicationRecord xmlns="http://hl7.org/fhir" resourceDefinition="http://hl7.org/fhir/uv/ebm-incubator/StructureDefinition/PublicationRecord|1.0.0-snapshot">
+<PublicationRecord xmlns="http://hl7.org/fhir" resourceDefinition="http://hl7.org/fhir/StructureDefinition/PublicationRecord|1.0.0-snapshot">
   <id value="example-dataset-publicationrecord"/>
   <meta>
     <versionId value="5"/>
