@@ -667,7 +667,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
 See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
       lization)."/> 
       <requirements value="Allows filtering of PublicationRecords that are appropriate for use versus not."/> 
-      <min value="1"/> 
+      <min value="0"/> 
       <max value="1"/> 
       <base> 
         <path value="PublicationRecord.status"/> 
@@ -677,6 +677,7 @@ See guidance around (not) making local changes to elements [here](canonicalresou
       <type> 
         <code value="code"/> 
       </type> 
+      <meaningWhenMissing value="interpret as unknown"/>
       <constraint> 
         <key value="ele-1"/> 
         <severity value="error"/> 
