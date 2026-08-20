@@ -18,6 +18,8 @@
         <type value="token"/>
         <expression value="(PublicationRecord.useContext.value.ofType(CodeableConcept))"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
       </SearchParameter>
     </resource>
   </entry>
@@ -37,6 +39,8 @@
         <type value="quantity"/>
         <expression value="(PublicationRecord.useContext.value.ofType(Quantity)) | (PublicationRecord.useContext.value.ofType(Range))"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
       </SearchParameter>
     </resource>
   </entry>
@@ -56,6 +60,8 @@
         <type value="token"/>
         <expression value="PublicationRecord.useContext.code"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
       </SearchParameter>
     </resource>
   </entry>
@@ -72,6 +78,8 @@
         <type value="composite"/>
         <expression value="PublicationRecord.useContext"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
         <component>
           <definition value="http://hl7.org/fhir/SearchParameter/PublicationRecord-context-type"/>
           <expression value="code"/>
@@ -96,6 +104,8 @@
         <type value="composite"/>
         <expression value="PublicationRecord.useContext"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
         <component>
           <definition value="http://hl7.org/fhir/SearchParameter/PublicationRecord-context-type"/>
           <expression value="code"/>
@@ -123,6 +133,8 @@
         <type value="date"/>
         <expression value="PublicationRecord.date"/>
         <processingMode value="normal"/>
+        <multipleOr value="false"/>
+        <multipleAnd value="false"/>
       </SearchParameter>
     </resource>
   </entry>
@@ -142,6 +154,8 @@
         <type value="string"/>
         <expression value="PublicationRecord.description"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
       </SearchParameter>
     </resource>
   </entry>
@@ -161,6 +175,8 @@
         <type value="date"/>
         <expression value="PublicationRecord.effectivePeriod"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
       </SearchParameter>
     </resource>
   </entry>
@@ -180,6 +196,8 @@
         <type value="token"/>
         <expression value="PublicationRecord.identifier"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
       </SearchParameter>
     </resource>
   </entry>
@@ -199,6 +217,8 @@
         <type value="token"/>
         <expression value="PublicationRecord.jurisdiction"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
       </SearchParameter>
     </resource>
   </entry>
@@ -218,6 +238,8 @@
         <type value="string"/>
         <expression value="PublicationRecord.name"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
       </SearchParameter>
     </resource>
   </entry>
@@ -237,6 +259,8 @@
         <type value="string"/>
         <expression value="PublicationRecord.publisher"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
       </SearchParameter>
     </resource>
   </entry>
@@ -256,6 +280,8 @@
         <type value="token"/>
         <expression value="PublicationRecord.status"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="false"/>
       </SearchParameter>
     </resource>
   </entry>
@@ -275,6 +301,8 @@
         <type value="string"/>
         <expression value="PublicationRecord.title"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
       </SearchParameter>
     </resource>
   </entry>
@@ -294,6 +322,8 @@
         <type value="uri"/>
         <expression value="PublicationRecord.url"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
       </SearchParameter>
     </resource>
   </entry>
@@ -313,6 +343,8 @@
         <type value="token"/>
         <expression value="PublicationRecord.version"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
       </SearchParameter>
     </resource>
   </entry>
@@ -332,6 +364,8 @@
         <type value="token"/>
         <expression value="(PublicationRecord.classification.classifier)"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
       </SearchParameter>
     </resource>
   </entry>
@@ -351,6 +385,8 @@
         <type value="token"/>
         <expression value="(PublicationRecord.classification.type)"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
       </SearchParameter>
     </resource>
   </entry>
@@ -367,6 +403,8 @@
         <type value="composite"/>
         <expression value="PublicationRecord.classification"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
         <component>
           <definition value="http://hl7.org/fhir/SearchParameter/PublicationRecord-classification-type"/>
           <expression value="type"/>
@@ -392,6 +430,8 @@
         <type value="token"/>
         <expression value="PublicationRecord.experimental"/>
         <processingMode value="normal"/>
+        <multipleOr value="true"/>
+        <multipleAnd value="true"/>
       </SearchParameter>
     </resource>
   </entry>
