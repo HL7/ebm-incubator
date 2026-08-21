@@ -26,7 +26,7 @@ A definition for CodeSystem 'http://purl.obolibrary.org/obo/fma.owl' could not b
 A definition for CodeSystem 'http://purl.obolibrary.org/obo/vt.owl' could not be found, so the code cannot be validated
 A definition for CodeSystem 'http://www.ebi.ac.uk/efo' could not be found, so the code cannot be validated
 
-# Nothing can be done about this for now 
+# Nothing can be done about this for now
 A definition for CodeSystem 'https://www.nlm.nih.gov/mesh' could not be found, so the code cannot be validated
 
 # EVS Thesaurus codes that aren't in the fragment on tx.fhir.org
