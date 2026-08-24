@@ -43,6 +43,9 @@ Pinned the version of http://hl7.org/fhir/StructureDefinition/%
 Pinned the version of http://terminology.hl7.org/ValueSet/%
 Pinned the version of http://hl7.org/fhir/uv/ebm-incubator/ValueSet/publicationrecord-status-type to 1.0.0-snapshot
 
+# Suppressing information on draft CodeSystem with comment posted to Zulip https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/QA.20warn.20draft.20CodeSystem.20from.20ImplementationGuide.2Elicense/with/617682808
+Reference to draft CodeSystem http://hl7.org/fhir/spdx-license|84728b7
+
 # Suppressing information on experimental CodeSystem
 Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5
 
