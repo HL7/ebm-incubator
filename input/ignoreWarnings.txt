@@ -68,5 +68,5 @@ Pinned the version of http://hl7.org/fhir/ValueSet/all-languages to 6.0.0-ballot
 Pinned the version of http://hl7.org/fhir/ValueSet/version-algorithm to 6.0.0-ballot5
 Pinned the version of http://hl7.org/fhir/ValueSet/publication-status to 6.0.0-ballot5
 
-# Suppressing the information about CodeSystem pinning 
+# Suppressing the information about CodeSystem pinning
 Pinned the version of http://hl7.org/fhir/uv/ebm-incubator/CodeSystem/publicationrecord-status-type to 1.0.0-snapshot
