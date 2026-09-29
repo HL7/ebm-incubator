@@ -182,7 +182,7 @@
       </classifier>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="https://www.nlm.nih.gov/mesh"/>
           <code value="D064886"/>
           <display value="Dataset"/>
         </coding>

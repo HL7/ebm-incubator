@@ -259,7 +259,7 @@
           </p>
           <p>
             <b>classifier</b>: 
-            <span title="Codes:{http://terminology.hl7.org/CodeSystem/citation-artifact-classifier D064886}">Dataset</span>
+            <span title="Codes:{https://www.nlm.nih.gov/mesh D064886}">Dataset</span>
           </p>
         </blockquote>
         <blockquote>
@@ -612,7 +612,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="https://www.nlm.nih.gov/mesh"/>
           <code value="D064886"/>
           <display value="Dataset"/>
         </coding>
