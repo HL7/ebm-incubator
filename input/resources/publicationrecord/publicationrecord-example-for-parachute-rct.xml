@@ -746,7 +746,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="https://www.nlm.nih.gov/mesh"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -782,7 +782,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="https://www.nlm.nih.gov/mesh"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -808,7 +808,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="https://www.nlm.nih.gov/mesh"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -844,7 +844,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="https://www.nlm.nih.gov/mesh"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -870,7 +870,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="https://www.nlm.nih.gov/mesh"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -906,7 +906,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="https://www.nlm.nih.gov/mesh"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -932,7 +932,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="https://www.nlm.nih.gov/mesh"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -958,7 +958,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="https://www.nlm.nih.gov/mesh"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -984,7 +984,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="https://www.nlm.nih.gov/mesh"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -1010,7 +1010,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="https://www.nlm.nih.gov/mesh"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -1036,7 +1036,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="https://www.nlm.nih.gov/mesh"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -1062,7 +1062,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="https://www.nlm.nih.gov/mesh"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -1098,7 +1098,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="https://www.nlm.nih.gov/mesh"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
         </coding>
@@ -1355,7 +1355,7 @@
       </type>
       <classifier>
         <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"/>
+          <system value="https://www.nlm.nih.gov/mesh"/>
           <code value="D016428"/>
           <display value="Journal Article"/>
           <userSelected value="false"/>
