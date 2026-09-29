@@ -194,7 +194,7 @@
             <tr>
               <td style="display: none">*</td>
               <td>
-                <span title="Codes:{http://terminology.hl7.org/CodeSystem/published-in-type D019991}">Database</span>
+                <span title="Codes:{https://www.nlm.nih.gov/mesh D019991}">Database</span>
               </td>
               <td>Abbreviation/dbGaP</td>
               <td>database of Genotypes and Phenotypes</td>
@@ -547,7 +547,7 @@
       <publishedIn>
         <type>
           <coding>
-            <system value="http://terminology.hl7.org/CodeSystem/published-in-type"/>
+            <system value="https://www.nlm.nih.gov/mesh"/>
             <code value="D019991"/>
             <display value="Database"/>
           </coding>

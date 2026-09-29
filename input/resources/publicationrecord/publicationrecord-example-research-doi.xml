@@ -106,8 +106,7 @@
       <publishedIn>
         <type>
           <coding>
-            <system value="http://terminology.hl7.org/CodeSystem/published-in-type"/>
-            <version value="1.0.0"/>
+            <system value="https://www.nlm.nih.gov/mesh"/>
             <code value="D019991"/>
             <display value="Database"/>
           </coding>
