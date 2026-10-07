@@ -387,7 +387,7 @@
        is a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -664,7 +664,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        while you are developing the content, and &quot;retired&quot; when this record
        should no longer be used for any purpose.
 
-See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
+      See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
       lization)."/> 
       <requirements value="Allows filtering of PublicationRecords that are appropriate for use versus not."/> 
       <min value="0"/> 
@@ -718,7 +718,7 @@ See guidance around (not) making local changes to elements [here](canonicalresou
         (If experimental changes, then it is being misused or a resource that was never
        intended for real-world use has unexpectedly changed its purpose.).
 
-Experimental resources are not expected to be stable and may well have breaking
+       Experimental resources are not expected to be stable and may well have breaking
        changes without a corresponding change to the 'version' element."/> 
       <requirements value="Enables experimental content to be developed following the same lifecycle that
        would be used for a production-level PublicationRecord."/> 
@@ -761,7 +761,7 @@ Experimental resources are not expected to be stable and may well have breaking
        specific dates may be added as extensions or be found by consulting Provenances
        associated with past versions of the resource.
 
-See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
+      See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
       lization)."/> 
       <alias value="Revision Date"/> 
       <min value="0"/> 
@@ -874,7 +874,7 @@ See guidance around (not) making local changes to elements [here](canonicalresou
       <definition value="Contact details to assist a user in finding and communicating with the publisher."/> 
       <comment value="May be a web site, an email address, a telephone number, etc.
 
-See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
+      See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
       lization)."/> 
       <min value="0"/> 
       <max value="*"/> 
@@ -975,7 +975,7 @@ See guidance around (not) making local changes to elements [here](canonicalresou
       <comment value="It may be possible for the PublicationRecord to be used in jurisdictions other than
        those for which it was originally designed or intended.
 
-DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to
+       DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to
        using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code
        indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction
        and useContext.valueCodeableConcept indicating the jurisdiction.)"/> 
@@ -1129,7 +1129,7 @@ DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to
       <comment value="The 'date' element may be more recent than the approval date because of minor changes
        or editorial corrections.
 
-See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
+      See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
       lization)."/> 
       <min value="0"/> 
       <max value="1"/> 
@@ -1163,7 +1163,7 @@ See guidance around (not) making local changes to elements [here](canonicalresou
        after approval but does not change the original approval date."/> 
       <comment value="If specified, this date follows the original approval date.
 
-See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
+      See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
       lization)."/> 
       <requirements value="Gives a sense of how &quot;current&quot; the content is.  Resources that have not
        been reviewed in a long time may have a risk of being less appropriate/relevant."/> 
@@ -1201,7 +1201,7 @@ See guidance around (not) making local changes to elements [here](canonicalresou
        for usage and is independent of publication and review dates. For example, a PublicationRecord
        intended to be used for the year 2016 might be published in 2015.
 
-See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
+      See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
       lization)."/> 
       <requirements value="Allows establishing a transition before a resource comes into effect and also allows
        for a sunsetting process when new versions of the PublicationRecord are or are expected
@@ -1300,7 +1300,7 @@ See guidance around (not) making local changes to elements [here](canonicalresou
        for the review of the PublicationRecord, then one can create a PublicationRecord Resource
        for the PublicationRecord Resource.
 
-See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
+      See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
       lization)."/> 
       <min value="0"/> 
       <max value="*"/> 
@@ -1333,7 +1333,7 @@ See guidance around (not) making local changes to elements [here](canonicalresou
        for the endorsement of the PublicationRecord, then one can create a PublicationRecord Resource
        for the PublicationRecord Resource.
 
-See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
+      See guidance around (not) making local changes to elements [here](canonicalresource.html#loca
       lization)."/> 
       <min value="0"/> 
       <max value="*"/> 
@@ -1460,7 +1460,7 @@ See guidance around (not) making local changes to elements [here](canonicalresou
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -1663,7 +1663,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -1933,7 +1933,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -2162,7 +2162,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -2383,7 +2383,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -2686,7 +2686,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -2914,7 +2914,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -3157,7 +3157,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -3426,7 +3426,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -3662,7 +3662,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -3997,7 +3997,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -4141,7 +4141,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -4820,7 +4820,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -5024,7 +5024,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -5264,7 +5264,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -5438,7 +5438,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -5741,7 +5741,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
@@ -6002,7 +6002,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        a set of requirements that SHALL be met as part of the definition of the extension.
        Applications processing a resource are required to check for modifier extensions.
 
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or
+       Modifier extensions SHALL NOT change the meaning of any elements on Resource or
        DomainResource (including cannot change the meaning of modifierExtension itself)."/> 
       <comment value="There can be no stigma associated with the use of extensions by any application,
        project, or standard - regardless of the institution or jurisdiction that uses
