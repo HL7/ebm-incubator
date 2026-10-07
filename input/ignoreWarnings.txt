@@ -47,7 +47,7 @@ Pinned the version of http://hl7.org/fhir/uv/ebm-incubator/ValueSet/publicationr
 Reference to draft CodeSystem http://hl7.org/fhir/spdx-license|84728b7
 
 # Suppressing information on experimental CodeSystem
-Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5
+Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-snapshot1
 
 # Suppressing information about not linking to examples, but the examples are there and reachable
 The Implementation Guide contains no explicitly linked examples for this profile
@@ -63,10 +63,10 @@ Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-clas
 Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-classifier to 1.0.0-snapshot
 
 # Suppressing the information about ValueSet pinning
-Pinned the version of http://hl7.org/fhir/ValueSet/languages to 6.0.0-ballot5
-Pinned the version of http://hl7.org/fhir/ValueSet/all-languages to 6.0.0-ballot5
-Pinned the version of http://hl7.org/fhir/ValueSet/version-algorithm to 6.0.0-ballot5
-Pinned the version of http://hl7.org/fhir/ValueSet/publication-status to 6.0.0-ballot5
+Pinned the version of http://hl7.org/fhir/ValueSet/languages to 6.0.0-snapshot1
+Pinned the version of http://hl7.org/fhir/ValueSet/all-languages to 6.0.0-snapshot1
+Pinned the version of http://hl7.org/fhir/ValueSet/version-algorithm to 6.0.0-snapshot1
+Pinned the version of http://hl7.org/fhir/ValueSet/publication-status to 6.0.0-snapshot1
 
 # Suppressing the information about CodeSystem pinning
 Pinned the version of http://hl7.org/fhir/uv/ebm-incubator/CodeSystem/publicationrecord-status-type to 1.0.0-snapshot
