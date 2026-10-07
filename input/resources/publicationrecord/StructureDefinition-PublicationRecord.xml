@@ -7751,6 +7751,7 @@
     <element id="PublicationRecord.citedArtifact.contributorship.summary.source">
       <path value="PublicationRecord.citedArtifact.contributorship.summary.source"/>
       <short value="Used to code the producer or rule for creating the display string"/>
+      <definition value="Used to code the producer or rule for creating the display string."/> 
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7767,6 +7768,7 @@
     <element id="PublicationRecord.citedArtifact.contributorship.summary.value">
       <path value="PublicationRecord.citedArtifact.contributorship.summary.value"/>
       <short value="The display string for the author list, contributor list, or contributorship statement"/>
+      <definition value="Indication whether all authors are included in the entry content."/>
       <min value="1"/>
       <max value="1"/>
       <type>
@@ -7776,6 +7778,7 @@
     <element id="PublicationRecord.citedArtifact.note">
       <path value="PublicationRecord.citedArtifact.note"/>
       <short value="Any additional information or content for the article or artifact"/>
+      <definition value="Any additional information or content for the article or artifact."/> 
       <min value="0"/>
       <max value="*"/>
       <type>
