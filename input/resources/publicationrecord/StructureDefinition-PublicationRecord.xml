@@ -79,94 +79,82 @@
   <type value="PublicationRecord"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/DomainResource"/>
   <derivation value="specialization"/>
-
-
-<snapshot> 
+  <snapshot> 
     <element id="PublicationRecord">
-      <path value="PublicationRecord"/> 
-      <short value="A description of identification, location, or contributorship of a publication
-       (article or artifact)"/> 
-      <definition value="The PublicationRecord Resource enables reference to any knowledge artifact for purposes
-       of identification and attribution. The PublicationRecord Resource supports existing reference
-       structures and developing publication practices such as versioning, expressing
-       complex contributorship roles, and referencing computable resources."/> 
-      <min value="0"/> 
-      <max value="*"/> 
-      <base> 
-        <path value="PublicationRecord"/> 
-        <min value="0"/> 
-        <max value="*"/> 
-      </base> 
-      <constraint> 
-        <key value="cnl-0"/> 
-        <severity value="warning"/> 
-        <human value="Name should be usable as an identifier for the module by machine processing applications
-         such as code generation"/> 
-        <expression value="name.exists() implies name.matches('^[A-Z]([A-Za-z0-9_]){1,254}$')"/> 
-        <source value="http://hl7.org/fhir/StructureDefinition/PublicationRecord"/> 
-      </constraint> 
-      <mustSupport value="false"/> 
-      <isModifier value="false"/> 
-      <isSummary value="false"/> 
-      <mapping> 
-        <identity value="w5"/> 
-        <map value="conformance.behavior,clinical.general"/> 
-      </mapping> 
-    </element> 
+      <path value="PublicationRecord"/>
+      <short value="A description of identification, location, or contributorship of a publication (article or artifact)"/>
+      <definition value="The PublicationRecord Resource enables reference to any knowledge artifact for purposes of identification and attribution. The PublicationRecord Resource supports existing reference structures and developing publication practices such as versioning, expressing complex contributorship roles, and referencing computable resources."/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="PublicationRecord"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <constraint>
+        <key value="cnl-0"/>
+        <severity value="warning"/>
+        <human value="Name should be usable as an identifier for the module by machine processing applications such as code generation"/>
+        <expression value="name.exists() implies name.matches('^[A-Z]([A-Za-z0-9_]){1,254}$')"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/PublicationRecord"/>
+      </constraint>
+      <mustSupport value="false"/>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="w5"/>
+        <map value="conformance.behavior,clinical.general"/>
+      </mapping>
+    </element>
     <element id="PublicationRecord.id">
-      <path value="PublicationRecord.id"/> 
-      <short value="Logical id of this artifact"/> 
-      <definition value="The logical id of the resource, as used in the URL for the resource. Once assigned,
-       this value never changes."/> 
-      <comment value="Within the context of the FHIR RESTful interactions, the resource has an id except
-       for cases like the create and conditional update. Otherwise, the use of the resouce
-       id depends on the given use case."/> 
-      <min value="0"/> 
-      <max value="1"/> 
-      <base> 
-        <path value="Resource.id"/> 
-        <min value="0"/> 
-        <max value="1"/> 
-      </base> 
+      <path value="PublicationRecord.id"/>
+      <short value="Logical id of this artifact"/>
+      <definition value="The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes."/>
+      <comment value="Within the context of the FHIR RESTful interactions, the resource has an id except for cases like the create and conditional update. Otherwise, the use of the resouce id depends on the given use case."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Resource.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
       <!--  Note: special primitive values have a FHIRPath system type. e.g. this is compiler
        magic (j)  -->
-      <type> 
+      <type>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
-          <valueUrl value="id"/> 
-        </extension> 
-        <code value="http://hl7.org/fhirpath/System.String"/> 
-      </type> 
-      <mustSupport value="false"/> 
-      <isModifier value="false"/> 
-      <isSummary value="true"/> 
-    </element> 
+          <valueUrl value="id"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <mustSupport value="false"/>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+    </element>
     <element id="PublicationRecord.meta">
-      <path value="PublicationRecord.meta"/> 
-      <short value="Metadata about the resource"/> 
-      <definition value="The metadata about the resource. This is content that is maintained by the infrastructure.
-       Changes to the content might not always be associated with version changes to the
-       resource."/> 
-      <min value="0"/> 
-      <max value="1"/> 
-      <base> 
-        <path value="Resource.meta"/> 
-        <min value="0"/> 
-        <max value="1"/> 
-      </base> 
-      <type> 
-        <code value="Meta"/> 
-      </type> 
-      <constraint> 
-        <key value="ele-1"/> 
-        <severity value="error"/> 
-        <human value="All FHIR elements must have a @value or children"/> 
-        <expression value="hasValue() or (children().count() &gt; id.count())"/> 
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/> 
-      </constraint> 
-      <mustSupport value="false"/> 
-      <isModifier value="false"/> 
-      <isSummary value="true"/> 
-    </element> 
+      <path value="PublicationRecord.meta"/>
+      <short value="Metadata about the resource"/>
+      <definition value="The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Resource.meta"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Meta"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <mustSupport value="false"/>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+    </element>
     <element id="PublicationRecord.implicitRules">
       <path value="PublicationRecord.implicitRules"/> 
       <short value="A set of rules under which this content was created"/> 
@@ -248,7 +236,7 @@
         <description value="IETF language tag for a human language"/> 
         <valueSet value="http://hl7.org/fhir/ValueSet/all-languages|6.0.0-ballot3"/> 
         <additional> 
-				  <key value="b-cit-1"/>
+          <key value="b-cit-1"/>
           <purpose value="starter"/> 
           <valueSet value="http://hl7.org/fhir/ValueSet/languages"/> 
         </additional> 
@@ -4218,8 +4206,7 @@
       <path value="PublicationRecord.citedArtifact.publicationForm.publishedIn.identifier"/> 
       <short value="Journal identifiers include ISSN, ISO Abbreviation and NLMuniqueID; Book identifiers
        include ISBN"/> 
-      <definition value="Journal identifiers include ISSN, ISO Abbreviation and NLMuniqueID; Book identifiers
-       include ISBN."/> 
+      <definition value="Journal identifiers include ISSN, ISO Abbreviation and NLMuniqueID; Book identifiers include ISBN."/> 
       <min value="0"/> 
       <max value="*"/> 
       <base> 
@@ -4385,10 +4372,8 @@
     </element> 
     <element id="PublicationRecord.citedArtifact.publicationForm.issue">
       <path value="PublicationRecord.citedArtifact.publicationForm.issue"/> 
-      <short value="Issue, part or supplement of journal or other collection in which the article is
-       published"/> 
-      <definition value="Issue, part or supplement of journal or other collection in which the article is
-       published."/> 
+      <short value="Issue, part or supplement of journal or other collection in which the article is published"/> 
+      <definition value="Issue, part or supplement of journal or other collection in which the article is published."/> 
       <min value="0"/> 
       <max value="1"/> 
       <base> 
@@ -5308,8 +5293,7 @@
       <path value="PublicationRecord.citedArtifact.contributorship.complete"/> 
       <short value="Indicates if all authors are included"/> 
       <definition value="Indication whether all authors are included in the entry content."/> 
-      <comment value="If list is incomplete, &quot;et al&quot; can be appended to Contributorship.summary.value
-       for display purposes."/> 
+      <comment value="If list is incomplete, &quot;et al&quot; can be appended to Contributorship.summary.value for display purposes."/> 
       <min value="0"/> 
       <max value="1"/> 
       <base> 
@@ -5898,10 +5882,8 @@
         <valueString value="ContributorshipSummary"/> 
       </extension> 
       <path value="PublicationRecord.citedArtifact.contributorship.summary"/> 
-      <short value="Used to record a display of the author/contributor list without separate data element
-       for each list member"/> 
-      <definition value="Used to record a display of the author/contributor list without separate data element
-       for each list member."/> 
+      <short value="Used to record a display of the author/contributor list without separate data element for each list member"/> 
+      <definition value="Used to record a display of the author/contributor list without separate data element for each list member."/> 
       <min value="0"/> 
       <max value="*"/> 
       <base> 
@@ -5927,8 +5909,7 @@
       <path value="PublicationRecord.citedArtifact.contributorship.summary.id"/> 
       <representation value="xmlAttr"/> 
       <short value="Unique id for inter-element referencing"/> 
-      <definition value="Unique id for the element within a resource (for internal references). This may
-       be any string value that does not contain spaces."/> 
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/> 
       <min value="0"/> 
       <max value="1"/> 
       <base> 
@@ -6504,6 +6485,7 @@
       </extension>
       <path value="PublicationRecord.copyright"/>
       <short value="Notice about intellectual property ownership, can include restrictions on use for the PublicationRecord, not for the cited artifact"/>
+      <definition value="Use and/or publishing restrictions for the PublicationRecord, not for the cited artifact."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -6600,6 +6582,7 @@
     <element id="PublicationRecord.reviewer">
       <path value="PublicationRecord.reviewer"/>
       <short value="Who reviewed the PublicationRecord"/>
+      <definition value="Who reviewed the PublicationRecord."/>
       <comment value="The PublicationRecord.reviewer element is structured to support a name (with a string datatype) and contact point information for the reviewer, and is not structured to support unique identifiers for the reviewer. If detailed contributorship data is needed for the review of the PublicationRecord, then one can create a PublicationRecord Resource for the PublicationRecord Resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
       <min value="0"/>
       <max value="*"/>
@@ -6610,6 +6593,7 @@
     <element id="PublicationRecord.endorser">
       <path value="PublicationRecord.endorser"/>
       <short value="Who endorsed the PublicationRecord"/>
+      <definition value="Who endorsed the PublicationRecord."/>
       <comment value="The PublicationRecord.endorser element is structured to support a name (with a string datatype) and contact point information for the endorser, and is not structured to support unique identifiers for the endorser. If detailed contributorship data is needed for the endorsement of the PublicationRecord, then one can create a PublicationRecord Resource for the PublicationRecord Resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](canonicalresource.html#localization)."/>
       <min value="0"/>
       <max value="*"/>
@@ -6658,6 +6642,7 @@
     <element id="PublicationRecord.classification">
       <path value="PublicationRecord.classification"/>
       <short value="The assignment to an organizing scheme"/>
+      <definition value="The assignment to an organizing scheme."/>
       <comment value="Use this element if you need to classify the PublicationRecord independently from classifying the cited artifact."/>
       <min value="0"/>
       <max value="*"/>
@@ -6668,6 +6653,7 @@
     <element id="PublicationRecord.classification.type">
       <path value="PublicationRecord.classification.type"/>
       <short value="The kind of classifier (e.g. publication type, keyword)"/>
+      <definition value="The kind of classifier (e.g. publication type, keyword)."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -6684,6 +6670,7 @@
     <element id="PublicationRecord.classification.classifier">
       <path value="PublicationRecord.classification.classifier"/>
       <short value="The specific classification value"/>
+      <definition value="The specific classification value."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -6700,6 +6687,7 @@
     <element id="PublicationRecord.note">
       <path value="PublicationRecord.note"/>
       <short value="Used for general notes and annotations not coded elsewhere"/>
+      <definition value="Used for general notes and annotations not coded elsewhere."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -6709,6 +6697,7 @@
     <element id="PublicationRecord.currentState">
       <path value="PublicationRecord.currentState"/>
       <short value="The status of the PublicationRecord"/>
+      <definition value="The status of the PublicationRecord."/>
       <comment value="Use this if needed for reporting the state or status of the PublicationRecord, NOT FOR reporting the state or status of the cited article."/>
       <min value="0"/>
       <max value="*"/>
@@ -6765,6 +6754,7 @@
     <element id="PublicationRecord.statusDate.period">
       <path value="PublicationRecord.statusDate.period"/>
       <short value="When the status started and/or ended"/>
+      <definition value="When the status started and/or ended."/>
       <comment value="For an instance, place the same value in both start and end elements."/>
       <min value="1"/>
       <max value="1"/>
@@ -6830,6 +6820,7 @@
     <element id="PublicationRecord.citedArtifact">
       <path value="PublicationRecord.citedArtifact"/>
       <short value="The article or artifact being described"/>
+      <definition value="The article or artifact being described."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -6865,6 +6856,7 @@
     <element id="PublicationRecord.citedArtifact.dateAccessed">
       <path value="PublicationRecord.citedArtifact.dateAccessed"/>
       <short value="When the cited artifact was accessed"/>
+      <definition value="When the cited artifact was accessed."/>
       <comment value="Use this element when citing an artifact from a potentially unstable source, such as a webpage, to note the date (and time) the source was accessed."/>
       <min value="0"/>
       <max value="1"/>
@@ -6876,6 +6868,7 @@
     <element id="PublicationRecord.citedArtifact.version">
       <path value="PublicationRecord.citedArtifact.version"/>
       <short value="The defined version of the cited artifact"/>
+      <definition value="The defined version of the cited artifact."/>
       <comment value="This is a business version label used for display in understanding the formal version of the cited artifact, not a resource version id or technical version number for an archival system."/>
       <min value="0"/>
       <max value="1"/>
@@ -6886,6 +6879,7 @@
     <element id="PublicationRecord.citedArtifact.currentState">
       <path value="PublicationRecord.citedArtifact.currentState"/>
       <short value="The status of the cited artifact"/>
+      <definition value="The status of the cited artifact."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -6929,6 +6923,7 @@
     <element id="PublicationRecord.citedArtifact.statusDate.actual">
       <path value="PublicationRecord.citedArtifact.statusDate.actual"/>
       <short value="Either occurred or expected"/>
+      <definition value="Either occurred or expected."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -6939,6 +6934,7 @@
     <element id="PublicationRecord.citedArtifact.statusDate.period">
       <path value="PublicationRecord.citedArtifact.statusDate.period"/>
       <short value="When the status started and/or ended"/>
+      <definition value="When the status started and/or ended."/>
       <comment value="For an instance, place the same value in both start and end elements."/>
       <min value="1"/>
       <max value="1"/>
@@ -6949,6 +6945,7 @@
     <element id="PublicationRecord.citedArtifact.title">
       <path value="PublicationRecord.citedArtifact.title"/>
       <short value="The title details of the article or artifact"/>
+      <definition value="The title details of the article or artifact."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -7001,6 +6998,7 @@
     <element id="PublicationRecord.citedArtifact.title.text">
       <path value="PublicationRecord.citedArtifact.title.text"/>
       <short value="The title of the article or artifact"/>
+      <definition value="The title of the article or artifact."/>
       <min value="1"/>
       <max value="1"/>
       <type>
@@ -7063,6 +7061,7 @@
     <element id="PublicationRecord.citedArtifact.abstract.text">
       <path value="PublicationRecord.citedArtifact.abstract.text"/>
       <short value="Abstract content"/>
+      <definition value="Abstract content."/>
       <min value="1"/>
       <max value="1"/>
       <type>
@@ -7072,6 +7071,7 @@
     <element id="PublicationRecord.citedArtifact.abstract.copyright">
       <path value="PublicationRecord.citedArtifact.abstract.copyright"/>
       <short value="Copyright notice for the abstract"/>
+      <definition value="Copyright notice for the abstract."/>
       <comment value="There is also a copyright element in the publicationForm element, so this copyright element is intended for copyright of the abstract."/>
       <min value="0"/>
       <max value="1"/>
@@ -7082,6 +7082,7 @@
     <element id="PublicationRecord.citedArtifact.part">
       <path value="PublicationRecord.citedArtifact.part"/>
       <short value="The component of the article or artifact"/>
+      <definition value="The component of the article or artifact."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7091,6 +7092,7 @@
     <element id="PublicationRecord.citedArtifact.part.type">
       <path value="PublicationRecord.citedArtifact.part.type"/>
       <short value="The kind of component"/>
+      <definition value="The kind of component."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7107,6 +7109,7 @@
     <element id="PublicationRecord.citedArtifact.part.value">
       <path value="PublicationRecord.citedArtifact.part.value"/>
       <short value="The specification of the component"/>
+      <definition value="The specification of the component."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7116,6 +7119,7 @@
     <element id="PublicationRecord.citedArtifact.baseCitation">
       <path value="PublicationRecord.citedArtifact.baseCitation"/>
       <short value="PublicationRecord for the primary version and complete form of the cited artifact"/>
+      <definition value="PublicationRecord for the primary version and complete form of the cited artifact."/>
       <comment value="When referencing a baseCitation, one may inherit any data from the referenced PublicationRecord Resource and consider any data in the current PublicationRecord Resource as superceding to be version-specific or part-specific. For example, the part-specific PublicationRecord may have additional contributorship data that supercedes the contributorship data for the full citation when there is a need to uniquely report the contributorship for an image or supplement associated with the fuller PublicationRecord."/>
       <min value="0"/>
       <max value="1"/>
@@ -7127,6 +7131,7 @@
     <element id="PublicationRecord.citedArtifact.relatesTo">
       <path value="PublicationRecord.citedArtifact.relatesTo"/>
       <short value="The artifact related to the cited artifact"/>
+      <definition value="The artifact related to the cited artifact."/>
       <comment value="The citedArtifact.relatesTo element uses a BackboneElement instead of the RelatedArtifact Datatype to enable use of an extended value set for the required code for the type of relationship."/>
       <min value="0"/>
       <max value="*"/>
@@ -7235,6 +7240,7 @@
     <element id="PublicationRecord.citedArtifact.publicationForm.publishedIn">
       <path value="PublicationRecord.citedArtifact.publicationForm.publishedIn"/>
       <short value="The collection the cited article or artifact is published in"/>
+      <definition value="The collection the cited article or artifact is published in."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7244,6 +7250,7 @@
     <element id="PublicationRecord.citedArtifact.publicationForm.publishedIn.type">
       <path value="PublicationRecord.citedArtifact.publicationForm.publishedIn.type"/>
       <short value="Kind of container (e.g. Periodical, database, or book)"/>
+      <definition value="Kind of container (e.g. Periodical, database, or book)."/>
       <comment value="Journals and newspapers are coded as Periodical."/>
       <min value="0"/>
       <max value="1"/>
@@ -7261,6 +7268,7 @@
     <element id="PublicationRecord.citedArtifact.publicationForm.publishedIn.identifier">
       <path value="PublicationRecord.citedArtifact.publicationForm.publishedIn.identifier"/>
       <short value="Journal identifiers include ISSN, ISO Abbreviation and NLMuniqueID; Book identifiers include ISBN"/>
+      <definition value="Journal identifiers include ISSN, ISO Abbreviation and NLMuniqueID; Book identifiers include ISBN."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -7270,6 +7278,7 @@
     <element id="PublicationRecord.citedArtifact.publicationForm.publishedIn.title">
       <path value="PublicationRecord.citedArtifact.publicationForm.publishedIn.title"/>
       <short value="Name of the database or title of the book or journal"/>
+      <definition value="Name of the database or title of the book or journal."/>
       <comment value="ClinicalTrials.gov is a name of a database."/>
       <min value="0"/>
       <max value="1"/>
@@ -7280,6 +7289,7 @@
     <element id="PublicationRecord.citedArtifact.publicationForm.publishedIn.publisher">
       <path value="PublicationRecord.citedArtifact.publicationForm.publishedIn.publisher"/>
       <short value="Name of or resource describing the publisher"/>
+      <definition value="Name of or resource describing the publisher."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7290,6 +7300,7 @@
     <element id="PublicationRecord.citedArtifact.publicationForm.publishedIn.publisherLocation">
       <path value="PublicationRecord.citedArtifact.publicationForm.publishedIn.publisherLocation"/>
       <short value="Geographic location of the publisher"/>
+      <definition value="Geographic location of the publisher."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7316,6 +7327,7 @@
     <element id="PublicationRecord.citedArtifact.publicationForm.volume">
       <path value="PublicationRecord.citedArtifact.publicationForm.volume"/>
       <short value="Volume number of journal or other collection in which the article is published"/>
+      <definition value="Volume number of journal or other collection in which the article is published."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7325,6 +7337,7 @@
     <element id="PublicationRecord.citedArtifact.publicationForm.issue">
       <path value="PublicationRecord.citedArtifact.publicationForm.issue"/>
       <short value="Issue, part or supplement of journal or other collection in which the article is published"/>
+      <definition value="Issue, part or supplement of journal or other collection in which the article is published."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7334,6 +7347,7 @@
     <element id="PublicationRecord.citedArtifact.publicationForm.articleDate">
       <path value="PublicationRecord.citedArtifact.publicationForm.articleDate"/>
       <short value="The date the article was added to the database, or the date the article was released"/>
+      <definition value="The date the article was added to the database, or the date the article was released."/>
       <comment value="The articleDate is the preferred element for expressing the publication date as structured data."/>
       <min value="0"/>
       <max value="1"/>
@@ -7344,6 +7358,7 @@
     <element id="PublicationRecord.citedArtifact.publicationForm.publicationDateText">
       <path value="PublicationRecord.citedArtifact.publicationForm.publicationDateText"/>
       <short value="Text representation of the date on which the issue of the cited artifact was published"/>
+      <definition value="Text representation of the date on which the issue of the cited artifact was published."/>
       <comment value="The publicationDateText element is prefererntially used when a date is not represented in a form that can be handled as structured data in other elements."/>
       <min value="0"/>
       <max value="1"/>
@@ -7364,6 +7379,7 @@
     <element id="PublicationRecord.citedArtifact.publicationForm.lastRevisionDate">
       <path value="PublicationRecord.citedArtifact.publicationForm.lastRevisionDate"/>
       <short value="The date the article was last revised or updated in the database"/>
+      <definition value="The date the article was last revised or updated in the database."/>
       <comment value="The lastRevisionDate is used for the cited article and not the date the PublicationRecord Resource is last revised."/>
       <min value="0"/>
       <max value="1"/>
@@ -7400,6 +7416,7 @@
     <element id="PublicationRecord.citedArtifact.publicationForm.accessionNumber">
       <path value="PublicationRecord.citedArtifact.publicationForm.accessionNumber"/>
       <short value="Entry number or identifier for inclusion in a database"/>
+      <definition value="Entry number or identifier for inclusion in a database."/>
       <comment value="Accession numbers may be used instead of or in addition to page numbers.  Accession numbers are functionally identifiers when coupled with the identity of the database for which they are accession numbers. Accession numbers which are used for indexing citations in a dataset of citations should NOT be entered in PublicationRecord.citedArtifact.publicationForm.accessionNumber -- this use would be a type of PublicationRecord.identifier for the PublicationRecord itself."/>
       <min value="0"/>
       <max value="1"/>
@@ -7410,6 +7427,7 @@
     <element id="PublicationRecord.citedArtifact.publicationForm.pageString">
       <path value="PublicationRecord.citedArtifact.publicationForm.pageString"/>
       <short value="Used for full display of pagination"/>
+      <definition value="Used for full display of pagination."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7419,6 +7437,7 @@
     <element id="PublicationRecord.citedArtifact.publicationForm.firstPage">
       <path value="PublicationRecord.citedArtifact.publicationForm.firstPage"/>
       <short value="Used for isolated representation of first page"/>
+      <definition value="Used for isolated representation of first page."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7428,6 +7447,7 @@
     <element id="PublicationRecord.citedArtifact.publicationForm.lastPage">
       <path value="PublicationRecord.citedArtifact.publicationForm.lastPage"/>
       <short value="Used for isolated representation of last page"/>
+      <definition value="Used for isolated representation of last page."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7447,6 +7467,7 @@
     <element id="PublicationRecord.citedArtifact.publicationForm.copyright">
       <path value="PublicationRecord.citedArtifact.publicationForm.copyright"/>
       <short value="Copyright notice for the full article or artifact"/>
+      <definition value="Copyright notice for the full article or artifact."/>
       <comment value="It is possible that different publication forms have different copyright notices."/>
       <min value="0"/>
       <max value="1"/>
@@ -7457,6 +7478,7 @@
     <element id="PublicationRecord.citedArtifact.webLocation">
       <path value="PublicationRecord.citedArtifact.webLocation"/>
       <short value="Used for any URL for the article or artifact cited"/>
+      <definition value="Used for any URL for the article or artifact cited."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -7484,6 +7506,7 @@
     <element id="PublicationRecord.citedArtifact.webLocation.url">
       <path value="PublicationRecord.citedArtifact.webLocation.url"/>
       <short value="The specific URL"/>
+      <definition value="The specific URL."/>
       <comment value="Persistent URLs, like doi, are preferred."/>
       <min value="0"/>
       <max value="1"/>
@@ -7494,6 +7517,7 @@
     <element id="PublicationRecord.citedArtifact.classification">
       <path value="PublicationRecord.citedArtifact.classification"/>
       <short value="The assignment to an organizing scheme"/>
+      <definition value="The assignment to an organizing scheme."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -7503,6 +7527,7 @@
     <element id="PublicationRecord.citedArtifact.classification.type">
       <path value="PublicationRecord.citedArtifact.classification.type"/>
       <short value="The kind of classifier (e.g. publication type, keyword)"/>
+      <definition value="The kind of classifier (e.g. publication type, keyword)."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7519,6 +7544,7 @@
     <element id="PublicationRecord.citedArtifact.classification.classifier">
       <path value="PublicationRecord.citedArtifact.classification.classifier"/>
       <short value="The specific classification value"/>
+      <definition value="The specific classification value."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -7535,6 +7561,7 @@
     <element id="PublicationRecord.citedArtifact.classification.artifactAssessment">
       <path value="PublicationRecord.citedArtifact.classification.artifactAssessment"/>
       <short value="Complex or externally created classification"/>
+      <definition value="Complex or externally created classification."/>
       <comment value="Examples relevant to study citations include MeSH Headings or Keywords that contain qualifier codings or sub-classifications, and include risk of bias assessments created by persons different from the creator of the PublicationRecord."/>
       <min value="0"/>
       <max value="*"/>
@@ -7580,6 +7607,7 @@
     <element id="PublicationRecord.citedArtifact.contributorship.entry.contributor">
       <path value="PublicationRecord.citedArtifact.contributorship.entry.contributor"/>
       <short value="The identity of the individual contributor"/>
+      <definition value="The identity of the individual contributor."/>
       <comment value="If naming a contributor without additional detail or further structured data, the display element within the Reference datatype may be used for a simple string without referencing another resource."/>
       <min value="1"/>
       <max value="1"/>
@@ -7592,6 +7620,7 @@
     <element id="PublicationRecord.citedArtifact.contributorship.entry.forenameInitials">
       <path value="PublicationRecord.citedArtifact.contributorship.entry.forenameInitials"/>
       <short value="For citation styles that use initials"/>
+      <definition value="For citation styles that use initials."/>
       <comment value="This element is used to support a data element used for citations that is not otherwise supported fully by FHIR HumanName datatype. In some citation summary styles (e.g. Medline), authors are presented with full spelling of their last name (family name) and initials for all forenames (first names, middle names, preceding names, given names). As the FHIR HumanName Datatype does not have a specific element for forename initials and this is common in citation usage, the element is added to contributorship.entry directly."/>
       <min value="0"/>
       <max value="1"/>
@@ -7633,6 +7662,7 @@
     <element id="PublicationRecord.citedArtifact.contributorship.entry.role">
       <path value="PublicationRecord.citedArtifact.contributorship.entry.role"/>
       <short value="The role of the contributor (e.g. author, editor, reviewer, funder)"/>
+      <definition value="The role of the contributor (e.g. author, editor, reviewer, funder)."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7649,6 +7679,7 @@
     <element id="PublicationRecord.citedArtifact.contributorship.entry.contributionInstance">
       <path value="PublicationRecord.citedArtifact.contributorship.entry.contributionInstance"/>
       <short value="Contributions with accounting for time or number"/>
+      <definition value="Contributions with accounting for time or number."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -7658,6 +7689,7 @@
     <element id="PublicationRecord.citedArtifact.contributorship.entry.contributionInstance.type">
       <path value="PublicationRecord.citedArtifact.contributorship.entry.contributionInstance.type"/>
       <short value="The specific contribution"/>
+      <definition value="The specific contribution."/>
       <min value="1"/>
       <max value="1"/>
       <type>
@@ -7674,6 +7706,7 @@
     <element id="PublicationRecord.citedArtifact.contributorship.entry.contributionInstance.time">
       <path value="PublicationRecord.citedArtifact.contributorship.entry.contributionInstance.time"/>
       <short value="The time that the contribution was made"/>
+      <definition value="The time that the contribution was made."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -7683,6 +7716,7 @@
     <element id="PublicationRecord.citedArtifact.contributorship.entry.correspondingContact">
       <path value="PublicationRecord.citedArtifact.contributorship.entry.correspondingContact"/>
       <short value="Whether the contributor is the corresponding contributor for the role"/>
+      <definition value="Whether the contributor is the corresponding contributor for the role."/>
       <comment value="If there are multiple authors and one serves as the corresponding author, then that one would have correspondingContact = true."/>
       <min value="0"/>
       <max value="1"/>
@@ -7708,6 +7742,7 @@
       </extension>
       <path value="PublicationRecord.citedArtifact.contributorship.summary"/>
       <short value="Used to record a display of the author/contributor list without separate data element for each list member"/>
+      <definition value="Used to record a display of the author/contributor list without separate data element for each list member."/>
       <min value="0"/>
       <max value="*"/>
       <type>
