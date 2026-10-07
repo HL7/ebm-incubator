@@ -1,4 +1,4 @@
-## EBMonFHIR Incubator Implementation Guide
+### EBMonFHIR Incubator Implementation Guide
 
 Welcome to the EBMonFHIR Incubator Implementation Guide!
 
@@ -8,7 +8,7 @@ THIS EBMonFHIR Incubator Implementation Guide is used to support Additional Reso
 
 The first Additional Resource is the PublicationRecord Resource. The scope of the PublicationRecord Resource is to describe any aspect of identification, location, authorship, and contributorship to a journal article, report, document, resource, or other knowledge artifact. Citations are used extensively in scholarly communication and important for documenting the evidence or source behind statements of fact, opinion, and interpretation. Citations are also used for acknowledgement of the contributions of individuals and groups to the creation and advancement of knowledge. 
 
-## To Learn About FHIR
+### To Learn About FHIR
 
 This implementation guide is based on the Continuous Integration Build of the HL7 [FHIR](https://build.fhir.org/index.html) standard. It uses terminology, notations and design principles that are specific to FHIR. Before reading this implementation guide, it's important to be familiar with some of the basic principles of FHIR as well as general guidance on how to read FHIR specifications. Readers who are unfamiliar with FHIR are encouraged to review the following R5-based links prior to reading the rest of this implementation guide. For changes that are in development for the next version of FHIR (R6), use the Continuous Integration Build of [FHIR](https://build.fhir.org/index.html) to find related content.
 
@@ -30,9 +30,9 @@ This implementation guide is based on the Continuous Integration Build of the HL
 
 [FHIR Validation](http://hl7.org/fhir/R5/validation.html)
 
-## Resources Used in the EBMonFHIR Incubator IG
+### Resources Used in the EBMonFHIR Incubator IG
 
-### PublicationRecord Resource
+#### PublicationRecord Resource
 
 The <b>PublicationRecord Resource</b> enables reference to any knowledge artifact for purposes of identification and attribution. The <b>PublicationRecord Resource</b> supports existing reference structures and developing publication practices such as versioning, expressing complex contributorship roles, and referencing computable resources.
 
@@ -47,7 +47,7 @@ Profiles of <b>PublicationRecord Resource</b> in the EBMonFHIR IG include:
 - <b>SoftwareCitation</b>
 - <b>WebPageCitation</b>
 
-## Acknowledgements
+### Acknowledgements
 
 This Implementation Guide was made possible by the thoughtful contributions of many, including but not limited to the following people and organizations:
 
@@ -76,20 +76,20 @@ This Implementation Guide was made possible by the thoughtful contributions of m
 - Yunwei Wang, MITRE (US)
 - Kenneth J. Wilkins, PhD, National Institutes of Health, National Institute of Diabetes & Digestive & Kidney Diseases (NIH/NIDDK) (US)
 
-## Dependencies and Statements
+### Dependencies and Statements
 
-### Dependencies
+#### Dependencies
 
 {% lang-fragment dependency-table-short.xhtml %}
 
-### Cross Version Analysis
+#### Cross Version Analysis
 
 {% lang-fragment cross-version-analysis.xhtml %}
 
-### Global Profiles
+#### Global Profiles
 
 {% lang-fragment globals-table.xhtml %}
 
-### IP Statements
+#### IP Statements
 
 {% lang-fragment ip-statements.xhtml %}

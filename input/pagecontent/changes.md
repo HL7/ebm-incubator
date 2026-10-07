@@ -1,4 +1,4 @@
-## Changes from FHIR R6 version 6.0.0-ballot3
+### Changes from FHIR R6 version 6.0.0-ballot3
 
 The Citation Resource was removed from the FHIR specification and moved here as an Additional Resource in the EBM Incubator IG.
 
