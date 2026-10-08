@@ -235,11 +235,6 @@
         <strength value="required"/> 
         <description value="IETF language tag for a human language"/> 
         <valueSet value="http://hl7.org/fhir/ValueSet/all-languages|6.0.0-ballot3"/> 
-        <additional> 
-          <key value="b-cit-1"/>
-          <purpose value="starter"/> 
-          <valueSet value="http://hl7.org/fhir/ValueSet/languages"/> 
-        </additional> 
       </binding> 
     </element> 
     <element id="PublicationRecord.text">
@@ -3008,11 +3003,6 @@
         <strength value="required"/> 
         <description value="IETF language tag for a human language"/> 
         <valueSet value="http://hl7.org/fhir/ValueSet/all-languages|6.0.0-ballot3"/> 
-        <additional> 
-				  <key value="b-cit-2"/>
-          <purpose value="starter"/> 
-          <valueSet value="http://hl7.org/fhir/ValueSet/languages"/> 
-        </additional> 
       </binding> 
     </element> 
     <element id="PublicationRecord.citedArtifact.title.text">
@@ -3251,11 +3241,6 @@
         <strength value="required"/> 
         <description value="IETF language tag for a human language"/> 
         <valueSet value="http://hl7.org/fhir/ValueSet/all-languages|6.0.0-ballot3"/> 
-        <additional> 
-				  <key value="b-cit-3"/>
-          <purpose value="starter"/> 
-          <valueSet value="http://hl7.org/fhir/ValueSet/languages"/> 
-        </additional> 
       </binding> 
     </element> 
     <element id="PublicationRecord.citedArtifact.abstract.text">
@@ -4536,11 +4521,6 @@
         <strength value="required"/> 
         <description value="IETF language tag for a human language"/> 
         <valueSet value="http://hl7.org/fhir/ValueSet/all-languages|6.0.0-ballot3"/> 
-        <additional> 
-				  <key value="b-cit-4"/>
-          <purpose value="starter"/> 
-          <valueSet value="http://hl7.org/fhir/ValueSet/languages"/> 
-        </additional> 
       </binding> 
     </element> 
     <element id="PublicationRecord.citedArtifact.publicationForm.accessionNumber">
@@ -7039,7 +7019,7 @@
         <description value="IETF language tag for a human language"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/all-languages"/>
         <additional>
-				  <key value="b-cit-5"/>
+				  <key value="b-cit-2"/>
           <purpose value="starter"/>
           <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
         </additional>
@@ -7102,7 +7082,7 @@
         <description value="IETF language tag for a human language"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/all-languages"/>
         <additional>
-				  <key value="b-cit-6"/>
+				  <key value="b-cit-3"/>
           <purpose value="starter"/>
           <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
         </additional>
@@ -7457,7 +7437,7 @@
         <description value="IETF language tag for a human language"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/all-languages"/>
         <additional>
-				  <key value="b-cit-7"/>
+				  <key value="b-cit-4"/>
           <purpose value="starter"/>
           <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
         </additional>
