@@ -13,7 +13,7 @@ Most code systems defined in HL7 IGs will need to move to THO later during the p
 The element PublicationRecord.versionAlgorithm[x] has a binding, and has multiple types subject to bindings ([string, Coding]). The binding will apply to all the types
 
 # Suppressing warnings about additionalBindings constraints that do not appear to be a result of IG content
-Constraint failed: eld-31: 'additionalBindings should have a key (key.exists())' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+Constraint failed: eld-31: 'additionalBindings should have a key (key.exists())' at PublicationRecord.language (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
 Constraint failed: eld-33: 'If there's more than one bindable type, it's usually an error for there to be a binding (type.where(code in 'code' | 'Coding' | 'CodeableConcept' | 'CodeableReference' | 'uri' | 'string' | 'Quantity').count() > 1 implies binding.empty())' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
 
 # Suppressing warning of no definition found for URL value for many instances in which the URL is an external website and the data element (e.g. relatesTo.targetUri or webLocation.url) does not expect a listed and verified value
