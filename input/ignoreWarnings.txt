@@ -9,7 +9,7 @@ None of the codings provided are in the value set 'Cited Artifact Classification
 # Suppressing this information because it's too early to move this code system to THO
 Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 
-# PublicationRecord.versionAlgorithm[x] binding information suppression
+# PublicationRecord.versionAlgorithm[x] binding information suppression 
 The element PublicationRecord.versionAlgorithm[x] has a binding, and has multiple types subject to bindings ([string, Coding]). The binding will apply to all the types
 
 # Suppressing warnings about additionalBindings constraints that do not appear to be a result of IG content
