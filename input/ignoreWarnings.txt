@@ -38,10 +38,10 @@ A definition for CodeSystem 'https://fevir.net/resources/CodeSystem/179423' coul
 A definition for CodeSystem 'https://fevir.net/resources/CodeSystem/181513' could not be found, so the code cannot be validated
 
 # Suppressing information on pinned version
-Pinned the version of http://hl7.org/fhir/StructureDefinition/PublicationRecord to 1.0.0-snapshot
+Pinned the version of http://hl7.org/fhir/StructureDefinition/PublicationRecord to 0.1.0-snapshot
 Pinned the version of http://hl7.org/fhir/StructureDefinition/%
 Pinned the version of http://terminology.hl7.org/ValueSet/%
-Pinned the version of http://hl7.org/fhir/uv/ebm-incubator/ValueSet/publicationrecord-status-type to 1.0.0-snapshot
+Pinned the version of http://hl7.org/fhir/uv/ebm-incubator/ValueSet/publicationrecord-status-type to 0.1.0-snapshot
 
 # Suppressing information on draft CodeSystem with comment posted to Zulip https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/QA.20warn.20draft.20CodeSystem.20from.20ImplementationGuide.2Elicense/with/617682808
 Reference to draft CodeSystem http://hl7.org/fhir/spdx-license|84728b7
@@ -51,11 +51,11 @@ Reference to draft CodeSystem http://hl7.org/fhir/spdx-license|84728b7 from acti
 Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-snapshot1
 
 # Suppressing SearchParameter pinning information
-Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-context to 1.0.0-snapshot
-Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-context-type to 1.0.0-snapshot
-Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-context-quantity to 1.0.0-snapshot
-Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-classification-type to 1.0.0-snapshot
-Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-classifier to 1.0.0-snapshot
+Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-context to 0.1.0-snapshot
+Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-context-type to 0.1.0-snapshot
+Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-context-quantity to 0.1.0-snapshot
+Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-classification-type to 0.1.0-snapshot
+Pinned the version of http://hl7.org/fhir/SearchParameter/PublicationRecord-classifier to 0.1.0-snapshot
 
 # Suppressing the information about ValueSet pinning
 Pinned the version of http://hl7.org/fhir/ValueSet/languages to 6.0.0-snapshot1
@@ -64,4 +64,4 @@ Pinned the version of http://hl7.org/fhir/ValueSet/version-algorithm to 6.0.0-sn
 Pinned the version of http://hl7.org/fhir/ValueSet/publication-status to 6.0.0-snapshot1
 
 # Suppressing the information about CodeSystem pinning 
-Pinned the version of http://hl7.org/fhir/uv/ebm-incubator/CodeSystem/publicationrecord-status-type to 1.0.0-snapshot
+Pinned the version of http://hl7.org/fhir/uv/ebm-incubator/CodeSystem/publicationrecord-status-type to 0.1.0-snapshot
