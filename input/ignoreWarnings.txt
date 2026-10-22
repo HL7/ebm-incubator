@@ -14,7 +14,6 @@ The element PublicationRecord.versionAlgorithm[x] has a binding, and has multipl
 
 # Suppressing warnings about additionalBindings constraints that do not appear to be a result of IG content
 Constraint failed: eld-31: 'additionalBindings should have a key (key.exists())' at PublicationRecord.language (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
-Constraint failed: eld-33: 'If there's more than one bindable type, it's usually an error for there to be a binding (type.where(code in 'code' | 'Coding' | 'CodeableConcept' | 'CodeableReference' | 'uri' | 'string' | 'Quantity').count() > 1 implies binding.empty())' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
 
 # Suppressing warning of no definition found for URL value for many instances in which the URL is an external website and the data element (e.g. relatesTo.targetUri or webLocation.url) does not expect a listed and verified value
 No definition could be found for URL value '%
@@ -26,7 +25,7 @@ A definition for CodeSystem 'http://purl.obolibrary.org/obo/fma.owl' could not b
 A definition for CodeSystem 'http://purl.obolibrary.org/obo/vt.owl' could not be found, so the code cannot be validated
 A definition for CodeSystem 'http://www.ebi.ac.uk/efo' could not be found, so the code cannot be validated
 
-# Nothing can be done about this for now
+# The CodeSystem 'https://www.nlm.nih.gov/mesh' is the appropriate URI per https://terminology.hl7.org/7.4.0/en/external_code_systems.html
 A definition for CodeSystem 'https://www.nlm.nih.gov/mesh' could not be found, so the code cannot be validated
 
 # EVS Thesaurus codes that aren't in the fragment on tx.fhir.org
@@ -44,7 +43,6 @@ Pinned the version of http://terminology.hl7.org/ValueSet/%
 Pinned the version of http://hl7.org/fhir/uv/ebm-incubator/ValueSet/publicationrecord-status-type to 0.1.0-snapshot
 
 # Suppressing information on draft CodeSystem with comment posted to Zulip https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/QA.20warn.20draft.20CodeSystem.20from.20ImplementationGuide.2Elicense/with/617682808
-Reference to draft CodeSystem http://hl7.org/fhir/spdx-license|84728b7
 Reference to draft CodeSystem http://hl7.org/fhir/spdx-license|84728b7 from active ValueSet http://hl7.org/fhir/ValueSet/spdx-license|6.0.0-snapshot1
 
 # Suppressing information on experimental CodeSystem
