@@ -63,6 +63,8 @@ pages:
   examples.md:
   downloads.md:
   changes.md:
+  plain-language-summary.md:
+    title: Plain Language Summary
 
 #   implementation.xml:
 #   examples.xml:
@@ -101,6 +103,7 @@ parameters:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Plain Language Summary: plain-language-summary.html
   Terminologies: terminologies.html
   Examples: examples.html
   Artifacts: artifacts.html
