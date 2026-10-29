@@ -2,6 +2,8 @@
 <specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/uv/ebm-incubator/1.0.0-202609-snapshot" ciUrl="https://build.fhir.org/ig/HL7/ebm-incubator" defaultVersion="current" defaultWorkgroup="cds" gitUrl="https://github.com/HL7/ebm-incubator" url="http://hl7.org/fhir/uv/ebm-incubator">
 <version code="current" url="https://build.fhir.org/ig/HL7/ebm-incubator"/>
 <version code="0.1.0-snapshot" url="http://hl7.org/fhir/uv/ebm-incubator/0.1.0-202609-snapshot"/>
+<version code="1.0.0-snapshot" deprecated="true" url="http://hl7.org/fhir/uv/ebm-incubator/1.0.0-202609-snapshot"/>
+<version code="1.0.0-ballot" deprecated="true" url="http://hl7.org/fhir/uv/ebm-incubator/2026Sep"/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
@@ -737,6 +739,7 @@
 <page key="many" name="(many)"/>
 <page deprecated="true" key="artifactassessment" name="ArtifactAssessment Profiles"/>
 <page key="artifacts" name="Artifacts Summary"/>
+<page key="changes" name="Changes"/>
 <page deprecated="true" key="citation" name="Citation Profiles"/>
 <page deprecated="true" key="composition" name="Composition Profiles"/>
 <page key="downloads" name="Downloads"/>
