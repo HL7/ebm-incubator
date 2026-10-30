@@ -6,4 +6,4 @@ The Resource type was changed from Citation to PublicationRecord.
 
 PublicationRecord.status cardinality was changed from 1..1 to 0..1 and meaningWhenMissing "interpret as unknown" was added.
 
-multipleOr and multipleAnd values added to PublicationRecord search parameters. 
+multipleOr and multipleAnd values added to PublicationRecord search parameters.
